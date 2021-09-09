@@ -9842,13 +9842,13 @@
 												</PointList>
 											</Curve>
 										</RTPC>
-										<RTPC Name="" ID="{C8048D63-3BA9-4B04-BE78-3998EA59E12A}" ShortID="349420663">
+										<RTPC Name="" ID="{182CD764-60BB-4922-89DE-A042E83C81D2}" ShortID="158604215">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{CEC55CFD-9A0F-40D4-9248-2C25A8477FA3}">
+											<Curve Name="" ID="{469FB9BF-0A3B-4CED-BF61-6D9BD705CE78}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -9859,9 +9859,10 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>23.82199</XPos>
-														<YPos>-15.6185</YPos>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>100.52354</XPos>
@@ -10183,37 +10184,6 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
-										<RTPC Name="" ID="{675C190C-CCD6-4551-891A-142B2D974271}" ShortID="806148403">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{046552BA-4DAA-4998-845C-DFC7B3A73CED}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>66.49214</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>-0.107900000000001</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
 										<RTPC Name="" ID="{D1A148EB-365D-4037-9F95-39B73C0B8194}" ShortID="723920953">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -10238,6 +10208,43 @@
 													<Point>
 														<XPos>50</XPos>
 														<YPos>6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{A8EAA0FC-0882-4EE9-9F15-8659A9C32AC1}" ShortID="948180776">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D640E905-F05E-4C46-A764-B1D3E9998E7D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>16.49215</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>66.49214</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>-0.107900000000001</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -10564,37 +10571,6 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
-										<RTPC Name="" ID="{E9BD4C11-118A-4E5C-B350-CA938C7D9E73}" ShortID="228058143">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{0877BF53-89B3-45D6-B37B-40D28652526C}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>66.49214</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>-0.107900000000001</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
 										<RTPC Name="" ID="{0D3EC91D-04E0-4E4C-9CFA-8F28CAF1B7AA}" ShortID="890070970">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -10619,6 +10595,43 @@
 													<Point>
 														<XPos>50</XPos>
 														<YPos>6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{473676E6-1515-444B-A7B4-108215032075}" ShortID="628935912">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DEBE0F82-1EE2-4E17-A35F-A36E187C2280}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>16.49215</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>66.49214</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>-0.107900000000001</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -10944,9 +10957,10 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>23.82199</XPos>
-														<YPos>-15.6185</YPos>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>100.52354</XPos>
@@ -15998,6 +16012,12 @@
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
+														<XPos>17.80105</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
 														<XPos>66.49214</XPos>
 														<YPos>11.72529</YPos>
 														<Flags>0</Flags>
@@ -16183,6 +16203,43 @@
 										<Value>15</Value>
 									</ValueList>
 									<RTPCList>
+										<RTPC Name="" ID="{F2693C24-CEE6-4517-B278-623B9FE3E9DA}" ShortID="537394">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0D43F514-C0DD-4EE4-84B4-25CD9A0D3868}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>17.80105</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>66.49214</XPos>
+														<YPos>11.72529</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>11.32126</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{87D5A229-8DE4-4E64-904B-AECE217D7370}" ShortID="430958823">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -16238,37 +16295,6 @@
 													<Point>
 														<XPos>50</XPos>
 														<YPos>6</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-										<RTPC Name="" ID="{0EC76A8A-C6DB-4A58-9871-7A767963B852}" ShortID="528690497">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{895ADC83-D7D5-4A9E-A4E7-5F22E4B5B237}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>66.49214</XPos>
-														<YPos>11.72529</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>11.32126</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>

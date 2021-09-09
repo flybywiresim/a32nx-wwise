@@ -1068,7 +1068,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2100068061" Name="Play_Asobo_A320_NEO_ptucockpit" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_ptucockpit" GUID="{A12B5028-8A68-42FC-B014-FE74CF7A7F7E}" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="7.193220" DurationMax="7.193220">
+				<Event Id="2100068061" Name="Play_Asobo_A320_NEO_ptucockpit" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_ptucockpit" GUID="{A12B5028-8A68-42FC-B014-FE74CF7A7F7E}" MaxAttenuation="4.000000" DurationType="OneShot" DurationMin="7.193220" DurationMax="7.193220">
 					<IncludedMemoryFiles>
 						<File Id="551873774" Language="SFX">
 							<ShortName>ptuselftest.wav</ShortName>
@@ -1076,7 +1076,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4102604365" Name="Play_Asobo_A320_NEO_ptustartcockpit" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_ptustartcockpit" GUID="{2A0090B0-D755-4BBA-B90F-D036F655F702}" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.379521" DurationMax="0.936576">
+				<Event Id="4102604365" Name="Play_Asobo_A320_NEO_ptustartcockpit" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_ptustartcockpit" GUID="{2A0090B0-D755-4BBA-B90F-D036F655F702}" MaxAttenuation="4.000000" DurationType="OneShot" DurationMin="0.379521" DurationMax="0.936576">
 					<IncludedMemoryFiles>
 						<File Id="252019806" Language="SFX">
 							<ShortName>ptustart7.wav</ShortName>
@@ -1382,21 +1382,21 @@
 				</Event>
 				<Event Id="917958459" Name="Play_Asobo_A320_NEO_StartR" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_StartR" GUID="{2DD9BDA9-9B5B-4CDC-9535-B9B68ADFDEEF}" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="251355391" Language="SFX">
+							<ShortName>crank12.wav</ShortName>
+							<Path>SFX\crank12_218233D3.wem</Path>
+						</File>
 						<File Id="304867032" Language="SFX">
 							<ShortName>crankhigh.wav</ShortName>
-							<Path>SFX\crankhigh_0845A181.wem</Path>
-						</File>
-						<File Id="699507954" Language="SFX">
-							<ShortName>crankhigh.wav</ShortName>
-							<Path>SFX\crankhigh_F7FC6295.wem</Path>
+							<Path>SFX\crankhigh_210382D2.wem</Path>
 						</File>
 						<File Id="812139308" Language="SFX">
 							<ShortName>crank1test.wav</ShortName>
 							<Path>SFX\crank1test_543EDF8C.wem</Path>
 						</File>
-						<File Id="917017042" Language="SFX">
-							<ShortName>crank12.wav</ShortName>
-							<Path>SFX\crank12_6AB0C632.wem</Path>
+						<File Id="838265678" Language="SFX">
+							<ShortName>crankhigh.wav</ShortName>
+							<Path>SFX\crankhigh_F50D3801.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1578,13 +1578,13 @@
 				</Event>
 				<Event Id="1193762240" Name="Play_Asobo_A320_NEO_yellowepump" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_yellowepump" GUID="{4D09EE6B-A81D-4D43-9CD9-9A4D594D97D7}" MaxAttenuation="15.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="668753693" Language="SFX">
+						<File Id="568265436" Language="SFX">
 							<ShortName>low.wav</ShortName>
-							<Path>SFX\low_913C209E.wem</Path>
+							<Path>SFX\low_D3007626.wem</Path>
 						</File>
 						<File Id="842536238" Language="SFX">
 							<ShortName>yellowsystemi2.wav</ShortName>
-							<Path>SFX\yellowsystemi2_415CAD5E.wem</Path>
+							<Path>SFX\yellowsystemi2_A58DD36E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1592,7 +1592,7 @@
 					<IncludedMemoryFiles>
 						<File Id="870082144" Language="SFX">
 							<ShortName>bluesystemexti.wav</ShortName>
-							<Path>SFX\bluesystemexti_4D26B6C0.wem</Path>
+							<Path>SFX\bluesystemexti_5BE3CB3C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3293,21 +3293,21 @@
 				</Event>
 				<Event Id="917958437" Name="Play_Asobo_A320_NEO_StartL" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_StartL" GUID="{2BF662CF-D39D-443C-AC90-94FB72C7FFED}" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="251355391" Language="SFX">
+							<ShortName>crank12.wav</ShortName>
+							<Path>SFX\crank12_218233D3.wem</Path>
+						</File>
 						<File Id="304867032" Language="SFX">
 							<ShortName>crankhigh.wav</ShortName>
-							<Path>SFX\crankhigh_0845A181.wem</Path>
-						</File>
-						<File Id="699507954" Language="SFX">
-							<ShortName>crankhigh.wav</ShortName>
-							<Path>SFX\crankhigh_F7FC6295.wem</Path>
+							<Path>SFX\crankhigh_210382D2.wem</Path>
 						</File>
 						<File Id="812139308" Language="SFX">
 							<ShortName>crank1test.wav</ShortName>
 							<Path>SFX\crank1test_543EDF8C.wem</Path>
 						</File>
-						<File Id="917017042" Language="SFX">
-							<ShortName>crank12.wav</ShortName>
-							<Path>SFX\crank12_6AB0C632.wem</Path>
+						<File Id="838265678" Language="SFX">
+							<ShortName>crankhigh.wav</ShortName>
+							<Path>SFX\crankhigh_F50D3801.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3321,21 +3321,21 @@
 				</Event>
 				<Event Id="917958459" Name="Play_Asobo_A320_NEO_StartR" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_StartR" GUID="{2DD9BDA9-9B5B-4CDC-9535-B9B68ADFDEEF}" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="251355391" Language="SFX">
+							<ShortName>crank12.wav</ShortName>
+							<Path>SFX\crank12_218233D3.wem</Path>
+						</File>
 						<File Id="304867032" Language="SFX">
 							<ShortName>crankhigh.wav</ShortName>
-							<Path>SFX\crankhigh_0845A181.wem</Path>
-						</File>
-						<File Id="699507954" Language="SFX">
-							<ShortName>crankhigh.wav</ShortName>
-							<Path>SFX\crankhigh_F7FC6295.wem</Path>
+							<Path>SFX\crankhigh_210382D2.wem</Path>
 						</File>
 						<File Id="812139308" Language="SFX">
 							<ShortName>crank1test.wav</ShortName>
 							<Path>SFX\crank1test_543EDF8C.wem</Path>
 						</File>
-						<File Id="917017042" Language="SFX">
-							<ShortName>crank12.wav</ShortName>
-							<Path>SFX\crank12_6AB0C632.wem</Path>
+						<File Id="838265678" Language="SFX">
+							<ShortName>crankhigh.wav</ShortName>
+							<Path>SFX\crankhigh_F50D3801.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

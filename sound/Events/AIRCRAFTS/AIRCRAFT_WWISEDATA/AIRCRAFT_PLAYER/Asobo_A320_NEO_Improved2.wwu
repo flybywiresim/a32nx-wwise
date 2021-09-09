@@ -1311,13 +1311,13 @@
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_ptucockpit" ID="{A12B5028-8A68-42FC-B014-FE74CF7A7F7E}">
 					<ChildrenList>
-						<Action Name="" ID="{81F0E814-C9AB-4552-89AC-758AA70C99D2}" ShortID="707399866">
+						<Action Name="" ID="{BC9586D7-8113-4254-8DA8-91D8B16BAB2B}" ShortID="944067748">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ptutest" ID="{58FE50C0-F310-4338-B0F2-B815ECCFD5B5}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+									<ObjectRef Name="ptutest" ID="{BC18D27B-F34F-49F5-9A83-9FEA127A76D9}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2343,7 +2343,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ptustart" ID="{1892B1A0-1B6C-46DD-9483-4D6F8E7B9B89}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+									<ObjectRef Name="ptustart" ID="{60D148CA-F6EF-4809-A82A-C5E0C9CEEC12}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

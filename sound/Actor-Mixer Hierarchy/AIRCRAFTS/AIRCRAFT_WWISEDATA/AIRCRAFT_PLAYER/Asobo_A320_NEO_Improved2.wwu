@@ -40610,17 +40610,17 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0.055</XPos>
+												<XPos>0</XPos>
 												<YPos>0</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.26733</XPos>
+												<XPos>0.112664897959184</XPos>
 												<YPos>-98</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>0.3</XPos>
+												<XPos>0.13</XPos>
 												<YPos>-98</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -47157,6 +47157,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -47187,7 +47192,7 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Log3</SegmentShape>
+															<SegmentShape>Log2</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>12</XPos>
@@ -47583,11 +47588,6 @@
 						<RandomSequenceContainer Name="ptustart" ID="{1892B1A0-1B6C-46DD-9483-4D6F8E7B9B89}" ShortID="283658871">
 							<PropertyList>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-22</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -48058,11 +48058,6 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-22</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -48313,23 +48308,23 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0.055</XPos>
+												<XPos>0</XPos>
 												<YPos>-100</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.106095113416667</XPos>
+												<XPos>0.0271116928333335</XPos>
 												<YPos>9</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Exp3</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>0.23875</XPos>
+												<XPos>0.0975</XPos>
 												<YPos>0</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>0.3</XPos>
+												<XPos>0.13</XPos>
 												<YPos>0</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -48352,17 +48347,12 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0.055</XPos>
+												<XPos>0</XPos>
 												<YPos>75</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.26733</XPos>
-												<YPos>-23</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>0.3</XPos>
+												<XPos>0.13</XPos>
 												<YPos>-23</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -48389,17 +48379,17 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0.055</XPos>
+												<XPos>0</XPos>
 												<YPos>-15.39435</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.23875</XPos>
+												<XPos>0.0975</XPos>
 												<YPos>-11.02446</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>0.3</XPos>
+												<XPos>0.13</XPos>
 												<YPos>-11.02446</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -48643,18 +48633,18 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0.055</XPos>
+												<XPos>0</XPos>
 												<YPos>-100</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.1054537516</XPos>
+												<XPos>0.0267713784</XPos>
 												<YPos>4</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Exp3</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>0.3</XPos>
+												<XPos>0.13</XPos>
 												<YPos>15</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -48677,17 +48667,12 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0.055</XPos>
+												<XPos>0</XPos>
 												<YPos>0</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.26733</XPos>
-												<YPos>-98</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>0.3</XPos>
+												<XPos>0.13</XPos>
 												<YPos>-98</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -48714,22 +48699,22 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0.055</XPos>
+												<XPos>0</XPos>
 												<YPos>2.70947</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.10353</XPos>
+												<XPos>0.025750612244898</XPos>
 												<YPos>1.02305</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>0.23875</XPos>
+												<XPos>0.0975</XPos>
 												<YPos>-0.77126</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>0.3</XPos>
+												<XPos>0.13</XPos>
 												<YPos>0.71077</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -48966,6 +48951,1138 @@
 						<ActiveSource Name="yellowsystemi2" ID="{8C22157D-59A9-4EA4-83D5-531225F0D72F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<ActorMixer Name="ptu_cockpit" ID="{2F5F3E09-3E45-4A2D-883C-EA4E1644D896}" ShortID="846057376">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
+								<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{63354485-26FF-4F84-8E6B-AA62660751CA}" ShortID="220336921">
+									<PropertyList>
+										<Property Name="ConeAttenuation" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeLowPassFilterValue" Type="int32">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RadiusMax" Type="Real64" Value="4"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{703EC8AE-81F3-41DA-A5F4-795A775BDF6E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+												<Curve Name="VolumeWetUser" ID="{949A3C64-5A02-476D-A037-0C861D3947DF}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>0.16508</XPos>
+															<YPos>-0.00061</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>1.76364</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="LowPassFilter" ID="{43E61F04-2784-4382-9DC8-BE2D0448120F}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>4</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="Spread" ID="{7FC25642-C1F9-4160-A4CD-66D344D8881F}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="Focus" ID="{5D43A403-1674-4AD8-89AA-5B1C1F47C62B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="miscellaneous_inside" ID="{A94A7A7F-2F28-46C7-9158-EA25E9E42914}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ptusound_01" ID="{91577A46-A24B-44A8-8B5B-DDCCB2E0FAFA}" ShortID="993268975">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{288FCDCF-E8DC-405C-99D3-BF62405D4F98}" ShortID="151087274">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LOCALVAR_A32NX_HYD_PTU_MOTOR_FLOW" ID="{7FE409A7-4C5F-4BD9-B656-D90D69CFCFE1}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AA980FFF-EF3C-451D-B87A-DEE2A95DAB0C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.25</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{9B3F6267-91C6-4782-903C-EFB4BB9B48EE}" ShortID="758661622">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LOCALVAR_A32NX_HYD_PTU_MOTOR_FLOW" ID="{7FE409A7-4C5F-4BD9-B656-D90D69CFCFE1}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6AE0716C-636E-4CBD-A54B-8877F279BC87}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.11513</XPos>
+														<YPos>-7.57022</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.25</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
+										<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{B3095D1F-6051-4230-9BDB-292B9ECF965C}" ShortID="856908780">
+											<PropertyList>
+												<Property Name="ConeAttenuation" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeLowPassFilterValue" Type="int32">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="12"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{1127DBD8-E7A9-4BCC-B6BA-308FCB706A9B}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="VolumeWetUser" ID="{92FBCC73-5837-49D5-B123-D51245EBE067}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>0.49524</XPos>
+																	<YPos>-0.00061</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>5.29092</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="LowPassFilter" ID="{EFB5864A-0F78-456E-BAE1-FFF22F17D06F}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>4</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="Spread" ID="{9B0650A5-96CF-49AF-ABC3-0015C4EDF787}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="Focus" ID="{8A0313D9-C200-4CEA-BCAB-5E34EE6FE6D4}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="miscellaneous_inside" ID="{A94A7A7F-2F28-46C7-9158-EA25E9E42914}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ptusound" ID="{99CEE6F4-ADB5-4903-819F-85EC96168C3C}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ptusound.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="roll3" ID="{F26C8E87-8D80-4421-8349-61E5153C2151}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>roll3.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="ptu" ID="{F0196A64-93C3-423B-890A-A1BD85D67902}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.602350582049443"/>
+										<Property Name="TrimEnd" Type="Real64" Value="15.169723868982"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ptu.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{532CE282-64F6-420D-A4D0-6A365CD76462}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="ptu" ID="{F0196A64-93C3-423B-890A-A1BD85D67902}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="ptustart" ID="{60D148CA-F6EF-4809-A82A-C5E0C9CEEC12}" ShortID="705864384">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{B6CE8691-D50C-4AC3-8314-6CB938FC8681}">
+										<Effect Name="In_My_Car_(Custom)" ID="{AE60447E-F6CA-491A-94F9-CFBC302FC2A8}" ShortID="828498440" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+												<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="4"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="1933"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="4947"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="605"/>
+												<Property Name="GainBand1" Type="Real32" Value="-8"/>
+												<Property Name="GainBand2" Type="Real32" Value="11.5"/>
+												<Property Name="GainBand3" Type="Real32" Value="10.5"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ptustart1" ID="{892D5DBB-D01C-4277-B306-35FC24B2F20D}" ShortID="834586207">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz_(Custom)" ID="{25889DB4-4B27-4EDA-9A00-FA566B45A03F}" ShortID="662419758" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="2220"/>
+														<Property Name="OnOffBand1" Type="bool" Value="False"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ptustart1" ID="{A4F84A88-9A48-4AB2-8F8C-0528D680F661}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0303712082262211"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.118369526563839"/>
+												<Property Name="FadeOutShape" Type="int16" Value="4"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart1.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="ptustart2" ID="{F93DFC1B-677A-43FF-921A-EA06DE1BA195}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart2.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="ptustart3" ID="{FA15081B-DD4A-4895-85A1-28D5918CCC5A}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptustart1" ID="{A4F84A88-9A48-4AB2-8F8C-0528D680F661}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ptustart2" ID="{EBAA9A43-0278-463D-873A-82DE0A85CE09}" ShortID="887887467">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz_(Custom)" ID="{2D77A467-328E-4939-A18A-F71BD3FCD625}" ShortID="991615392" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="2220"/>
+														<Property Name="OnOffBand1" Type="bool" Value="False"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ptustart2" ID="{D40D52FE-D371-4080-942A-6564DCDC9C75}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0356904027420737"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.112629755784062"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.02801735218509"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.419699935732648"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptustart2" ID="{D40D52FE-D371-4080-942A-6564DCDC9C75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ptustart3" ID="{0577AD5D-BD0B-45F0-A6EC-8E7DF20CE979}" ShortID="286522971">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz_(Custom)" ID="{93AE7A78-BBCF-4360-B330-D458366DFACA}" ShortID="291429156" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="2651"/>
+														<Property Name="OnOffBand1" Type="bool" Value="False"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ptustart3" ID="{DB347796-FE78-4711-BC8F-4DA6C623BDAD}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.030977206512425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.265768637532134"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.414081748071979"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptustart3" ID="{DB347796-FE78-4711-BC8F-4DA6C623BDAD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ptustart4" ID="{95B30C65-4C4D-4748-8B84-76DFD02E6C71}" ShortID="697351387">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz_(Custom)" ID="{4FC1E21B-8008-4DBE-B1B3-2BA0D942F4F7}" ShortID="426730558" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="2364"/>
+														<Property Name="OnOffBand1" Type="bool" Value="False"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ptustart4" ID="{C342C4CA-52E5-4E74-B932-AF4D4D15EE5F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0260034061696658"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0500184125964009"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.042551028277635"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.901783654670094"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptustart4" ID="{C342C4CA-52E5-4E74-B932-AF4D4D15EE5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ptustart5" ID="{5F52E269-CE84-4D95-9232-E549326A3B0F}" ShortID="884801744">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz_(Custom)" ID="{F346C398-BD84-40C6-89E6-5568AC10D365}" ShortID="443021991" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="2507"/>
+														<Property Name="OnOffBand1" Type="bool" Value="False"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ptustart5" ID="{CE70EB02-5AE0-43F0-BC07-EA7FE1AAEAD7}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.073547236503856"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.342672268637532"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0756485861182519"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.01222461439589"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart5.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="ptustart4" ID="{76288E02-84C1-4AF4-BB7F-15ABABAD1086}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart4.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="ptustart6" ID="{426EE859-A5F4-4FF4-AA7C-876FC36EB4C5}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart6.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="ptustart7" ID="{1C63E8E7-5FA7-4CB7-88A6-5A431EF42176}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptustart5" ID="{CE70EB02-5AE0-43F0-BC07-EA7FE1AAEAD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ptustart6" ID="{FB894839-27B2-4E77-B676-2786C2E84484}" ShortID="237978413">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz_(Custom)" ID="{76FA0E49-8243-4DD3-BF12-A065E99CE4CE}" ShortID="210554664" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="2364"/>
+														<Property Name="OnOffBand1" Type="bool" Value="False"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ptustart6" ID="{EE349690-3C24-4044-A574-E5F5D719EECC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0588858183376178"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.269912157240788"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0283722579263068"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.903334672236504"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart6.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="ptustart7" ID="{3B796AE8-1327-4CEB-B8E5-DD4F08BE84EB}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptustart6" ID="{EE349690-3C24-4044-A574-E5F5D719EECC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ptustart7" ID="{4040FFE2-2E32-43B3-8034-9F67E17A30AE}" ShortID="855935478">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz_(Custom)" ID="{8686A0F3-3027-4060-9735-BA6D18E1DE8D}" ShortID="537673081" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="2220"/>
+														<Property Name="OnOffBand1" Type="bool" Value="False"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ptustart7" ID="{CA35AE9B-C678-4351-A0E7-4CDE9592CB97}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.060491795201371"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.228666377463582"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0473763174807198"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.909829155955441"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptustart7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptustart7" ID="{CA35AE9B-C678-4351-A0E7-4CDE9592CB97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ptutest" ID="{BC18D27B-F34F-49F5-9A83-9FEA127A76D9}" ShortID="164183420">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
+										<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{A9EE283F-6F04-4614-83F2-09599A861486}" ShortID="214550822">
+											<PropertyList>
+												<Property Name="ConeAttenuation" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeLowPassFilterValue" Type="int32">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="12"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{1667046A-D32F-4C63-A0CA-C83AC887B5A2}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+														<Curve Name="VolumeWetUser" ID="{B9192E6C-DEE9-4E48-AC41-A18E48918A6C}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>0.49524</XPos>
+																	<YPos>-0.00061</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>5.29092</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="LowPassFilter" ID="{EBA0CB75-DA47-4A7C-9C4E-FCB9EAAA5BB0}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>4</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="Spread" ID="{8A01227D-85DA-40F3-BD3C-B164D1787780}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="Focus" ID="{BD5C3DC8-7CE3-415A-A70E-AFEFF45F15AB}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>12</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{B6CE8691-D50C-4AC3-8314-6CB938FC8681}">
+										<Effect Name="In_My_Car_(Custom)" ID="{3DCA20F4-029A-4A66-A021-2F8A3CD35550}" ShortID="515241674" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+												<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="4"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="1933"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="3368"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="605"/>
+												<Property Name="GainBand1" Type="Real32" Value="-8"/>
+												<Property Name="GainBand2" Type="Real32" Value="11.5"/>
+												<Property Name="GainBand3" Type="Real32" Value="3.5"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="miscellaneous_inside" ID="{A94A7A7F-2F28-46C7-9158-EA25E9E42914}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ASC_PTU_Selftest" ID="{C24451CA-27AC-4D66-9CA3-CCFD46AA5717}" ShortID="470177171">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ASC_PTU_Selftest" ID="{CE2F6D69-A3FB-47F5-96A1-A2E32B53598F}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ASC_PTU_Selftest.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="ptuselftest" ID="{60FCE03A-BDA9-41D8-ADCD-4C7F0D256707}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ptuselftest.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ptuselftest" ID="{60FCE03A-BDA9-41D8-ADCD-4C7F0D256707}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
