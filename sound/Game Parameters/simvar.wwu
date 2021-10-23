@@ -1464,8 +1464,9 @@ Unit : Percent</Comment>
 						</GameParameter>
 						<GameParameter Name="LOCALVAR_A32NX_EPUMP_RPM" ID="{BBCA3622-2204-4B96-A7C0-4BD1B6699958}">
 							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0.13"/>
-								<Property Name="Max" Type="Real64" Value="0.13"/>
+								<Property Name="InitialValue" Type="Real64" Value="6900"/>
+								<Property Name="Max" Type="Real64" Value="7550"/>
+								<Property Name="Min" Type="Real64" Value="6900"/>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="LOCALVAR_A32NX_LEFT_WIPER_SETTING" ID="{20E51AB4-7E07-49D6-B6E3-20F89B6E15E4}"/>
@@ -1479,6 +1480,18 @@ Unit : Percent</Comment>
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="0.2"/>
 								<Property Name="Max" Type="Real64" Value="0.25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_EXTRACT_OVRD" ID="{80E36563-05DF-459D-A9A5-9A4C9C3A8F79}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_EXTRACT_OVRD_01" ID="{A68176F4-93DC-415C-B189-9192BCD0D17D}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
 							</PropertyList>
 						</GameParameter>
 					</ChildrenList>
