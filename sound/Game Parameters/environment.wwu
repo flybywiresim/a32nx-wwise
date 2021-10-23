@@ -33,6 +33,13 @@
 								<Property Name="Min" Type="Real64" Value="-4800"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="DISTANCE" ID="{41666719-D1A8-4D25-AFDC-D282C31D4A35}">
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="5000"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

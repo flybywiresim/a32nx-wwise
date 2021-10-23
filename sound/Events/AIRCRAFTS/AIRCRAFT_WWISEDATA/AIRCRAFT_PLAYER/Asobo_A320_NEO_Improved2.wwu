@@ -1043,15 +1043,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_AVventext" ID="{E5FD536C-1554-4B88-B0DA-6DFEDD6BF251}">
+				<Event Name="Play_Asobo_A320_NEO_OSelfTest" ID="{E5FD536C-1554-4B88-B0DA-6DFEDD6BF251}">
 					<ChildrenList>
-						<Action Name="" ID="{C83AF829-6741-486B-AF9F-FF4F53844E94}" ShortID="554448647">
+						<Action Name="" ID="{190F4BAA-5A17-48E8-9F37-2765C144739E}" ShortID="17216113">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="venttestext" ID="{370EC6A2-AFF2-419E-98E0-07A98FCBB897}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0272FDD1-AA97-446F-886D-B6F46FE46539}" ShortID="27099092">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="venttestext_01" ID="{7DA42795-EFB9-4470-88C2-A13CD29B1F8D}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA4666E6-A928-4792-A75D-3D76F26C6BB1}" ShortID="426440353">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="venttestext_02" ID="{776CC5B1-2A56-4265-99B5-D9B8A1358BAB}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1066,20 +1086,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="apushutext" ID="{546590AF-147D-48C5-B7C1-BFF456080893}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Asobo_A320_NEO_packscabin" ID="{1836D8A3-8D23-430E-B294-957AA58692C1}">
-					<ChildrenList>
-						<Action Name="" ID="{80D79161-D827-4DD8-9500-834ADF503C65}" ShortID="622560741">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="packscabin" ID="{C755177E-B074-441B-8849-E0ACCDEB4E7A}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1593,7 +1599,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_fanwhine" ID="{BCE1378E-A2D7-419E-8B55-72BBAB8B7AA3}">
+				<Event Name="Play_Asobo_A320_NEO_cabfanfront" ID="{BCE1378E-A2D7-419E-8B55-72BBAB8B7AA3}">
 					<ChildrenList>
 						<Action Name="" ID="{B1A8F165-B833-4E4A-89A5-2AA1105ADA19}" ShortID="952026388">
 							<PropertyList>
@@ -2344,6 +2350,132 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ptustart" ID="{60D148CA-F6EF-4809-A82A-C5E0C9CEEC12}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_OExtractOVRDStart" ID="{8251AD94-72EA-47AB-A850-719A670C0DA4}">
+					<ChildrenList>
+						<Action Name="" ID="{3AA01938-4022-46C3-AB6F-07D7CEB092A6}" ShortID="396238356">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OExtractOVRDStart" ID="{D0DD7691-8468-449C-BCF7-183C2B0E9D6B}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_OOVRDOff" ID="{0D1D727B-0ADC-4614-8511-223398C46339}">
+					<ChildrenList>
+						<Action Name="" ID="{EA6BA582-E4D2-4C18-96BF-5910A7AA0298}" ShortID="241037385">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OOVRDOff" ID="{FD27169D-600B-4A90-86B9-0A9EB10A9262}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_OExtractOVRD" ID="{061386E8-BE8E-4EF5-BC12-3F4F01CE5B31}">
+					<ChildrenList>
+						<Action Name="" ID="{4C8A3BF4-4AEF-4C3E-8D0F-5F6B72A2B8BF}" ShortID="648520240">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OExtractOVRD" ID="{DBF61D40-5ABA-452A-8AFC-DF6C76A08370}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_OBlowerExtractOVRDStart" ID="{2039DDAB-419C-41FD-8516-1063F99B43BF}">
+					<ChildrenList>
+						<Action Name="" ID="{337ED5DC-0EE0-4242-9E40-4E1E96CD10B6}" ShortID="333960513">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OBlowerExtractOVRDStart" ID="{30816551-D4C4-4DD9-96E2-A6A654D0129F}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_cabinpacks" ID="{C30E5F84-65FE-436F-BB1C-B964E5238976}">
+					<ChildrenList>
+						<Action Name="" ID="{CA78C5BA-5B78-4AFB-9C1C-254180E1B24C}" ShortID="259321309">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cab packs" ID="{36765CA8-97C0-4AB6-B6AF-A76AEA03AEF4}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ISelfTest" ID="{EBC4785E-C224-4A66-B1F7-A639DAB1DB11}">
+					<ChildrenList>
+						<Action Name="" ID="{08ACD666-8745-4F45-AAF8-EC533003ACD2}" ShortID="219947017">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IVentTestExt" ID="{68BE5B20-2377-417D-9A1D-6469CD3FFD14}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_IExtractOVRD" ID="{48921344-A472-4D2E-ADB2-2EDADB761984}">
+					<ChildrenList>
+						<Action Name="" ID="{5194C1A7-1D25-47D7-9ED0-AE96832424EF}" ShortID="190162924">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IExtractOVRD" ID="{F74D2D74-3962-4544-9B40-22EBFB4C8AE6}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_IOVRDOff" ID="{FC4EFB91-8A29-4B6A-8351-AB81F4BF8830}">
+					<ChildrenList>
+						<Action Name="" ID="{C3B23D39-2D62-4B83-B31D-4EFFD655543C}" ShortID="465473275">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IOVRDOff" ID="{4107C1BE-3B08-41A2-824F-6CC24938836C}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_IBlowerExtractOVRD" ID="{2C316D94-96D5-440D-9127-9CB9BC2B0D9F}">
+					<ChildrenList>
+						<Action Name="" ID="{04341D47-4454-4C40-942E-C9A73F77E402}" ShortID="303920213">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IBlowerExtractOVRDStart" ID="{7AD31558-98C3-440F-BAE6-96C3CCC5128D}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
