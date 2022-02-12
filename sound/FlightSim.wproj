@@ -17,6 +17,17 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Windows">256</Value>
+					</ValueList>
+				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjExMTE4IiBtYXNrPSJNV1RCNTExMiIgZW5jPSIwIj48bGlj
 ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAi
 IGV4cGlyZXM9IjIwMjItMDktMDEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0i
@@ -39,17 +50,6 @@ WVFjmjIoeNQtKaWz/2s8qEOcETAgg7h2YfnH0w5bHR1QESFRniWPiltGaDMrOTb7
 mtYEcVE2205HiDJXNQtHoZgsCDb1QqB0KkJCNfLmMErvASwJlCTmG2/ksS8hay37
 nuZqHI1HR+TdkYmJFOA==
 "/>
-				<Property Name="ExternalSourcesOutputPath" Type="string">
-					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
-					</ValueList>
-				</Property>
-				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
-				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
-					<ValueList>
-						<Value Platform="Windows">256</Value>
-					</ValueList>
-				</Property>
 				<Property Name="MediaIDsInSingleFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>

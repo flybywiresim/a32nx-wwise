@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E78588B1-863C-474A-A1EF-029983C8530F}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{FD172C90-6D8A-4636-BFE7-DA8FF128722B}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Factory iZotope Delay" ID="{E78588B1-863C-474A-A1EF-029983C8530F}" PersistMode="Standalone">
+		<WorkUnit Name="Factory iZotope Delay" ID="{FD172C90-6D8A-4636-BFE7-DA8FF128722B}" PersistMode="Standalone">
 			<ChildrenList>
-				<Effect Name="Tape_Slap_Back" ID="{08A5C1AD-8FC7-40EC-BFB6-7236923D6560}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Tape_Slap_Back" ID="{2148BB10-AB23-40E9-A59E-FA45FBB84DE8}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="Feedback" Type="Real32" Value="10"/>
 						<Property Name="HighCutoff" Type="Real32" Value="12000"/>
 						<Property Name="WetOut" Type="Real32" Value="50"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Digital_500ms" ID="{7B847F26-F4FE-46BB-8643-6C757120A891}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Digital_500ms" ID="{392E7A28-B47F-4E15-B78B-3FD81D37BF38}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="5"/>
 						<Property Name="Feedback" Type="Real32" Value="30"/>
@@ -21,7 +21,7 @@
 						<Property Name="WetOut" Type="Real32" Value="100"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Scary_Bits" ID="{56758D03-4356-4E38-83BC-89C1F27ED634}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Scary_Bits" ID="{4914B79A-62D9-4059-A2E1-2F87784580FF}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="4"/>
 						<Property Name="Feedback" Type="Real32" Value="15"/>
@@ -31,7 +31,7 @@
 						<Property Name="WetOut" Type="Real32" Value="100"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Digital_1_Second" ID="{50F8079B-F7E5-48BF-8BAD-D530FB67B958}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Digital_1_Second" ID="{3CDF580F-F7B1-457D-B781-335FDFCD91B2}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="5"/>
 						<Property Name="HighCutoff" Type="Real32" Value="20000"/>
@@ -40,7 +40,7 @@
 						<Property Name="WetOut" Type="Real32" Value="100"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Black_Canyon" ID="{3B332BEB-E18B-40F2-AC89-29B01E90C0C1}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Black_Canyon" ID="{3020FC7F-6993-4628-B457-86390273CD60}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="1"/>
 						<Property Name="Feedback" Type="Real32" Value="18"/>
@@ -53,7 +53,7 @@
 						<Property Name="WetOut" Type="Real32" Value="100"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Gray_Tunnel" ID="{3C5D37F5-4C71-4160-AFAF-75930BE97E21}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Gray_Tunnel" ID="{1C19ACEB-9A12-4FD8-A4BC-DD3818E9E45F}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="1"/>
 						<Property Name="DryOut" Type="Real32" Value="60"/>
@@ -66,7 +66,7 @@
 						<Property Name="WetOut" Type="Real32" Value="75"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Retro_Fi" ID="{7B7E0071-269C-4D54-8E9E-7421407E73A0}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Retro_Fi" ID="{AF5A6A72-8997-413A-90CE-1E4846E6901D}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="3"/>
 						<Property Name="DryOut" Type="Real32" Value="90"/>
@@ -80,7 +80,7 @@
 						<Property Name="WetOut" Type="Real32" Value="90"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="ZVerb" ID="{8459F7DA-8A6D-4AF1-B969-96714181C58D}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="ZVerb" ID="{4E806A05-F405-4910-9F6B-19854058F2D6}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="4"/>
 						<Property Name="Feedback" Type="Real32" Value="90"/>
@@ -93,7 +93,7 @@
 						<Property Name="WetOut" Type="Real32" Value="50"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="iRobot" ID="{CE4FC7B6-B953-49B1-A23E-480C4CEC8441}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="iRobot" ID="{3C6369CF-C799-4AB8-AAE9-735A01AAE122}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="5"/>
 						<Property Name="DryOut" Type="Real32" Value="10"/>
@@ -106,7 +106,7 @@
 						<Property Name="WetOut" Type="Real32" Value="60"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Dirty_Double" ID="{B982B1DC-BFC9-4541-ADCC-C41CAA413A54}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Dirty_Double" ID="{7A7EBCFB-C572-4DBE-8645-C8055E497E7D}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32" Value="2"/>
 						<Property Name="DryOut" Type="Real32" Value="65"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E0243ED6-C4CC-4FD8-B8E8-2E98F6DCF3A5}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{E295D143-0C3F-4E00-B606-85091C2F181E}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Factory iZotope Multiband Distortion" ID="{E0243ED6-C4CC-4FD8-B8E8-2E98F6DCF3A5}" PersistMode="Standalone">
+		<WorkUnit Name="Factory iZotope Multiband Distortion" ID="{E295D143-0C3F-4E00-B606-85091C2F181E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Effect Name="High_End_Sizzle_01" ID="{1FB3EE85-76D8-42C7-953E-9BEFC7CC47A0}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+				<Effect Name="High_End_Sizzle_01" ID="{B87EFE65-919D-4F0D-A456-633507DDF9EC}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion2Band2Mix" Type="Real32" Value="30"/>
 						<Property Name="Distortion2Band2OutputGain" Type="Real32" Value="-2"/>
@@ -11,7 +11,7 @@
 						<Property Name="Distortion2Band2Type" Type="int32" Value="7"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Big_Bottom_01" ID="{62BEFF08-8116-444E-9F4A-12C717B77005}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+				<Effect Name="Big_Bottom_01" ID="{99D28C26-921E-4BEB-B972-7F4574A656F8}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Band1Trash" Type="Real32" Value="0.8"/>
 						<Property Name="Distortion1Band1Type" Type="int32" Value="3"/>
@@ -23,7 +23,7 @@
 						<Property Name="MultibandCrossover1" Type="Real32" Value="100"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Talkie_Squelch_01" ID="{6C6AD722-F427-4B23-8F2B-FCDBEAF8AAAA}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+				<Effect Name="Talkie_Squelch_01" ID="{D4A11553-DCFE-415C-BF4D-3CC419FB3E00}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Band1InputGain" Type="Real32" Value="-30"/>
 						<Property Name="Distortion1Band1OutputGain" Type="Real32" Value="-30"/>
@@ -51,7 +51,7 @@
 						<Property Name="MultibandCrossover2" Type="Real32" Value="3000"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Exploder_01" ID="{251F8594-2BF0-43B3-A49B-C04EAFF6C82F}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+				<Effect Name="Exploder_01" ID="{F8095FD9-BB1F-4305-BF8B-510CB144D533}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Band1Type" Type="int32" Value="27"/>
 						<Property Name="Distortion1Band2Mix" Type="Real32" Value="56"/>
@@ -72,7 +72,7 @@
 						<Property Name="MultibandCrossover2" Type="Real32" Value="6000"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Boost_Mobiles_01" ID="{01F3E831-F1EB-4B71-A937-C9EB2F5A4D0C}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+				<Effect Name="Boost_Mobiles_01" ID="{EEB7A42D-E656-4EC5-A025-8B810601BA6F}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<Comment>Tip: Great for boosting engine loops. Adjust crossovers to find favored frequncies in engine to enhance.
 </Comment>
 					<PropertyList>
@@ -88,7 +88,7 @@
 						<Property Name="MultibandCrossover2" Type="Real32" Value="5400"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Big_Pistol_01" ID="{52CB45E8-B60B-4C32-A2AE-694A35C14D3D}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+				<Effect Name="Big_Pistol_01" ID="{29DA723C-7696-4336-A3D5-F2F70425ACD9}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Band1Mix" Type="Real32" Value="54"/>
 						<Property Name="Distortion1Band1Type" Type="int32" Value="29"/>
@@ -106,7 +106,7 @@
 						<Property Name="MultibandCrossover2" Type="Real32" Value="5600"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Screech_01" ID="{8C709F6C-D7A9-4B70-9AE8-9A1C9132B2DF}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+				<Effect Name="Screech_01" ID="{712E78CB-E1B8-4EC0-BDEA-C435ECB41B90}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Band1Mix" Type="Real32" Value="84"/>
 						<Property Name="Distortion1Band1Overdrive" Type="Real32" Value="10"/>
