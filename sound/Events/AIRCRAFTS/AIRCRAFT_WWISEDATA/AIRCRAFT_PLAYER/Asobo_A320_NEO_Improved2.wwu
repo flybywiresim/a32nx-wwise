@@ -19,21 +19,7 @@
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_cchordloop" ID="{B442EAE0-4D8F-4E16-B971-9F3B9EC39510}">
 					<ChildrenList>
-						<Action Name="" ID="{79042466-4DA7-4837-A020-E1DD04DBFDE5}" ShortID="484673600">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Alt_01" ID="{1A8F641F-9F61-4398-BEFA-B996BB7EEA8C}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Asobo_A320_NEO_cchordshort" ID="{793845A2-1F1C-47B6-AECB-B4825C5E6B9C}">
-					<ChildrenList>
-						<Action Name="" ID="{EFC1482A-AA85-4578-8860-F4B9BB67C572}" ShortID="65838330">
+						<Action Name="" ID="{A688D9BA-F416-4D2F-A2C3-45072D4E7D34}" ShortID="254904658">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
@@ -1075,6 +1061,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{50D13CC0-B29E-42EF-BDF7-6FE39DBEB4C1}" ShortID="549421458">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="venttestext_03" ID="{C551FEFE-6379-4E54-8A93-5241D0B38E83}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_apushutdownext" ID="{9240FAB2-9F0A-4126-86C1-CD42FCE14BDA}">
@@ -1555,6 +1551,528 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Asobo_A320_NEO_new_2000" ID="{7798EA6D-0662-4DE0-A824-3B420D8AA35D}">
+							<ChildrenList>
+								<Action Name="" ID="{77201C3A-D885-43CC-AA81-6FC8F24E09E8}" ShortID="608243757">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2000" ID="{26B0F61C-D5ED-42B9-B048-DADE4E24076C}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_new_2_500" ID="{E6EC9FE1-A972-461B-819D-AA1C32E7E6C7}">
+							<ChildrenList>
+								<Action Name="" ID="{6A298023-FC06-4FB2-864C-A6F77E9DA092}" ShortID="952505538">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2_500" ID="{FAC25190-7303-43A1-AB19-C9D4C7A672F0}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="intermediate" ID="{5370D722-FD66-4A90-85BA-983CF545FC47}" ShortID="859620575">
+							<ChildrenList>
+								<Event Name="Play_Asobo_A320_NEO_1" ID="{8C6D374F-5744-4154-BB15-A7987AADBB4E}">
+									<ChildrenList>
+										<Action Name="" ID="{8AE5D87A-8A70-4396-828D-61BF8F4E803A}" ShortID="188705440">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="1" ID="{05E06F56-9BC4-4BBF-8F69-B0B9DD48F072}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_1c" ID="{CDEF513F-87B7-4DE1-B3D1-256562B9BA86}">
+									<ChildrenList>
+										<Action Name="" ID="{4C0CE910-24A3-4702-8501-AD595CADD407}" ShortID="267555899">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="1c" ID="{0B08DF5A-BF7C-434E-B602-6B1F2F9496D6}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_2" ID="{0BFF74C7-74D9-4511-80AE-1F0B2C024A2E}">
+									<ChildrenList>
+										<Action Name="" ID="{B36C46FF-5E45-4164-A271-F4CB4B6DE9A5}" ShortID="988787224">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="2" ID="{A2D3A9B6-5E7C-49F7-9CD4-858901A9F105}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_2c" ID="{881EB609-D14D-472D-B4CC-44F166DBEDFE}">
+									<ChildrenList>
+										<Action Name="" ID="{F020DAA4-B2D7-4CD5-8C42-F07E5D660CFA}" ShortID="332627118">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="2c" ID="{46465044-6BEF-45CE-A45D-2B7D08EDA6CF}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_3" ID="{0AECB573-97E4-4549-9529-3BBD7A62D0DA}">
+									<ChildrenList>
+										<Action Name="" ID="{5419C082-1095-4B17-8280-0E4B58D01B90}" ShortID="995427653">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="3" ID="{4874C911-7AED-42DF-9B91-7D1E79C1A725}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_3c" ID="{14A58506-DFAC-47FB-A2D7-286DE703358E}">
+									<ChildrenList>
+										<Action Name="" ID="{B452735E-3A50-4619-8E3A-70746F89E6C7}" ShortID="980705538">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="3c" ID="{DEA70AB4-4874-447D-B4CB-CB962F07610F}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_4" ID="{F1380E18-4B8C-4E1F-BBDC-0618070BF943}">
+									<ChildrenList>
+										<Action Name="" ID="{40FC535B-0F33-4619-99A9-4EB3C554E8DA}" ShortID="514013521">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="4" ID="{5F5AE209-C307-4E91-870E-6D56421A2C48}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_4c" ID="{03BA0A32-9F82-455F-8E52-BF77A1F1AFA6}">
+									<ChildrenList>
+										<Action Name="" ID="{E6D0D66D-EAE9-49AD-957C-B7642815F668}" ShortID="916368721">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="4c" ID="{1B264986-87CE-4694-A313-E8881D5E9ADA}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_5c" ID="{42D5D46E-CC7C-4714-9B78-A5882182E3F1}">
+									<ChildrenList>
+										<Action Name="" ID="{AEDDDFFD-1238-43BD-B282-A94FD51CA8B5}" ShortID="116168522">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="5c" ID="{F4B20D49-B9F4-4742-B1A1-6D793853E871}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_6" ID="{CAF32A05-568F-4BA4-A933-4A8F7682BF19}">
+									<ChildrenList>
+										<Action Name="" ID="{910739BF-FEDC-4BE9-AFD0-BF1DB5C3C681}" ShortID="45046387">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="6" ID="{BA64E4B7-79BD-4CBF-AEFC-41136D4B9ABD}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_7" ID="{5700C55E-6A80-46C0-ACE3-0EA188FA9FA4}">
+									<ChildrenList>
+										<Action Name="" ID="{E5922CC9-CE5C-4CEB-9867-91D557F51936}" ShortID="1053868826">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="7" ID="{190F3970-F76D-4AD2-BE1F-48FAA39ED4F6}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_8" ID="{41128DBD-C708-4C1D-ADE0-B142360FF6A8}">
+									<ChildrenList>
+										<Action Name="" ID="{363EEBE1-329F-43BE-9ACE-30B76E7FF2B0}" ShortID="540388850">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="8" ID="{2E0300D5-2200-4FB4-B0DA-346D7CE58174}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_9" ID="{18E36785-7DCB-4014-941C-AD4123FD7111}">
+									<ChildrenList>
+										<Action Name="" ID="{DC9FE389-8475-4E76-8D59-8EE2ADDF653F}" ShortID="400041440">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="9" ID="{A25F1195-AAE6-41E4-A719-79A83BA4EACB}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_11" ID="{22040008-57F0-4FF5-B1A8-A4C64EE15CD4}">
+									<ChildrenList>
+										<Action Name="" ID="{4D576751-D987-496B-BCFE-F9BB03AB9819}" ShortID="390586878">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="11" ID="{6D42B125-E2B3-4D61-8B52-B062804A5E99}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_12" ID="{8ECC2FD1-9511-4E50-91FF-07278C5ECE27}">
+									<ChildrenList>
+										<Action Name="" ID="{D792E129-3A9D-4B1A-80EC-8B6ADA9BF181}" ShortID="771812982">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="12" ID="{9B2A3FA4-28B5-4DDC-8A1D-61C697CB8F57}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_13" ID="{93F6362F-3450-428E-ACB8-E18834B40395}">
+									<ChildrenList>
+										<Action Name="" ID="{DC964F34-EDB5-43A1-98B6-D1AD7CBFB7FF}" ShortID="361756526">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="13" ID="{AD222264-F38B-47D0-A134-91E9EED9D277}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_14" ID="{E86EAB5D-4230-4113-BD03-BB25E3EB41BF}">
+									<ChildrenList>
+										<Action Name="" ID="{FF5C9D41-2E3F-48CD-B3EF-260ADCFE8D09}" ShortID="322000136">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="14" ID="{C650E502-0D2A-4470-B62B-51E8472E86CA}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_15" ID="{72341ED6-605E-4FF8-B1DE-E9DD4A760284}">
+									<ChildrenList>
+										<Action Name="" ID="{DF379A53-D02C-47EF-AD8B-D3E71430A853}" ShortID="986267216">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="15" ID="{987F05C7-6906-47CA-ACED-FE7E8DD8AD3E}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_16" ID="{D04D4112-32A6-4CF8-9ED7-D76CB88D84C0}">
+									<ChildrenList>
+										<Action Name="" ID="{4A8A6B59-DB7B-4337-9216-A1F7E32766CB}" ShortID="115841182">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="16" ID="{8723E597-6D79-410B-B9B9-9743ABE4224F}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_17" ID="{395508CE-40E0-493B-9767-6395B39F0B57}">
+									<ChildrenList>
+										<Action Name="" ID="{FFEDF107-D359-4460-873E-D47FB714EDE2}" ShortID="143138977">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="17" ID="{C9B14BE1-F2DE-43AD-BEC6-FC707121F4A9}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_18" ID="{654FF212-8853-4D34-A71A-4641E40CD0C5}">
+									<ChildrenList>
+										<Action Name="" ID="{BE2A40B2-6C3D-474F-BEF6-6694B1212237}" ShortID="223059120">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="18" ID="{E8CE45F0-853B-451E-997D-32A9F97A7208}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_19" ID="{9B622681-A31B-4FD0-A22C-E78130C3F176}">
+									<ChildrenList>
+										<Action Name="" ID="{0DA2EDC8-F09B-4D93-800B-87689B903389}" ShortID="358062811">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="19" ID="{823C3F5F-1F92-431B-A259-54BFA29AF9CA}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_20c" ID="{7209E531-196F-4BF0-B653-D3AFCF6C7353}">
+									<ChildrenList>
+										<Action Name="" ID="{3CA65C0C-9DE2-4BF2-82E2-38B6C8C175EE}" ShortID="200099749">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="20c" ID="{CCF411E0-013F-4040-8D69-434172333400}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_30c" ID="{67080142-EAC0-4372-959C-739DC06889E3}">
+									<ChildrenList>
+										<Action Name="" ID="{937E2FD9-42D7-4625-9AAB-48B229A2B5A2}" ShortID="400783833">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="30c" ID="{69461CB6-376C-49F7-99BA-ED323A0F00EC}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_40c" ID="{93094FED-D73E-45DC-9C72-BC177516B8A5}">
+									<ChildrenList>
+										<Action Name="" ID="{659C0387-ECF4-4000-BCED-D54FC5E4E5F2}" ShortID="243100748">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="40c" ID="{5F2C0613-DE8E-4C90-B3A6-FCD90DD1A680}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_50c" ID="{A16213A9-B210-4D55-ACF5-6B03F02AC09E}">
+									<ChildrenList>
+										<Action Name="" ID="{06ABB8D1-2575-4E1D-A936-5E6EAF2BE7C8}" ShortID="764295016">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="50c" ID="{A50D7C10-12B5-4642-986F-DA3CB440CD63}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_60c" ID="{F1724680-901D-4384-A850-7D4CDB60A16D}">
+									<ChildrenList>
+										<Action Name="" ID="{AEB287FF-6622-42DA-9C65-C7FD359CEECA}" ShortID="123801779">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="60c" ID="{3D8724A5-7908-4DD5-96F5-45C7831A9971}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_70c" ID="{EDC16A65-F2E4-4B2C-A2CF-0820D29B2EE3}">
+									<ChildrenList>
+										<Action Name="" ID="{3C1BE445-412C-4DD2-BD67-38C8B9002E5A}" ShortID="271276367">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="70c" ID="{91FBB5C3-08CE-456D-A498-203991616B65}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_80c" ID="{A462B9F3-8133-488E-8492-67F7AD8E63ED}">
+									<ChildrenList>
+										<Action Name="" ID="{D9A2E387-8BD4-4AD2-9C40-0CA4B094A8C1}" ShortID="226714711">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="80c" ID="{324FEF03-599F-4ACC-8EDE-1253E95E9E0F}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_90c" ID="{F9818298-F0E2-4A95-9DCA-1DDBD983DA8E}">
+									<ChildrenList>
+										<Action Name="" ID="{E95D3386-5CF9-452C-8E14-40BBC9EB7C6B}" ShortID="199962139">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="90c" ID="{D7DE5712-7DA4-47D5-A660-15A8D71E94FA}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_hundredand" ID="{98F803D5-F330-40CD-A97C-A8449B89ABBD}">
+									<ChildrenList>
+										<Action Name="" ID="{5991661F-F4D4-47A3-A9EE-6ECE06D419FB}" ShortID="656856464">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hundredand" ID="{4F3D74E9-F37E-455C-932A-9B9B3724DFAA}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_90" ID="{5F9FE9DD-8A17-4F44-8EE1-7B990EE12CA3}">
+									<ChildrenList>
+										<Action Name="" ID="{BE92F76A-4B2D-4BFE-92DA-317F65EA33A3}" ShortID="918152324">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="90" ID="{B9B825A1-C8A7-42D3-8B77-508F42457833}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_70" ID="{AF24BC63-9631-40E7-99DB-347F07B2EBEA}">
+									<ChildrenList>
+										<Action Name="" ID="{D2D6CDDA-4A73-4312-9DD8-6FD55B34D2F2}" ShortID="862638465">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="70" ID="{E0BA43E9-634A-4DC6-8A15-CFA043BD83FE}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_60" ID="{54FEDA23-6D56-4F3F-BD3B-1B4804BB07A0}">
+									<ChildrenList>
+										<Action Name="" ID="{5D8819E2-BC47-4A74-95C2-147630AEF8B5}" ShortID="8717902">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="60" ID="{623F5E53-A9C5-43FB-B3A5-4242E3861646}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Asobo_A320_NEO_80" ID="{84BF4FAF-2BCD-40E7-907E-3C76A887D68F}">
+									<ChildrenList>
+										<Action Name="" ID="{4CB6BDE0-1505-469C-8147-DCD5386C5AE3}" ShortID="511744087">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="80" ID="{F6CEBD53-7F4D-4DCF-91CE-4E37F75FFE15}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Asobo_A320_NEO_brakefanshut" ID="{6AC79B20-A4F6-467F-BCF7-D1911DC8E190}">
@@ -2071,7 +2589,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="setmaxreverse" ID="{881B9E41-0AF7-47AB-89AE-B6906500F5E8}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+											<ObjectRef Name="SetMaxReverse" ID="{881B9E41-0AF7-47AB-89AE-B6906500F5E8}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2437,6 +2955,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{70B57102-910C-41ED-8A25-79D8D37074E7}" ShortID="136814453">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IVentTestExt_01" ID="{5FDC8C6A-EC6B-46D7-B3CB-19DDD287A67C}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_IExtractOVRD" ID="{48921344-A472-4D2E-ADB2-2EDADB761984}">
@@ -2476,6 +3004,172 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="IBlowerExtractOVRDStart" ID="{7AD31558-98C3-440F-BAE6-96C3CCC5128D}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="A380" ID="{80B0B277-B4C7-4EF7-B500-DA2EFE559841}" ShortID="443011282">
+					<ChildrenList>
+						<Event Name="Play_Asobo_A320_NEO_bat1" ID="{E57F7DED-0648-4B4E-8987-B44453EB0B3D}">
+							<ChildrenList>
+								<Action Name="" ID="{E0112283-1A2C-4FBF-ABEE-2622D986571F}" ShortID="543227146">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bat1" ID="{5D808AD8-5F17-4C86-8164-1AA6847443DE}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_CRC_380" ID="{EB54BC17-BB9F-42EB-9D09-F52DF1CE4D3E}">
+							<ChildrenList>
+								<Action Name="" ID="{52ADB402-07C1-4C11-AB75-0421756FF0D2}" ShortID="517797390">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="masterwarning" ID="{C24A683A-ABE4-47AB-9D90-8FF62AC6E77C}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_AEVC380" ID="{D129312E-237C-48AE-866D-E54E3C0637A6}">
+							<ChildrenList>
+								<Action Name="" ID="{18500F2D-52AE-47D7-B4E6-A5F8C03DCB1C}" ShortID="518088928">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AEVC" ID="{942138DA-95E7-46D0-B29D-A54557A33720}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_TR380" ID="{DD9D04BA-39D8-4CE2-B5FB-E7778CF6CA85}">
+							<ChildrenList>
+								<Action Name="" ID="{CE803821-7FFC-4359-93BA-CDB6B197ECD2}" ShortID="673256759">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TRWhine" ID="{5FF9D685-1752-4A7D-A609-99EAC54686F4}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_mastercaution" ID="{230A10E6-3DE7-42D7-8EAE-49EE25E92F3B}">
+							<ChildrenList>
+								<Action Name="" ID="{B1858431-8998-494F-904E-EEC32DECA663}" ShortID="634864160">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mastercaution" ID="{01E8329A-2B4C-452A-BB1C-FB0DD9B7004C}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_fakestart" ID="{B76D8C08-C2F1-4646-AECD-67CA902316BC}">
+							<ChildrenList>
+								<Action Name="" ID="{AEEF1B04-6FB5-4C86-9BC4-9977A4B01464}" ShortID="932384964">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="startsequence" ID="{0BE04027-2DB9-40EA-80A1-69257CDDC6CC}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_Engine_1" ID="{5508F76A-AE5F-4F4F-85A1-B126EDF5253F}">
+							<ChildrenList>
+								<Action Name="" ID="{4BB197C5-6EFC-4848-B9D3-1BC6473C6C62}" ShortID="478335600">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MidWhine1" ID="{7F9ADC3E-D871-4826-AF4E-77BAC9D7D7A0}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5E43EE9A-8012-459B-9211-C6FEC83231AD}" ShortID="1060438777">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz1" ID="{19D0FCA0-328F-4CF2-88DF-D4993BBDB2B7}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{665C55E3-2388-4E7A-BE87-4896F6D74ED9}" ShortID="760994299">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Idle1" ID="{48887297-98C2-4346-8C7D-00B42E9F58FC}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2B7E64F6-7D57-40D9-9B6B-57E04F110398}" ShortID="916288300">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LowWhine1" ID="{7A0E4293-97BA-46B7-BD92-AF31A5DED9F6}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D36563D0-AC1E-4481-9B1C-3C6C93D26A18}" ShortID="765858034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Howl1" ID="{0F10174A-CB0B-49F3-AA90-566ED9F83606}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7C0E5CDE-657E-457C-9FF8-0E5870C7C8A2}" ShortID="1709106">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IdleHigh1" ID="{323544FD-D9EE-4404-93BD-635E591765E5}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Asobo_A320_NEO_cpdlc_ring" ID="{4196F80C-D2D5-4CF4-B338-F19B62519FA9}">
+					<ChildrenList>
+						<Action Name="" ID="{8F2F5BCF-3CA8-4998-BD89-3BC57017DF5F}" ShortID="577694490">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cpdlc_ring" ID="{337192F4-E284-45D1-9E12-1A875B1B8FAC}" WorkUnitID="{D7EAEC44-D3F0-4907-B024-BD8713B7A33B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

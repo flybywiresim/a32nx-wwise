@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1B1E3084-90B6-454A-A835-5C34918D0400}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{11B03960-C1B8-4F16-AF7E-7E77A76C29E9}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Factory iZotope Singleband Distortion" ID="{1B1E3084-90B6-454A-A835-5C34918D0400}" PersistMode="Standalone">
+		<WorkUnit Name="Factory iZotope Singleband Distortion" ID="{11B03960-C1B8-4F16-AF7E-7E77A76C29E9}" PersistMode="Standalone">
 			<ChildrenList>
-				<Effect Name="Breaking_Up_01" ID="{F6ECCF71-06BD-468A-998E-4583E6E07339}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Breaking_Up_01" ID="{7A9C001A-6C26-48B0-BE25-127B5B09F66E}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Overdrive" Type="Real32" Value="7.5"/>
 						<Property Name="Distortion1Trash" Type="Real32" Value="1"/>
@@ -14,7 +14,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="41"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Big_Impacts_01" ID="{C28886CE-326A-43B2-B28F-7C66E0446D02}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Big_Impacts_01" ID="{C3E2755E-EF08-4207-A88F-6B8EE8230BA0}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Overdrive" Type="Real32" Value="6.5"/>
 						<Property Name="Distortion1Trash" Type="Real32" Value="0.4"/>
@@ -26,7 +26,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="4"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Destruction_01" ID="{92EFD404-34BD-41C7-B05E-5FD39FD9D997}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Destruction_01" ID="{A577AB4A-DBD6-4042-8AF7-A40F7ECBEE38}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Overdrive" Type="Real32" Value="9"/>
 						<Property Name="Distortion1Type" Type="int32" Value="12"/>
@@ -36,7 +36,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="1"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Bigger_Footsteps_01" ID="{846DA297-1DD1-440F-A579-56BC7A46B0DB}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Bigger_Footsteps_01" ID="{162F7C5A-BCC0-4058-B942-A5E42AD50C75}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Mix" Type="Real32" Value="48"/>
 						<Property Name="Distortion1Overdrive" Type="Real32" Value="4.5"/>
@@ -47,7 +47,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="4"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Just_Noise_01" ID="{74B59A98-FC4D-415B-B25E-3CCC89C81545}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Just_Noise_01" ID="{BEEB26FA-9FFA-47B4-9AA1-0C6471B24C31}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Mix" Type="Real32" Value="82"/>
 						<Property Name="Distortion1OutputGain" Type="Real32" Value="-6"/>
@@ -60,7 +60,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="30"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Rock_Amp_01" ID="{ACC66856-7FB0-4BC5-8400-8DC09D33AE0A}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Rock_Amp_01" ID="{FACEA58B-56E9-4D5E-848F-C5B1D974EF15}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<Comment>Tip: Try putting the GuitarCabinet modelor after this.</Comment>
 					<PropertyList>
 						<Property Name="Distortion1Overdrive" Type="Real32" Value="10"/>
@@ -74,7 +74,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="19"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Blues_Amp_01" ID="{A8D2CD0B-37F9-436A-B9C9-B313813EA667}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Blues_Amp_01" ID="{CDD9C716-7D53-451A-AF59-03B4472A90ED}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<Comment>Tip: Try putting the GuitarCabinet modelor after this.</Comment>
 					<PropertyList>
 						<Property Name="Distortion1InputGain" Type="Real32" Value="1"/>
@@ -88,7 +88,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="30"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Monster_Foot_Steps_01" ID="{9C2FC51F-C19F-4B10-9BAB-E2F6691BCFF7}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Monster_Foot_Steps_01" ID="{A1604B6C-7AFC-4961-95E7-B3ED9185DDAD}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1InputGain" Type="Real32" Value="5"/>
 						<Property Name="Distortion1Mix" Type="Real32" Value="64"/>
@@ -100,7 +100,7 @@
 						<Property Name="Distortion2Type" Type="int32" Value="2"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Big_Guns_01" ID="{6AEE724E-CDA4-4A67-8CD8-DF1903F78ECC}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
+				<Effect Name="Big_Guns_01" ID="{710EB44D-7F19-4091-84DF-2651E09A4462}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1OutputGain" Type="Real32" Value="-3"/>
 						<Property Name="Distortion1Overdrive" Type="Real32" Value="8.5"/>

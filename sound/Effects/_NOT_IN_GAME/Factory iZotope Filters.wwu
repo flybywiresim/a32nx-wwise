@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{69E63F95-6DEA-446E-9EE0-8683389E45B4}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{AAA39D49-6A36-44EA-B2F7-D53B1C733FEF}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Factory iZotope Filters" ID="{69E63F95-6DEA-446E-9EE0-8683389E45B4}" PersistMode="Standalone">
+		<WorkUnit Name="Factory iZotope Filters" ID="{AAA39D49-6A36-44EA-B2F7-D53B1C733FEF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Effect Name="Next_Door" ID="{CFFD84D4-8C2A-43FD-A701-0E5524FD7C8C}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Next_Door" ID="{90952F4D-F0FB-4B8C-A3E1-80CF8D775105}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="230"/>
 						<Property Name="Filter1Resonance" Type="Real32" Value="0.3"/>
@@ -15,7 +15,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Lo_Pass_500Hz" ID="{2D6C0828-CEF7-4377-BE3C-39677CC3DFA2}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Lo_Pass_500Hz" ID="{12B1CC39-141B-4D69-BF70-AA1CB63F6B94}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="1790"/>
 						<Property Name="Filter1Resonance" Type="Real32" Value="0"/>
@@ -24,7 +24,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Hi_Pass_500Hz" ID="{981896F5-39C4-4975-A588-9D48C17AAAB9}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Hi_Pass_500Hz" ID="{DD4E036E-727F-4764-A083-6BE127A2A961}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="500"/>
 						<Property Name="Filter1Type" Type="int32" Value="20"/>
@@ -34,7 +34,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Punch_150Hz" ID="{58AF4EC3-9F30-4B9E-BB89-7D3F1F65C31C}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Punch_150Hz" ID="{F4CF2F77-9C0C-4EC8-94AE-AFB2990F6C4D}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="150"/>
 						<Property Name="Filter1Gain" Type="Real32" Value="12"/>
@@ -48,7 +48,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Wind_Sweeper" ID="{660C545F-2247-43AB-8E27-3055A6B05137}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Wind_Sweeper" ID="{D80608C2-62F9-4E03-90A6-9F16389437BA}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<Comment>Tip: Assign RTPC to Filter 1 LFO Period to vary wind. Good for repurposing existing wind loops.</Comment>
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="5000"/>
@@ -65,7 +65,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Sonar_Pulse" ID="{A49745B7-9574-439E-AFFA-C29062EE1D00}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Sonar_Pulse" ID="{7D3A8FC3-ACE7-4106-96F3-860ED7C88359}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<Comment>Good with underwater loops to help simulate sonar pulses. Change the speed by adjusting the LFO Period.</Comment>
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="500"/>
@@ -81,7 +81,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Transistor_Radio" ID="{B2D1F1CC-92A1-4B39-AFA0-396192FAE838}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Transistor_Radio" ID="{C952879C-72FE-4B73-8C30-9B7798D0DCB7}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="2750"/>
 						<Property Name="Filter1Type" Type="int32" Value="12"/>
@@ -99,7 +99,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="10"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Wah_Wah_Bass" ID="{BC024EED-E158-4244-9295-47F5385A81B2}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Wah_Wah_Bass" ID="{D0B3460F-F431-49BF-8DE8-F7C9C3273B9D}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter2Frequency" Type="Real32" Value="1100"/>
 						<Property Name="Filter2LFOPeriod" Type="Real32" Value="250"/>
@@ -109,7 +109,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Crazy_Copter" ID="{B9679233-0A33-4076-9C30-8AC7FD6951F2}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Crazy_Copter" ID="{4D749453-F4AA-4183-B34D-5017C28D2D07}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter1LFOTargetRes" Type="Real32" Value="0.3"/>
 						<Property Name="Filter2Frequency" Type="Real32" Value="760"/>
@@ -121,7 +121,7 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="Filter_Sweep" ID="{BE2C3149-655A-41E1-B20A-3B8BC961B69D}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+				<Effect Name="Filter_Sweep" ID="{0494101E-B8F4-4561-A6AE-18402020541B}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<Comment>Tip 1: Assign Filter 3 Frequency and Resonance to RTPC's and use on interacvite music to create breakdowns. 
 Tip 2: Assign Filter 3 Frequency to cut the bottom end during heavy SFX scenes, like engines, to help them sit better in the game mix and not get lost in the explosions.</Comment>
 					<PropertyList>

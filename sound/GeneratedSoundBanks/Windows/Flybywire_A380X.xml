@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>H:\sound\</ProjectRoot>
+		<SourceFilesRoot>H:\sound\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>H:\sound\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>H:\sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="390586385" GUID="{762E8A13-05E8-4874-981C-6A5E4A739D20}" Language="SFX">
+			<ObjectPath>\SoundBanks\Asobo_A320_NEO_Improved\Flybywire_A380X</ObjectPath>
+			<ShortName>Flybywire_A380X</ShortName>
+			<Path>Flybywire_A380X.bnk</Path>
+			<IncludedEvents>
+				<Event Id="143459335" Name="Play_Flybywire_A380X_AEVC380" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Flybywire_A380X\Play_Flybywire_A380X_AEVC380" GUID="{D129312E-237C-48AE-866D-E54E3C0637A6}" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="410129751" Language="SFX">
+							<ShortName>AEVC.wav</ShortName>
+							<Path>SFX\AEVC_F69AA31E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2762824025" Name="Play_Flybywire_A380X_CRC_380" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Flybywire_A380X\Play_Flybywire_A380X_CRC_380" GUID="{EB54BC17-BB9F-42EB-9D09-F52DF1CE4D3E}" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="268676827" Language="SFX">
+							<ShortName>masterwarning.wav</ShortName>
+							<Path>SFX\masterwarning_89DC6E16.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3082713584" Name="Play_Flybywire_A380X_fakestart" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Flybywire_A380X\Play_Flybywire_A380X_fakestart" GUID="{77032DC0-1216-4058-B0C5-313769FF4E1E}" MaxAttenuation="200.000000" DurationType="OneShot" DurationMin="4.058367" DurationMax="4.058367">
+					<IncludedMemoryFiles>
+						<File Id="476450964" Language="SFX">
+							<ShortName>startsequence.wav</ShortName>
+							<Path>SFX\startsequence_1E8ECBBC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2769545164" Name="Play_Flybywire_A380X_mastercaution" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Flybywire_A380X\Play_Flybywire_A380X_mastercaution" GUID="{230A10E6-3DE7-42D7-8EAE-49EE25E92F3B}" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="0.541202" DurationMax="0.541202">
+					<IncludedMemoryFiles>
+						<File Id="889925777" Language="SFX">
+							<ShortName>mastercaution.wav</ShortName>
+							<Path>SFX\mastercaution_1E8ECBBC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1518917392" Name="Play_Flybywire_A380X_TR380" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Flybywire_A380X\Play_Flybywire_A380X_TR380" GUID="{DD9D04BA-39D8-4CE2-B5FB-E7778CF6CA85}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="893716854" Language="SFX">
+							<ShortName>TRWhine.wav</ShortName>
+							<Path>SFX\TRWhine_5A862643.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
