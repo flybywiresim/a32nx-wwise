@@ -2896,13 +2896,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>0</YPos>
+														<YPos>-62</YPos>
 														<Flags>5</Flags>
-														<SegmentShape>Constant</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>0.25</XPos>
-														<YPos>0</YPos>
+														<YPos>63</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -2911,44 +2910,6 @@
 									</RTPCList>
 								</Property>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-96</Value>
-									</ValueList>
-									<RTPCList>
-										<RTPC Name="" ID="{1183D32D-B80A-43C2-8762-5F7A5B7087A9}" ShortID="192540687">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="LOCALVAR_A32NX_HYD_PTU_MOTOR_FLOW" ID="{7FE409A7-4C5F-4BD9-B656-D90D69CFCFE1}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{D44713F7-B243-4CDB-8972-52773AEEB9A0}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>0.11513</XPos>
-														<YPos>-7.57022</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>0.25</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">

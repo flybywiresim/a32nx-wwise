@@ -2180,7 +2180,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>8</Value>
+								<Value>10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2372,7 +2372,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="packscockpit" ID="{AD6EC15F-F5A3-46BF-9E2D-44FF172713D0}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="2.21535483918647"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.35505038408945"/>
 								<Property Name="FadeInShape" Type="int16" Value="6"/>
 								<Property Name="LoopBegin" Type="Real64" Value="11.775802993781"/>
 								<Property Name="LoopEnd" Type="Real64" Value="23.6940706367506"/>
@@ -4822,7 +4822,7 @@
 												<Value>41</Value>
 											</ValueList>
 										</Property>
-										<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
+										<Property Name="ConeOuterAngle" Type="int32" Value="360"/>
 										<Property Name="ConeUse" Type="bool">
 											<ValueList>
 												<Value>True</Value>

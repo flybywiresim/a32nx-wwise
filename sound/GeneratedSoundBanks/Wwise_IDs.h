@@ -96,6 +96,8 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BLUEEPUMP = 3916082160U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BLUEEPUMPEXT = 936754113U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BLUESHUT = 1077221735U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_BOARDING = 1944365829U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_BOARDINGCOMPLETED = 1111164168U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOOML = 2102434864U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOOMLEXT = 770563073U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOOMR = 2102434862U;
@@ -278,7 +280,7 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_A320_NEO_PAPERFLIP = 3412544092U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_PAPERTEAR = 1814577613U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_PARKBRK = 2458242140U;
-        static const AkUniqueID PLAY_ASOBO_A320_NEO_PAXTALK = 1575751666U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_PAXCHATTER = 3933148867U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_PB1OFF = 2081204367U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_PB1ON = 2743347483U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_PRINTERLOOP = 861088209U;
@@ -381,7 +383,6 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_A320_NEO_TURBULENCE1 = 1839683395U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_TURBULENCE2 = 1839683392U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_TURNKNOB = 39292580U;
-        static const AkUniqueID PLAY_ASOBO_A320_NEO_VENTTESTTRANSFER = 1351287729U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_WHALEL = 2990366680U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_WHALER = 2990366662U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_WIPER_FASTL = 698623593U;
