@@ -41,6 +41,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1042444882	Play_Asobo_A320_NEO_taxirumble			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_taxirumble	
 	1054525165	Play_Asobo_A320_NEO_CIDSchimes			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_CIDSchimes	
 	1110149698	Play_Asobo_A320_NEO_firmtouch			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_firmtouch	
+	1111164168	Play_Asobo_A320_NEO_boardingcompleted			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_boardingcompleted	
 	1123662120	Play_Asobo_A320_NEO_StartREXT			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_StartREXT	
 	1143436301	Play_Asobo_A320_NEO_light_switch_seatbelt			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_light_switch_seatbelt	
 	1163974770	Play_Asobo_A320_NEO_Geardownwind			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_Geardownwind	
@@ -71,6 +72,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1800301028	Play_Asobo_A320_NEO_RSpoolB			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_RSpoolB	
 	1835957270	Play_Asobo_A320_NEO_evachorncabin			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_evachorncabin	
 	1889647141	Play_Asobo_A320_NEO_CHRon			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_CHRon	
+	1944365829	Play_Asobo_A320_NEO_boarding			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_boarding	
 	1976395816	Play_Asobo_A320_NEO_StartInitLEXT			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_StartInitLEXT	
 	2008669410	Play_Asobo_A320_NEO_BuzzL			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_BuzzL	
 	2008669436	Play_Asobo_A320_NEO_BuzzR			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_BuzzR	
@@ -158,6 +160,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3755838353	Play_Asobo_A320_NEO_ISpoolHighL			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_ISpoolHighL	
 	3820456089	Play_Asobo_A320_NEO_IdleDetent			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_IdleDetent	
 	3882092832	Play_Asobo_A320_NEO_transfer			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_transfer	
+	3933148867	Play_Asobo_A320_NEO_paxchatter			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_paxchatter	
 	3964671638	Play_Asobo_A320_NEO_StartLEXT			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_StartLEXT	
 	4019672019	Play_Asobo_A320_NEO_AVvent_blower_extract_OVRD			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_AVvent_blower_extract_OVRD	
 	4026719921	Play_Asobo_A320_NEO_LSpoolEXTB			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_LSpoolEXTB	
@@ -209,12 +212,14 @@ Custom State	ID	Name	State Group	Owner		Notes
 	850511725	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\LowRumbleL		
 	858513962	INSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\StartInit		
 	898735606	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps\fuelpumps4		
+	907787602	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\cabin		
 	914460882	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\too-low-terrain		
 	923052992	INSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps ext		
 	931098112	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\BuzzR		
 	952297486	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\BuzzL		
 	961761562	INSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps ext\fuelpumpsext2		
 	1047976299	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Electric\transformers		
+	1070826588	OUTSIDE	VIEWPOINT	\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\PAs		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	263520738	LOCALVAR_A32NX_EXTRACT_OVRD_01			\simvar\miscelleneous\LOCALVAR_A32NX_EXTRACT_OVRD_01	
@@ -260,6 +265,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	292597984	Low_Pass_20KHz_(Custom)	Wwise Parametric EQ			
 	467108825	rev_inside_c172n	Wwise Convolution Reverb			
 	496504459	Born_In_1950_(Custom)	Wwise Parametric EQ			
+	510613029	Room_Small_(Custom)	Wwise RoomVerb			
 	605458133	rev_inside_sr22	Wwise Convolution Reverb			
 	721263760	rev_inside_dr400	Wwise Convolution Reverb			
 	744332985	Low_Pass_20KHz_(Custom)	Wwise Parametric EQ			
@@ -287,6 +293,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	3164629247	Holy	Wwise RoomVerb			
 	3440510692	rev_inside_generic_airliner	Wwise Convolution Reverb			
 	3600935952	rev_inside_xcub	Wwise Convolution Reverb			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
 	3930462003	rev_outdoor_aircraft_low_end	Wwise Convolution Reverb			
 	4105149153	rev_inside_FDCT	Wwise Convolution Reverb			
 	4216876873	rev_inside_generic_custom	Wwise Convolution Reverb			
@@ -369,7 +376,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	269425153	batrelay1-3	H:\sound\.cache\Windows\SFX\batrelay1-3_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Electric\batrelay\batrelay1-3		18497
 	270117538	chronoknob3	H:\sound\.cache\Windows\SFX\chronoknob3_02822708.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\smallknob\chronoknob3		3068
 	270969904	fanshut	H:\sound\.cache\Windows\SFX\fanshut_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\fanshut		36207
-	273551761	spoilerleft	H:\sound\.cache\Windows\SFX\wind_0D5C50C0.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Winds_Drag\spoilerleft		872822
+	273551761	wind	H:\sound\.cache\Windows\SFX\wind_0D5C50C0.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Winds_Drag\wind		872822
 	282394101	roundbutton6	H:\sound\.cache\Windows\SFX\roundbutton6_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\roundbutton\roundbutton6		3925
 	283844576	LSpool	H:\sound\.cache\Windows\SFX\LSpool_DDEB41DE.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\LSpool		1576683
 	289484796	BoomR	H:\sound\.cache\Windows\SFX\BoomR_00F86E6E.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\Boom\BoomCold\BoomR		219202
@@ -411,7 +418,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	424655923	IntBlowerOVRD	H:\sound\.cache\Windows\SFX\IntBlowerOVRD_E70FE59B.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Blower\IntBlowerOVRD		337566
 	438177746	lswitch	H:\sound\.cache\Windows\SFX\lswitch_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\lswitch\lswitch		4224
 	439887743	ExL2	H:\sound\.cache\Windows\SFX\ExL2_66CA5C71.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\Initial Spool EXT\ExL2		348250
-	442671832	extract	H:\sound\.cache\Windows\SFX\extract_889BCBC4.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Extract\extract		941668
+	442671832	extract	H:\sound\.cache\Windows\SFX\extract_65A98378.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Extract\extract		929438
 	445297784	Ispoolfinalext2	H:\sound\.cache\Windows\SFX\Ispoolfinalext2_8144726B.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\Initial Spool EXT2\Ispoolfinalext2		193587
 	448622598	ExR2	H:\sound\.cache\Windows\SFX\ExR2_CFD7CC35.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\Initial Spool EXT2\ExR2		278111
 	449655708	RevWindL	H:\sound\.cache\Windows\SFX\RevWindL_11815ED9.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\RevWindL		220510
@@ -429,6 +436,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	499716659	ShutL	H:\sound\.cache\Windows\SFX\ShutL_F9DAD686.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\ShutL		638979
 	506480185	GPWS_short_test	H:\sound\.cache\Windows\SFX\GPWS_test_93BD7395.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\GPWS_short_test		221955
 	513083293	ISPOOL7_2	H:\sound\.cache\Windows\SFX\ISPOOL7EXT2_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\Initial Spool EXT2\ISPOOL7_2		107370
+	513112000	IMSLP571344-PMLP03577-Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963	H:\sound\.cache\Windows\SFX\IMSLP571344-PMLP03577-Ravel_M.,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding music\IMSLP571344-PMLP03577-Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963		12658272
 	518452279	chronoknob2	H:\sound\.cache\Windows\SFX\chronoknob2_CEA51E12.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\smallknob\chronoknob2		4473
 	522173839	single_chime	H:\sound\.cache\Windows\SFX\single_chime_E41BFB83.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\single_chime		14033
 	522317201	mpb1on4	H:\sound\.cache\Windows\SFX\mpb1on4_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\mpb1on\mpb1on4		6091
@@ -438,13 +446,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	547973627	detent4	H:\sound\.cache\Windows\SFX\detent4_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\detent\detent4		5621
 	552843001	RSpool	H:\sound\.cache\Windows\SFX\RSpool_B3E9AB36.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\RSpool		1338015
 	560153525	ISPoolHighR	H:\sound\.cache\Windows\SFX\ISPoolHighR_7FECCF74.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\ISPoolHighR		126840
+	560545024	fuelpumps3	H:\sound\.cache\Windows\SFX\fuelpumps3_0BB76BFA.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps\fuelpumps3		114441
 	563445256	blowerstartloop	H:\sound\.cache\Windows\SFX\blowerstartloop_12F9D3CA.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Blower\blowerstartloop		1925652
 	567447829	minimum	H:\sound\.cache\Windows\SFX\minimum_341BFB28.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\RA\minimum		6110
 	568379983	StartInit	H:\sound\.cache\Windows\SFX\StartInitExt_2B5C89B1.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\StartInit		346265
 	575691644	LowRumbleR	H:\sound\.cache\Windows\SFX\LowRumbleR_9A75FE48.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\LowRumbleR		36019
 	582636056	StartREXT	H:\sound\.cache\Windows\SFX\StartREXT_F9DAD686.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\StartREXT		340609
 	583677800	IntExtractOVRD	H:\sound\.cache\Windows\SFX\IntExtractOVRD_7243E5CD.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Blower\IntExtractOVRD		448699
-	590184235	fuelpumps3	H:\sound\.cache\Windows\SFX\fuelpumps3_6DBA9F67.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps\fuelpumps3		114441
 	590563898	ShutScreechL_AIR	H:\sound\.cache\Windows\SFX\LEAPshutL_37C90271.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\ShutScreechL_AIR		174213
 	595940290	GPWS_long_test	H:\sound\.cache\Windows\SFX\GPWS_short_test_EAC96236.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\GPWS_long_test		1227562
 	597598829	Centreline_Runway	H:\sound\.cache\Windows\SFX\Centreline_Runway_68433552.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Grounds_Rattles\Centreline_Runway		64918
@@ -475,6 +483,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	679790442	engmaster3	H:\sound\.cache\Windows\SFX\engmaster3_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\engmaster\engmaster3		6926
 	685546856	ExR	H:\sound\.cache\Windows\SFX\ExR_1989D58A.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\ExR		567912
 	687826346	fuelpumpsext	H:\sound\.cache\Windows\SFX\fuelpumpext_010DA7CC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps ext\fuelpumpsext		434447
+	690298780	boardingcompleted	H:\sound\.cache\Windows\SFX\boardingcompleted_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\PAs\boardingcompleted		25989
 	691165421	HowlR	H:\sound\.cache\Windows\SFX\HowlR_D7C27822.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\InSpoolL\ISPOOL\HowlR		390846
 	698174268	doorlocks	H:\sound\.cache\Windows\SFX\doorlocks_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Electric\doorlocks		21992
 	707970626	Boom5	H:\sound\.cache\Windows\SFX\Boom5_AFB97AB5.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\Boom\BoomHot\Boom5		121474
@@ -483,7 +492,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	718534006	ReverseLEXT	H:\sound\.cache\Windows\SFX\ReverseLEXT_E67E858E.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\ReverseLEXT		156523
 	719232188	RWhineEXT	H:\sound\.cache\Windows\SFX\RWhineEXT_7A9C8D40.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\RWhineEXT		104773
 	723285818	LSpool_03	H:\sound\.cache\Windows\SFX\IdleA_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\LSpool_03		149457
-	725332757	LWhale	H:\sound\.cache\Windows\SFX\LWhale_F9DAD686.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\InSpoolL\ISPOOL\LWhale		169955
+	725332757	LWhale	H:\sound\.cache\Windows\SFX\LWhale_F9DAD686.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\LWhale		169955
 	725773155	RSTon3	H:\sound\.cache\Windows\SFX\RSTon3_FFD9F131.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\RSTon\RSTon3		2734
 	727769547	CENTER_TOUCHDOWN	H:\sound\.cache\Windows\SFX\CENTER_TOUCHDOWN_B1FEBA96.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Grounds_Rattles\CENTER_TOUCHDOWN		36103
 	732234374	ShutScreechR	H:\sound\.cache\Windows\SFX\LEAPshutR_59176CA0.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\ShutScreechR		141754
@@ -496,11 +505,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	772655086	Boom2	H:\sound\.cache\Windows\SFX\Boom2_1DE8944C.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\Boom\BoomHot\Boom2		144180
 	778022041	ISpoolHighREXT	H:\sound\.cache\Windows\SFX\ISpoolHighREXT_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\ISpoolHighREXT		367544
 	778095181	roundbutton7	H:\sound\.cache\Windows\SFX\roundbutton7_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\roundbutton\roundbutton7		3613
-	778984063	extract_01	H:\sound\.cache\Windows\SFX\extracthigh_C579ECE3.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Extract\extract_01		1000087
+	778984063	extract_01	H:\sound\.cache\Windows\SFX\extracthigh_C579ECE3.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Extract\extract_01		993741
 	781323259	IntOVRDOff	H:\sound\.cache\Windows\SFX\IntOVRDOff_D79848CA.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\AEVC_Fans\Blower\IntOVRDOff		217247
 	784343174	RShutEXT	H:\sound\.cache\Windows\SFX\RShutEXT_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\RShutEXT		656817
 	787644472	ISpoolHighLEXT	H:\sound\.cache\Windows\SFX\ISpoolHighLEXT_BAD840D9.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\ISpoolHighLEXT		175573
-	791079758	Start2LEXT	H:\sound\.cache\Windows\SFX\coldstartff2_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\Start2LEXT		281927
+	791079758	Start2REXT	H:\sound\.cache\Windows\SFX\coldstartff2_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\Start2REXT		281927
 	792003121	detent11	H:\sound\.cache\Windows\SFX\detent11_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\detent\detent11		3539
 	799889219	idlehighR	H:\sound\.cache\Windows\SFX\idlehighR_15D03CEB.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\idlehighR		1329425
 	800686719	mcdubutton2	H:\sound\.cache\Windows\SFX\mcdubutton2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\mcdubuttons\mcdubutton2		4891
@@ -509,13 +518,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	804253659	transfereng2	H:\sound\.cache\Windows\SFX\transfereng2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Electric\transfer\engine\transfereng2		4739
 	809025755	StartBass4_01	H:\sound\.cache\Windows\SFX\StartBass4_93D4929A.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\StartBass4_01		281244
 	812139308	StartL_01	H:\sound\.cache\Windows\SFX\crank1test_2B9D009F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\Crank\StartL_01		629243
+	812595291	fuelpumps	H:\sound\.cache\Windows\SFX\fuelpumps_F0B3EED8.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps\fuelpumps		50984
 	818243872	harmonic1	H:\sound\.cache\Windows\SFX\harmonic1_B961C1B8.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\FFlow\harmonic1		11429
 	824797442	ReverseL	H:\sound\.cache\Windows\SFX\ReverseL_7B857765.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\ReverseL		221107
+	829054536	In The Steppes Of Central Asia	H:\sound\.cache\Windows\SFX\In The Steppes Of Central Asia_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding music\In The Steppes Of Central Asia		16922307
 	829281582	firetestbutton4	H:\sound\.cache\Windows\SFX\firetestbutton4_B901BC2B.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\firetestbutton\firetestbutton4		2399
 	832794858	gear3	H:\sound\.cache\Windows\SFX\gear3_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\gearleverclick\gear3		17861
-	838434075	fuelpumps	H:\sound\.cache\Windows\SFX\fuelpumps_80D00788.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Fuel_Pumps\fuel pumps\fuelpumps		50984
 	843512311	Boom1	H:\sound\.cache\Windows\SFX\Boom1_144B4C3D.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\Boom\BoomHot\Boom1		111545
 	846273977	StartLEXT_01	H:\sound\.cache\Windows\SFX\StartEXT2L_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\StartLEXT_01		256429
+	849679418	IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9	H:\sound\.cache\Windows\SFX\IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9_73F00605.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding music\IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9		9481454
 	858472456	whaleLEXT	H:\sound\.cache\Windows\SFX\whaleLEXT_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\engine whines EXT\Initial Spool EXT\whaleLEXT		278868
 	867272646	too-low-gear	H:\sound\.cache\Windows\SFX\too-low-gear_DBD042CF.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\too-low-gear		40402
 	868863048	detent7	H:\sound\.cache\Windows\SFX\detent7_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\detent\detent7		4204
@@ -547,11 +558,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	962313129	gearwind	H:\sound\.cache\Windows\SFX\wind_0FD0F842.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Winds_Drag\gearwind		872822
 	964673529	RSTon1	H:\sound\.cache\Windows\SFX\RSTon1_7A280D40.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\RSTon\RSTon1		1729
 	971298934	detent1	H:\sound\.cache\Windows\SFX\detent1_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\detent\detent1		6727
+	975241761	OnhearingthefirstcuckooinSpringGroves (1)	H:\sound\.cache\Windows\SFX\OnhearingthefirstcuckooinSpringGroves (1)_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding music\OnhearingthefirstcuckooinSpringGroves (1)		13267428
 	976977767	CHRoff1	H:\sound\.cache\Windows\SFX\CHRoff1_C9606C57.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\CHRoff\CHRoff1		3971
 	981123248	too-low-flaps	H:\sound\.cache\Windows\SFX\too-low-flaps_499291AF.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\too-low-flaps		49747
-	988475469	ISPOOL2_01	H:\sound\.cache\Windows\SFX\ISpoolExtRearL_B4BC2447.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\InSpoolL\ISPOOL\ISPOOL2_01		662735
+	988475469	LSpool_01	H:\sound\.cache\Windows\SFX\ISpoolExtRearL_B4BC2447.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\LSpool_01		662735
 	988509994	WhaleCallL	H:\sound\.cache\Windows\SFX\WhaleCallL_ABA57DA8.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\InSpoolL\ISPOOL\WhaleCallL		96231
-	1001678861	BuzzLEXT	H:\sound\.cache\Windows\SFX\FanA_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\BuzzLEXT		118873
+	993277435	boarding	H:\sound\.cache\Windows\SFX\boarding_CDB6956D.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding		4196913
+	1001678861	BuzzL	H:\sound\.cache\Windows\SFX\FanA_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\BuzzL		118873
 	1007121766	ReverseREXT	H:\sound\.cache\Windows\SFX\ReverseREXT_C191B989.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\ReverseREXT		198886
 	1010259387	engmaster2	H:\sound\.cache\Windows\SFX\engmaster2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\engmaster\engmaster2		7981
 	1016975072	roundbutton4	H:\sound\.cache\Windows\SFX\roundbutton4_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\roundbutton\roundbutton4		4453
@@ -574,6 +587,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1064472153	mpb1off	H:\sound\.cache\Windows\SFX\mpb1off_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\mpb1off\mpb1off		9750
 	1067040266	StartWhineR	H:\sound\.cache\Windows\SFX\StartWhineR_ECE799AD.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Ext\StartWhineR		27396
 	1070941398	roundbutton3	H:\sound\.cache\Windows\SFX\roundbutton3_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\roundbutton\roundbutton3		4278
+	1072833085	cabin	H:\sound\.cache\Windows\SFX\cabin_E9D6AB0D.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\cabin		3084674
 
 Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
 	12659520	rev_inside_pipercub	H:\sound\.cache\Windows\Plugins\Wwise Convolution Reverb\IR_PIPER_J3_BERGERAC_ASOBO_7E8B6DAB.wem	Wwise Convolution Reverb (Shared)	\Effects\reverb_convolution\rev_inside_pipercub		41024

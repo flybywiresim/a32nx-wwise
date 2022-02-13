@@ -40,7 +40,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>15</Value>
+								<Value>18</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{068DEE5D-0B9A-4614-8E85-F9096002E297}" ShortID="455232541">
@@ -913,7 +913,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-4</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{58F2DD90-7BD1-4759-B960-BF57BD19FC51}" ShortID="977782055">
@@ -1256,7 +1256,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>8</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{D397C804-3BF9-465C-BB58-3133C1EBE1D8}" ShortID="556513446">
@@ -1576,7 +1576,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>8</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{A262499A-8588-4D1D-A503-30D70F1D01AD}" ShortID="122152701">
@@ -2511,11 +2511,11 @@
 							<ChildrenList>
 								<AudioFileSource Name="wiperfast" ID="{AB1C32DC-9536-47B9-B98E-171E1A516449}">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.000559316638370119"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.025036220998087"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.844954077060932"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.0112007168458781"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.12642126663674"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
@@ -2805,10 +2805,11 @@
 							<ChildrenList>
 								<AudioFileSource Name="wiperfastR" ID="{87F1FCDF-85DB-4FAA-A0A4-B0AEA41C1AB0}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0221120897683398"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.793422325976231"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.0993938643652141"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.200372407640632"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>

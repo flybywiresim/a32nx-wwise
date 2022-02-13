@@ -791,7 +791,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_paxtalk" ID="{FF9EEA38-C859-4F5B-ACE8-B54B48530B46}">
+				<Event Name="Play_Asobo_A320_NEO_paxchatter" ID="{FF9EEA38-C859-4F5B-ACE8-B54B48530B46}">
 					<ChildrenList>
 						<Action Name="" ID="{32E09448-1F4B-49A2-B363-50C778C8F4C6}" ShortID="183327467">
 							<PropertyList>
@@ -2047,20 +2047,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_venttesttransfer" ID="{0E4D987A-558B-4BCF-BE92-58C1632BE37A}">
-					<ChildrenList>
-						<Action Name="" ID="{CBE90B00-AF30-4575-9981-1135EF7074DE}" ShortID="125553905">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="vent test transfer" ID="{E5CC4C9C-F562-45E6-8447-908CB65747FF}" WorkUnitID="{B257148C-F2AD-4A92-A8CB-473927077EEC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Asobo_A320_NEO_cabfanfront" ID="{BCE1378E-A2D7-419E-8B55-72BBAB8B7AA3}">
 					<ChildrenList>
 						<Action Name="" ID="{B1A8F165-B833-4E4A-89A5-2AA1105ADA19}" ShortID="952026388">
@@ -3072,6 +3058,44 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="cpdlc_ring" ID="{337192F4-E284-45D1-9E12-1A875B1B8FAC}" WorkUnitID="{DE2F10F5-769C-41A0-AD1B-1E413341FB77}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_boarding" ID="{5667B444-E211-44CC-AE20-DB25D45B3DC1}">
+					<ChildrenList>
+						<Action Name="" ID="{CA05C8F2-1D44-40B0-9135-20D17EFE8DF7}" ShortID="800557896">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boarding" ID="{80B59654-777A-4E57-A180-B6224C369A30}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F096BE03-69BB-4CDB-9AB3-8E83194B66F3}" ShortID="856763206">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boarding music" ID="{858A26B7-FA44-43E8-815B-005CBA640762}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_boardingcompleted" ID="{AF0253D7-7182-4A9D-AF4D-A14B068C5E2F}">
+					<ChildrenList>
+						<Action Name="" ID="{878DADBA-1F2D-4F74-936D-F02089BD7C95}" ShortID="714255679">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boardingcompleted" ID="{14C4EDDD-AB49-4655-888F-B1D23AE3AE9C}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
