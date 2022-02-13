@@ -195,10 +195,9 @@
 				</Effect>
 				<Effect Name="rev_inside_dr400" ID="{DA72FB3F-3702-4771-8448-36C130919BE6}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="DryLevel" Type="Real32" Value="-96"/>
 						<Property Name="IRChannelSelect" Type="int32" Value="4"/>
 						<Property Name="IRConvolutionStop" Type="Real64" Value="0.264791666666667"/>
-						<Property Name="WetLevel" Type="Real32" Value="-23"/>
+						<Property Name="WetLevel" Type="Real32" Value="-19.3"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="IR_DR400_120_ASOBO" ID="{FF150D51-CC18-423A-8CCF-1FBA1A2A303F}">
@@ -259,7 +258,7 @@
 							<XPos>0</XPos>
 							<YPos>0</YPos>
 							<Flags>5</Flags>
-							<SegmentShape>Exp3</SegmentShape>
+							<SegmentShape>Log2</SegmentShape>
 						</Point>
 						<Point>
 							<XPos>0.264791666666667</XPos>
@@ -1904,10 +1903,13 @@
 				</Effect>
 				<Effect Name="rev_inside_generic_airliner" ID="{BE9DE00E-6EF9-40CC-A65B-837AD16D4E62}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="DryLevel" Type="Real32" Value="-96.3"/>
+						<Property Name="DryLevel" Type="Real32" Value="0.2"/>
 						<Property Name="IRChannelSelect" Type="int32" Value="4"/>
 						<Property Name="IRConvolutionStop" Type="Real64" Value="0.904520833333333"/>
-						<Property Name="WetLevel" Type="Real32" Value="-21"/>
+						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+						<Property Name="IRStretch" Type="Real32" Value="108"/>
+						<Property Name="InputStereoWidth" Type="Real32" Value="180"/>
+						<Property Name="WetLevel" Type="Real32" Value="-31"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="IR_ATR42-600_AT4022" ID="{8BECCF3E-0724-4D26-8D50-694A78CAF6AB}">
@@ -1928,8 +1930,23 @@
 					<PointList>
 						<Point>
 							<XPos>20</XPos>
-							<YPos>0</YPos>
+							<YPos>-7.89586</YPos>
 							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>399.33704</XPos>
+							<YPos>-7.65296</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>774.93503</XPos>
+							<YPos>-1E-05</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>2707.75236</XPos>
+							<YPos>-0.05921</YPos>
+							<Flags>0</Flags>
 						</Point>
 						<Point>
 							<XPos>20000</XPos>
@@ -1968,7 +1985,7 @@
 							<XPos>0</XPos>
 							<YPos>0</YPos>
 							<Flags>5</Flags>
-							<SegmentShape>Exp3</SegmentShape>
+							<SegmentShape>Log3</SegmentShape>
 						</Point>
 						<Point>
 							<XPos>0.904520833333333</XPos>
