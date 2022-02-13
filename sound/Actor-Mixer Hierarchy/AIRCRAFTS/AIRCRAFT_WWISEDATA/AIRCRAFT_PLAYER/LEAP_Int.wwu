@@ -26951,13 +26951,14 @@
 					<ChildrenList>
 						<AudioFileSource Name="ReverseR" ID="{41F79BE3-DE61-4F9C-AD2C-086FC2D2F6A7}">
 							<PropertyList>
-								<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="2"/>
+								<Property Name="CrossfadeShape" Type="int16" Value="2"/>
 								<Property Name="FadeInDuration" Type="Real64" Value="1.83638382099828"/>
 								<Property Name="FadeInShape" Type="int16" Value="9"/>
-								<Property Name="LoopBegin" Type="Real64" Value="3.78333114984553"/>
-								<Property Name="LoopEnd" Type="Real64" Value="6.68588415143069"/>
+								<Property Name="LoopBegin" Type="Real64" Value="6.05274509970376"/>
+								<Property Name="LoopEnd" Type="Real64" Value="10.0494112809208"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="1.66882211035925"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.92081526104418"/>
 								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 							</PropertyList>
 							<Language>SFX</Language>
@@ -27787,7 +27788,7 @@
 														</Point>
 														<Point>
 															<XPos>2.5</XPos>
-															<YPos>0</YPos>
+															<YPos>-0</YPos>
 															<Flags>0</Flags>
 														</Point>
 														<Point>
@@ -27939,14 +27940,15 @@
 					<ChildrenList>
 						<AudioFileSource Name="ReverseL" ID="{EC607D62-1FBB-4CB4-8429-DD4BED7CD2CA}">
 							<PropertyList>
-								<Property Name="CrossfadeDuration" Type="Real64" Value="1500"/>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
+								<Property Name="CrossfadeShape" Type="int16" Value="2"/>
 								<Property Name="FadeInDuration" Type="Real64" Value="1.8727220884177"/>
 								<Property Name="FadeInShape" Type="int16" Value="9"/>
 								<Property Name="FadeOutDuration" Type="Real64" Value="2.61737464142283"/>
-								<Property Name="LoopBegin" Type="Real64" Value="4.22753631775251"/>
-								<Property Name="LoopEnd" Type="Real64" Value="6.75406667265886"/>
+								<Property Name="LoopBegin" Type="Real64" Value="3.60907329631934"/>
+								<Property Name="LoopEnd" Type="Real64" Value="6.67578680936586"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="1.47603216977499"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.18204016064257"/>
 								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 							</PropertyList>
 							<Language>SFX</Language>
