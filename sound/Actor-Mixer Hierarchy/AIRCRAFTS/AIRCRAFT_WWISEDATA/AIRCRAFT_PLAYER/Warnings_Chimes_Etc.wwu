@@ -5515,7 +5515,7 @@
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</HighPassFilterUsage>
 										<SpreadUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 												<Curve Name="Spread" ID="{42077017-56EC-4D23-AE9E-2D8DB5BE358B}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="1"/>
@@ -5523,12 +5523,12 @@
 													<PointList>
 														<Point>
 															<XPos>0</XPos>
-															<YPos>0</YPos>
+															<YPos>99.99998</YPos>
 															<Flags>5</Flags>
 														</Point>
 														<Point>
 															<XPos>4</XPos>
-															<YPos>0</YPos>
+															<YPos>100</YPos>
 															<Flags>37</Flags>
 														</Point>
 													</PointList>
@@ -5563,28 +5563,11 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
-								<Effect Name="Room_Small_(Custom)" ID="{351AEC07-3255-414F-BE01-AD8F0C265323}" ShortID="932371466" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="0.2"/>
-										<Property Name="Density" Type="Real32" Value="100"/>
-										<Property Name="Diffusion" Type="Real32" Value="0"/>
-										<Property Name="DryLevel" Type="Real32" Value="-96"/>
-										<Property Name="ERLevel" Type="Real32" Value="0"/>
-										<Property Name="ERPattern" Type="int32" Value="13"/>
-										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
-										<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
-										<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-										<Property Name="HFDamping" Type="Real32" Value="9.4"/>
-										<Property Name="PreDelay" Type="Real32" Value="0"/>
-										<Property Name="Quality" Type="int32" Value="16"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
-										<Property Name="RoomShape" Type="Real32" Value="55"/>
-										<Property Name="RoomSize" Type="Real32" Value="39"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="Dual_Filters_Radio_Comm" ID="{69479ACD-2C87-4007-B83E-55210A3B36B7}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+							<ObjectRef Name="rev_inside_generic_airliner" ID="{BE9DE00E-6EF9-40CC-A65B-837AD16D4E62}" WorkUnitID="{3CD5ED68-08EA-41E5-8D55-D23074903629}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="warning_inside" ID="{4BCCE09B-10CD-460C-9056-AC161C7B29DD}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>

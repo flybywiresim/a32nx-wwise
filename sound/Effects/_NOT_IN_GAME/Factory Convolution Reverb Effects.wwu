@@ -15080,10 +15080,12 @@ IR Pre-delay: 7ms
 © 2011 AudioEase.  All rights reserved.</Comment>
 											<PropertyList>
 												<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+												<Property Name="DryLevel" Type="Real32" Value="-2.8"/>
 												<Property Name="IRConvolutionStop" Type="Real64" Value="0.706763888888889"/>
 												<Property Name="IRConvolutionThreshold" Type="Real32" Value="-83"/>
 												<Property Name="IRLRMix" Type="Real32" Value="-8"/>
 												<Property Name="IRLevel" Type="Real32" Value="-18"/>
+												<Property Name="WetLevel" Type="Real32" Value="-96.3"/>
 											</PropertyList>
 											<ChildrenList>
 												<PluginMediaSource Name="AE_Train_BlueAngel" ID="{C839A949-273F-4666-9C9D-82A2229BF703}">
