@@ -125,7 +125,7 @@
 					<IncludedMemoryFiles>
 						<File Id="442671832" Language="SFX">
 							<ShortName>extract.wav</ShortName>
-							<Path>SFX\extract_889BCBC4.wem</Path>
+							<Path>SFX\extract_65A98378.wem</Path>
 						</File>
 						<File Id="778984063" Language="SFX">
 							<ShortName>extracthigh.wav</ShortName>
@@ -226,6 +226,38 @@
 						<File Id="273551761" Language="SFX">
 							<ShortName>wind.wav</ShortName>
 							<Path>SFX\wind_0D5C50C0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1944365829" Name="Play_Asobo_A320_NEO_boarding" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_boarding" GUID="{5667B444-E211-44CC-AE20-DB25D45B3DC1}" MaxAttenuation="36.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="513112000" Language="SFX">
+							<ShortName>IMSLP571344-PMLP03577-Ravel_M.,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963.wav</ShortName>
+							<Path>SFX\IMSLP571344-PMLP03577-Ravel_M.,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="829054536" Language="SFX">
+							<ShortName>In The Steppes Of Central Asia.wav</ShortName>
+							<Path>SFX\In The Steppes Of Central Asia_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="849679418" Language="SFX">
+							<ShortName>IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9.wav</ShortName>
+							<Path>SFX\IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9_73F00605.wem</Path>
+						</File>
+						<File Id="975241761" Language="SFX">
+							<ShortName>OnhearingthefirstcuckooinSpringGroves (1).wav</ShortName>
+							<Path>SFX\OnhearingthefirstcuckooinSpringGroves (1)_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="993277435" Language="SFX">
+							<ShortName>boarding.wav</ShortName>
+							<Path>SFX\boarding_CDB6956D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1111164168" Name="Play_Asobo_A320_NEO_boardingcompleted" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_boardingcompleted" GUID="{AF0253D7-7182-4A9D-AF4D-A14B068C5E2F}" MaxAttenuation="34.000000" DurationType="OneShot" DurationMin="0.898322" DurationMax="0.898322">
+					<IncludedMemoryFiles>
+						<File Id="690298780" Language="SFX">
+							<ShortName>boardingcompleted.wav</ShortName>
+							<Path>SFX\boardingcompleted_1E8ECBBC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -772,9 +804,9 @@
 				</Event>
 				<Event Id="3063011407" Name="Play_Asobo_A320_NEO_Fuelpump" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_Fuelpump" GUID="{BF583B36-A7AB-4407-A7CE-C7073BDAF0A2}" MaxAttenuation="14.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="838434075" Language="SFX">
+						<File Id="812595291" Language="SFX">
 							<ShortName>fuelpumps.wav</ShortName>
-							<Path>SFX\fuelpumps_80D00788.wem</Path>
+							<Path>SFX\fuelpumps_F0B3EED8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -788,9 +820,9 @@
 				</Event>
 				<Event Id="3063383150" Name="Play_Asobo_A320_NEO_Fuelpump3" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_Fuelpump3" GUID="{3111D410-0C1A-4F77-A6CC-907D2D050CC7}" MaxAttenuation="14.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="590184235" Language="SFX">
+						<File Id="560545024" Language="SFX">
 							<ShortName>fuelpumps3.wav</ShortName>
-							<Path>SFX\fuelpumps3_6DBA9F67.wem</Path>
+							<Path>SFX\fuelpumps3_0BB76BFA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1331,6 +1363,14 @@
 						<File Id="639834022" Language="SFX">
 							<ShortName>nosewheelrollaboveground.wav</ShortName>
 							<Path>SFX\nosewheelrollaboveground_C9B27015.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3933148867" Name="Play_Asobo_A320_NEO_paxchatter" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_paxchatter" GUID="{FF9EEA38-C859-4F5B-ACE8-B54B48530B46}" MaxAttenuation="36.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1072833085" Language="SFX">
+							<ShortName>cabin.wav</ShortName>
+							<Path>SFX\cabin_E9D6AB0D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

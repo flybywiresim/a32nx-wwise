@@ -593,7 +593,7 @@
 						</File>
 						<File Id="849679418" Language="SFX">
 							<ShortName>IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9.wav</ShortName>
-							<Path>SFX\IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9_37CB70D7.wem</Path>
+							<Path>SFX\IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9_73F00605.wem</Path>
 						</File>
 						<File Id="975241761" Language="SFX">
 							<ShortName>OnhearingthefirstcuckooinSpringGroves (1).wav</ShortName>
@@ -601,7 +601,7 @@
 						</File>
 						<File Id="1072833085" Language="SFX">
 							<ShortName>cabin.wav</ShortName>
-							<Path>SFX\cabin_F594E990.wem</Path>
+							<Path>SFX\cabin_E9D6AB0D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -875,9 +875,9 @@
 				</Event>
 				<Event Id="3063011407" Name="Play_Asobo_A320_NEO_Fuelpump" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_Fuelpump" GUID="{BF583B36-A7AB-4407-A7CE-C7073BDAF0A2}" MaxAttenuation="14.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="838434075" Language="SFX">
+						<File Id="812595291" Language="SFX">
 							<ShortName>fuelpumps.wav</ShortName>
-							<Path>SFX\fuelpumps_80D00788.wem</Path>
+							<Path>SFX\fuelpumps_F0B3EED8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -891,9 +891,9 @@
 				</Event>
 				<Event Id="3063383150" Name="Play_Asobo_A320_NEO_Fuelpump3" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_Fuelpump3" GUID="{3111D410-0C1A-4F77-A6CC-907D2D050CC7}" MaxAttenuation="14.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="590184235" Language="SFX">
+						<File Id="560545024" Language="SFX">
 							<ShortName>fuelpumps3.wav</ShortName>
-							<Path>SFX\fuelpumps3_6DBA9F67.wem</Path>
+							<Path>SFX\fuelpumps3_0BB76BFA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1387,9 +1387,9 @@
 				</Event>
 				<Event Id="3479531312" Name="Play_Asobo_A320_NEO_packscockpit" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_packscockpit" GUID="{85A9C41A-9FD9-40B1-94F6-C4B6CF52AA2A}" MaxAttenuation="40.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="884803895" Language="SFX">
+						<File Id="1012061058" Language="SFX">
 							<ShortName>packscockpit.wav</ShortName>
-							<Path>SFX\packscockpit_0C298A58.wem</Path>
+							<Path>SFX\packscockpit_D2D7CAB2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1457,11 +1457,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1575751666" Name="Play_Asobo_A320_NEO_paxtalk" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_paxtalk" GUID="{FF9EEA38-C859-4F5B-ACE8-B54B48530B46}" MaxAttenuation="36.000000" DurationType="Infinite">
+				<Event Id="3933148867" Name="Play_Asobo_A320_NEO_paxchatter" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_paxchatter" GUID="{FF9EEA38-C859-4F5B-ACE8-B54B48530B46}" MaxAttenuation="36.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1072833085" Language="SFX">
 							<ShortName>cabin.wav</ShortName>
-							<Path>SFX\cabin_F594E990.wem</Path>
+							<Path>SFX\cabin_E9D6AB0D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2010,14 +2010,6 @@
 						<File Id="745516715" Language="SFX">
 							<ShortName>turnknob10.wav</ShortName>
 							<Path>SFX\turnknob10_1E8ECBBC.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1351287729" Name="Play_Asobo_A320_NEO_venttesttransfer" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_venttesttransfer" GUID="{0E4D987A-558B-4BCF-BE92-58C1632BE37A}" MaxAttenuation="13.000000" DurationType="OneShot" DurationMin="8.107330" DurationMax="8.107330">
-					<IncludedMemoryFiles>
-						<File Id="857084850" Language="SFX">
-							<ShortName>vent test transfer.wav</ShortName>
-							<Path>SFX\vent test transfer_FBF16F17.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

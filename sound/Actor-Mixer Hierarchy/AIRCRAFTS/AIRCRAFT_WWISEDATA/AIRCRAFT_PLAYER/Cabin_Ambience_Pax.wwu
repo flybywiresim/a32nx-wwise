@@ -752,10 +752,38 @@
 											<ValueList>
 												<Value>-10</Value>
 											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{94B1A3E8-FA96-41BC-B3F2-1BE874528904}" ShortID="707426899">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" ID="{2F9A69DC-0ADD-4D3D-A520-983F2958A1BA}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0F5AEDCC-C2F1-4164-8EC3-6FF1D00BA232}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-5.78583</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-10.82207</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
-										<Property Name="ConeLowPassFilterValue" Type="int32">
+										<Property Name="ConeInnerAngle" Type="int32" Value="175"/>
+										<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
+										<Property Name="ConeUse" Type="bool">
 											<ValueList>
-												<Value>30</Value>
+												<Value>True</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RadiusMax" Type="Real64" Value="34"/>
@@ -2733,6 +2761,39 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="boardingcompleted" ID="{14C4EDDD-AB49-4655-888F-B1D23AE3AE9C}" ShortID="245911228">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boardingcompleted" ID="{8D123A59-E656-4E3F-99E4-EC8AF0C02754}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>boardingcompleted.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="boardingcompleted" ID="{8D123A59-E656-4E3F-99E4-EC8AF0C02754}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{0BCA746F-4EDA-42FE-A23E-147B4038E2B4}">
@@ -2778,20 +2839,20 @@
 												<Value>-10</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{35103804-E0FF-4A34-882B-A753D334223D}" ShortID="502218668">
+												<RTPC Name="" ID="{0AAC294E-8ED5-4382-985A-713B33094864}" ShortID="869238322">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" ID="{2F9A69DC-0ADD-4D3D-A520-983F2958A1BA}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{A755C61C-94A0-4D27-B736-E7B9D90DEF79}">
+													<Curve Name="" ID="{07D18514-AF94-402A-9BC7-54D484CB56BD}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-10</YPos>
+																<YPos>-6.02059</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
@@ -2805,11 +2866,6 @@
 											</RTPCList>
 										</Property>
 										<Property Name="ConeInnerAngle" Type="int32" Value="170"/>
-										<Property Name="ConeLowPassFilterValue" Type="int32">
-											<ValueList>
-												<Value>30</Value>
-											</ValueList>
-										</Property>
 										<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
 										<Property Name="ConeUse" Type="bool">
 											<ValueList>
@@ -3056,7 +3112,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{E9BE6AB7-B326-4806-B787-B5F7210E4293}" ShortID="232053748">
@@ -3078,6 +3134,11 @@
 													<Point>
 														<XPos>18</XPos>
 														<YPos>-4</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>99.73822</XPos>
+														<YPos>-10.42383</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -3145,7 +3206,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3392,6 +3453,46 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>IMSLP571344-PMLP03577-Ravel_M.,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9" ID="{227AA487-356D-433D-9100-5BF6C7DB9745}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="IMSLP571344-PMLP03577-Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_01" ID="{06B7F1B0-BF88-49BF-94CD-94F3B36C25C8}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>IMSLP571344-PMLP03577-Ravel_M.,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="In The Steppes Of Central Asia" ID="{49D5AE67-73F8-4AEA-9E36-CA0BE861D97F}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>In The Steppes Of Central Asia.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="OnhearingthefirstcuckooinSpringGroves (1)" ID="{8AD7240C-6182-4D19-B094-0EF764618800}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>OnhearingthefirstcuckooinSpringGroves (1).wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4024,10 +4125,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9" ID="{C41A30F5-19F6-44E2-BA09-652E5ACD7DAF}">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.976833976833978"/>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="17.6112054329372"/>
+												<Property Name="TrimBegin" Type="Real64" Value="17.9775181742499"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
