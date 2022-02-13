@@ -26726,10 +26726,21 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>20</XPos>
+												<XPos>19</XPos>
 												<YPos>-200</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>22</XPos>
+												<YPos>-18</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>33</XPos>
+												<YPos>-9</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>100.52354</XPos>
@@ -26753,6 +26764,23 @@
 							<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
 								<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{8D5FA636-4807-4406-A067-93DD3D190379}" ShortID="73231786">
 									<PropertyList>
+										<Property Name="ConeAttenuation" Type="Real64">
+											<ValueList>
+												<Value>0</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeInnerAngle" Type="int32" Value="100"/>
+										<Property Name="ConeLowPassFilterValue" Type="int32">
+											<ValueList>
+												<Value>47</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="RadiusMax" Type="Real64" Value="25"/>
 									</PropertyList>
 									<CurveUsageInfoList>
@@ -26770,10 +26798,26 @@
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>5.2116</XPos>
+															<XPos>2.5</XPos>
 															<YPos>0</YPos>
 															<Flags>0</Flags>
-															<SegmentShape>Log2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>5</XPos>
+															<YPos>-3</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-7</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-12</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp1</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>25</XPos>
@@ -26822,7 +26866,31 @@
 											</CurveUsageInfo>
 										</VolumeWetUserUsage>
 										<LowPassFilterUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{A071503F-893B-47F1-AAA4-6C8AB4432879}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>25</XPos>
+															<YPos>60</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
 										</LowPassFilterUsage>
 										<HighPassFilterUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -26883,12 +26951,14 @@
 					<ChildrenList>
 						<AudioFileSource Name="ReverseR" ID="{41F79BE3-DE61-4F9C-AD2C-086FC2D2F6A7}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="2.18799764197288"/>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="2"/>
+								<Property Name="CrossfadeShape" Type="int16" Value="2"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.83638382099828"/>
 								<Property Name="FadeInShape" Type="int16" Value="9"/>
-								<Property Name="LoopBegin" Type="Real64" Value="2.94988967801701"/>
-								<Property Name="LoopEnd" Type="Real64" Value="11.2525593015748"/>
+								<Property Name="LoopBegin" Type="Real64" Value="6.05274509970376"/>
+								<Property Name="LoopEnd" Type="Real64" Value="10.0494112809208"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.92081526104418"/>
 								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 							</PropertyList>
 							<Language>SFX</Language>
@@ -26985,6 +27055,11 @@
 				<Sound Name="RevWindR" ID="{E8B9214E-0C8D-49C3-A4F3-4BAADC328537}" ShortID="62636655">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
@@ -27274,6 +27349,11 @@
 				<Sound Name="RevWindL" ID="{AD7A93C7-CA38-4A7E-8BC1-F64980704B31}" ShortID="773329825">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
@@ -27607,10 +27687,21 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>20</XPos>
+												<XPos>19</XPos>
 												<YPos>-200</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>22</XPos>
+												<YPos>-18</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>33</XPos>
+												<YPos>-9</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>100.52354</XPos>
@@ -27663,6 +27754,23 @@
 							<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
 								<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{B970F667-A74B-4EE7-8CFF-83D38B3A7833}" ShortID="817966480">
 									<PropertyList>
+										<Property Name="ConeAttenuation" Type="Real64">
+											<ValueList>
+												<Value>0</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeInnerAngle" Type="int32" Value="100"/>
+										<Property Name="ConeLowPassFilterValue" Type="int32">
+											<ValueList>
+												<Value>47</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="RadiusMax" Type="Real64" Value="25"/>
 									</PropertyList>
 									<CurveUsageInfoList>
@@ -27677,13 +27785,28 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>5.2116</XPos>
-															<YPos>0</YPos>
+															<XPos>2.5</XPos>
+															<YPos>-0</YPos>
 															<Flags>0</Flags>
-															<SegmentShape>Log2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>5</XPos>
+															<YPos>-3</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-7</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-12</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp1</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>25</XPos>
@@ -27732,7 +27855,31 @@
 											</CurveUsageInfo>
 										</VolumeWetUserUsage>
 										<LowPassFilterUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{A1DDBDAF-896C-442D-A2AC-393D7173D05A}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>9.92126</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>25</XPos>
+															<YPos>60</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
 										</LowPassFilterUsage>
 										<HighPassFilterUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -27793,12 +27940,15 @@
 					<ChildrenList>
 						<AudioFileSource Name="ReverseL" ID="{EC607D62-1FBB-4CB4-8429-DD4BED7CD2CA}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="2.02047710849802"/>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
+								<Property Name="CrossfadeShape" Type="int16" Value="2"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.8727220884177"/>
 								<Property Name="FadeInShape" Type="int16" Value="9"/>
-								<Property Name="LoopBegin" Type="Real64" Value="4.07344621657178"/>
-								<Property Name="LoopEnd" Type="Real64" Value="9.50424005090344"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.61737464142283"/>
+								<Property Name="LoopBegin" Type="Real64" Value="3.60907329631934"/>
+								<Property Name="LoopEnd" Type="Real64" Value="6.67578680936586"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.18204016064257"/>
 								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 							</PropertyList>
 							<Language>SFX</Language>
