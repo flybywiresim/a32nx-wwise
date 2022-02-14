@@ -4,9 +4,6 @@
 		<WorkUnit Name="Precipitation" ID="{F1EE52D6-5831-4498-9A16-9E5D5152CB2C}" OwnerID="{27D32D8D-6C92-4542-9BFC-F0D08111F92F}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Rain_Int" ID="{0F078575-7B70-486B-873B-2D16AAABAAA1}" ShortID="308249536">
-					<PropertyList>
-						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
@@ -101,7 +98,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+							<ObjectRef Name="rain_inside" ID="{741085FC-51A4-4451-B184-5706A25D0E15}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -144,7 +141,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{0329D642-BCE7-437C-A25C-C58C1EADCB5E}" ShortID="218443363">
@@ -171,7 +168,7 @@
 													</Point>
 													<Point>
 														<XPos>22</XPos>
-														<YPos>-3</YPos>
+														<YPos>-6</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -205,11 +202,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-6</YPos>
+														<YPos>-18</YPos>
 														<Flags>5</Flags>
+														<SegmentShape>SCurve</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>160</XPos>
+														<XPos>180</XPos>
 														<YPos>-2</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -358,9 +356,6 @@
 									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{4CFF5D36-D4FA-4D92-AD2D-F87633B6F348}" ShortID="292994523">
 											<ReferenceList>
@@ -549,6 +544,16 @@
 														<Flags>0</Flags>
 													</Point>
 													<Point>
+														<XPos>22</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>35</XPos>
+														<YPos>400</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>200</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
@@ -559,9 +564,6 @@
 									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{297D096C-89A3-4704-AC28-F14151B152B6}" ShortID="844038294">
 											<ReferenceList>
@@ -599,10 +601,16 @@
 														<XPos>9.92466699728546</XPos>
 														<YPos>-3</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>30</XPos>
+														<YPos>1</YPos>
+														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>200</XPos>
-														<YPos>-3</YPos>
+														<YPos>3</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -776,6 +784,71 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{5BD4D9D6-6747-47F0-BB3C-71A84670511B}" ShortID="297900905">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{840714AE-4CE0-499E-B8A2-BA2C11A5CB1D}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{C13485A8-B6A5-46F2-A01B-8B8306E9FB4D}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 										</Reference>
@@ -788,8 +861,8 @@
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="2000"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="1"/>
-												<Property Name="LoopBegin" Type="Real64" Value="8.12328767123288"/>
-												<Property Name="LoopEnd" Type="Real64" Value="20"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5"/>
+												<Property Name="LoopEnd" Type="Real64" Value="15"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -824,8 +897,8 @@
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="2000"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="1"/>
-												<Property Name="LoopBegin" Type="Real64" Value="2.38013698630137"/>
-												<Property Name="LoopEnd" Type="Real64" Value="18.527397260274"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5"/>
+												<Property Name="LoopEnd" Type="Real64" Value="15"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
