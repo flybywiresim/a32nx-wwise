@@ -6,6 +6,7 @@
 				<ActorMixer Name="engine whines EXT" ID="{41C394DD-8D10-4B68-96F4-51A781803201}" ShortID="792958504">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>10</Value>
@@ -151,11 +152,23 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Log3</SegmentShape>
+															<SegmentShape>Exp2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>200</XPos>
+															<YPos>15</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>1000</XPos>
+															<YPos>70</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log1</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>2000</XPos>
-															<YPos>100</YPos>
+															<YPos>85</YPos>
 															<Flags>37</Flags>
 														</Point>
 													</PointList>
@@ -197,10 +210,10 @@
 															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>10.8</XPos>
-															<YPos>0</YPos>
+															<XPos>10</XPos>
+															<YPos>10</YPos>
 															<Flags>0</Flags>
-															<SegmentShape>Exp3</SegmentShape>
+															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>2000</XPos>
@@ -353,9 +366,10 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>10</Value>
+										<Value>12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{F77C0B79-A2E9-4F1C-89AE-28F4970ACC8B}" ShortID="425828894">
@@ -444,7 +458,7 @@
 												<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>20</Value>
+														<Value>25</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeOuterAngle" Type="int32" Value="305"/>
@@ -578,13 +592,25 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>18</YPos>
+																	<YPos>15</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>70</YPos>
+																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>3500</XPos>
-																	<YPos>100</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -606,7 +632,7 @@
 																</Point>
 																<Point>
 																	<XPos>3500</XPos>
-																	<YPos>15</YPos>
+																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -627,10 +653,10 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>18.9</XPos>
-																	<YPos>0</YPos>
+																	<XPos>100</XPos>
+																	<YPos>10</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>3500</XPos>
@@ -849,9 +875,10 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>10</Value>
+										<Value>12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{27CEFCAC-E775-4A67-9247-67C808FF6D5F}" ShortID="509053297">
@@ -940,7 +967,7 @@
 												<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>20</Value>
+														<Value>25</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeOuterAngle" Type="int32" Value="305"/>
@@ -1074,13 +1101,25 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>18</YPos>
+																	<YPos>15</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>70</YPos>
+																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>3500</XPos>
-																	<YPos>100</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -1123,10 +1162,10 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>18.9</XPos>
-																	<YPos>0</YPos>
+																	<XPos>100</XPos>
+																	<YPos>10</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>3500</XPos>
@@ -2318,6 +2357,7 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-5</Value>
@@ -2540,10 +2580,17 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
+																			<SegmentShape>Exp2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>200</XPos>
+																			<YPos>15</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log2</SegmentShape>
 																		</Point>
 																		<Point>
 																			<XPos>1000</XPos>
-																			<YPos>75</YPos>
+																			<YPos>70</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -2585,7 +2632,31 @@
 															</CurveUsageInfo>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{A6430C0F-8B57-4500-96E1-4D9843C335A0}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>10</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>1000</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -3641,6 +3712,7 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -3874,7 +3946,7 @@
 															</CurveUsageInfo>
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None">
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 																<Curve Name="LowPassFilter" ID="{967FC15C-40A0-423B-A05F-475378E2F0FE}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="65537"/>
@@ -3884,17 +3956,22 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
-																			<SegmentShape>SCurve</SegmentShape>
+																			<SegmentShape>Exp1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>200</XPos>
-																			<YPos>68</YPos>
+																			<XPos>100</XPos>
+																			<YPos>15</YPos>
 																			<Flags>0</Flags>
-																			<SegmentShape>SCurve</SegmentShape>
+																			<SegmentShape>Log2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>1000</XPos>
+																			<YPos>70</YPos>
+																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
 																			<XPos>2000</XPos>
-																			<YPos>68</YPos>
+																			<YPos>85</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -3936,7 +4013,31 @@
 															</CurveUsageInfo>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{D84E7C9F-B06C-49A1-AA87-F2FD1ED11116}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>10</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>2000</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -4282,6 +4383,7 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-5</Value>
@@ -4503,10 +4605,17 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
+																			<SegmentShape>Exp2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>200</XPos>
+																			<YPos>15</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log2</SegmentShape>
 																		</Point>
 																		<Point>
 																			<XPos>1000</XPos>
-																			<YPos>75</YPos>
+																			<YPos>70</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -4548,7 +4657,31 @@
 															</CurveUsageInfo>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{FB85A4E9-106E-4A71-8F7E-30B8B39CFFBF}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>10</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>1000</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -5265,6 +5398,7 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -5498,7 +5632,7 @@
 															</CurveUsageInfo>
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None">
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 																<Curve Name="LowPassFilter" ID="{5FFAEDA6-68B4-4D28-BF6A-0A9D8D81ABD3}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="65537"/>
@@ -5508,17 +5642,23 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
-																			<SegmentShape>SCurve</SegmentShape>
+																			<SegmentShape>Exp2</SegmentShape>
 																		</Point>
 																		<Point>
 																			<XPos>200</XPos>
-																			<YPos>68</YPos>
+																			<YPos>15</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>1000</XPos>
+																			<YPos>70</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>SCurve</SegmentShape>
 																		</Point>
 																		<Point>
 																			<XPos>2000</XPos>
-																			<YPos>68</YPos>
+																			<YPos>85</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -5560,7 +5700,31 @@
 															</CurveUsageInfo>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{D7A3B4DB-ABE7-4664-915B-AC40B0B610F7}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>10</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>2000</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -6067,6 +6231,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>30</Value>
@@ -6290,11 +6455,22 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>Exp1</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>70</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>1500</XPos>
-																	<YPos>100</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -6336,7 +6512,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{1612EDDC-2C00-44E0-A20D-6F4DD0ACB16A}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1500</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -6453,6 +6653,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>30</Value>
@@ -6681,11 +6882,22 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>Exp1</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>70</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>1500</XPos>
-																	<YPos>100</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -6727,7 +6939,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{28F26E04-40F1-4ED6-8A12-0CAE4FBEC62A}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1500</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -6774,6 +7010,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>10</Value>
@@ -7042,7 +7279,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{0B975295-C59A-413B-B3E3-005CD33C66FE}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -7052,10 +7289,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>4</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -7066,7 +7310,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{116B9841-586D-42DE-BCFC-D4EBB73ED770}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -7074,8 +7318,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -7217,6 +7467,11 @@
 						<Sound Name="BuzzREXT" ID="{D0039942-2006-4CFB-87CA-64CEAA988D1A}" ShortID="323039633">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -7303,9 +7558,10 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>15</Value>
+										<Value>9</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{566FD095-A64B-45DE-9A0C-3C3116C5D34F}" ShortID="661345360">
@@ -7500,7 +7756,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{F3758013-8C10-4833-A4A8-05A9451AAD64}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -7516,23 +7772,17 @@
 																	<XPos>3</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>7.2</XPos>
-																	<YPos>42</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>60</XPos>
-																	<YPos>50</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>50</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -7581,10 +7831,10 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>3.24</XPos>
-																	<YPos>0</YPos>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -7841,13 +8091,38 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{5BF79012-F08D-49CE-8D33-B3BA50992C65}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</LowPassFilterUsage>
 												<HighPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{090A8D86-B27E-4745-91FD-838B132801C7}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -7855,8 +8130,13 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -8036,9 +8316,10 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>15</Value>
+										<Value>6</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{C1F44539-36D1-4CFA-B15B-C61FB20B8536}" ShortID="860804528">
@@ -8087,7 +8368,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>79</XPos>
+														<XPos>78</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
@@ -8233,7 +8514,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{F5889739-D3DE-4D65-81D1-FF5E7CE5728E}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -8249,23 +8530,17 @@
 																	<XPos>3</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>7.2</XPos>
-																	<YPos>42</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>60</XPos>
-																	<YPos>50</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>50</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -8314,10 +8589,10 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>3.24</XPos>
-																	<YPos>0</YPos>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -8348,8 +8623,8 @@
 												<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
 												<Property Name="FilterTypeBand2" Type="int32" Value="1"/>
 												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-												<Property Name="FrequencyBand1" Type="Real32" Value="9000"/>
-												<Property Name="FrequencyBand2" Type="Real32" Value="462"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="8967"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="189"/>
 												<Property Name="FrequencyBand3" Type="Real32" Value="8392"/>
 												<Property Name="OnOffBand3" Type="bool" Value="False"/>
 											</PropertyList>
@@ -8622,13 +8897,38 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{B26A49BE-8221-4D74-AC10-82815A0CF922}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</LowPassFilterUsage>
 												<HighPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{4C5AF05C-8C2A-46B4-A922-CB77D0E4D4A1}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -8636,8 +8936,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -8775,6 +9081,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -8996,7 +9303,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{EFBE922A-D708-4ACC-A8F2-111936A27741}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -9006,17 +9313,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
-																	<YPos>68</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -9040,7 +9347,7 @@
 																	<XPos>6.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -9052,7 +9359,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{5FC3353C-2846-42DB-98D1-3B6BFAC5C9F5}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -9426,14 +9757,14 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>60</XPos>
-																	<YPos>68</YPos>
+																	<XPos>100</XPos>
+																	<YPos>70</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>68</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -9461,7 +9792,7 @@
 																</Point>
 																<Point>
 																	<XPos>60</XPos>
-																	<YPos>26</YPos>
+																	<YPos>20</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
@@ -9475,7 +9806,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{0A31AE26-127A-4211-A3C5-EC632F5745B8}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -9633,6 +9988,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-69</Value>
@@ -9875,6 +10231,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-96</Value>
@@ -10273,6 +10630,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
@@ -10429,7 +10787,7 @@
 									<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
 										<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{37A157AE-F924-487B-97F0-709A2E06336F}" ShortID="875372338">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+												<Property Name="RadiusMax" Type="Real64" Value="600"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -10443,10 +10801,49 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>4.8</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>9.6</XPos>
+																	<YPos>-3</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>19.2</XPos>
+																	<YPos>-6</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>38.4</XPos>
+																	<YPos>-9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>64</XPos>
+																	<YPos>-12</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-15</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>512</XPos>
+																	<YPos>-21</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10471,19 +10868,19 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>20.635</XPos>
+																	<XPos>24.762</XPos>
 																	<YPos>-0.00061</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>220.455</XPos>
+																	<XPos>264.546</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10492,7 +10889,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{084E6972-2FCB-4D6D-9E2F-7F426504C4E9}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -10502,16 +10899,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>464.73375</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
-																	<YPos>52</YPos>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -10522,7 +10920,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{754AB4EC-4CF9-43CF-A5A8-F82DC160CC21}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -10530,11 +10928,17 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10555,7 +10959,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>600</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10641,6 +11045,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -10919,7 +11324,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{526FDC7F-8FE8-4EC8-A5FA-65B333DB4F73}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -10929,17 +11334,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>60</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>68</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -10981,7 +11386,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{17F59942-F3E8-4EF3-A175-F20598AAFCF7}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -11084,6 +11513,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -11272,7 +11702,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -11362,7 +11792,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{02CE4973-650A-4239-915C-F65605143E87}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -11372,17 +11802,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>60</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>68</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -11424,7 +11854,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{7C4D9E27-4A5C-4514-8724-E97BFB154BE5}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -11536,7 +11990,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -11676,7 +12130,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="400"/>
+												<Property Name="RadiusMax" Type="Real64" Value="600"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -11692,13 +12146,52 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>4</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8</XPos>
+																	<YPos>-3</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>16</XPos>
+																	<YPos>-6</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>32</XPos>
+																	<YPos>-9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>64</XPos>
+																	<YPos>-12</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-15</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>512</XPos>
+																	<YPos>-21</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11722,25 +12215,25 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>-16</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>120</XPos>
+																	<XPos>180</XPos>
 																	<YPos>-24</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11749,7 +12242,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{05FC6BDC-6D01-4748-83C4-A7BDB9B46835}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -11759,17 +12252,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
-																	<YPos>68</YPos>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -11790,19 +12283,19 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2.64</XPos>
+																	<XPos>3.96</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>26</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>26</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11811,7 +12304,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{6663840A-CBC9-414E-8126-410E4C55ADD0}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -11971,6 +12488,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-20</Value>
@@ -12085,7 +12603,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -12180,16 +12698,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.2635</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -12200,7 +12719,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{2ED28DE8-660D-4F2C-BD27-1B57E275DDC0}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -12208,8 +12727,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -12372,6 +12897,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
@@ -12528,7 +13054,7 @@
 									<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
 										<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{C5951976-4ADD-4C83-AB24-B3D8F09B84B3}" ShortID="509551439">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+												<Property Name="RadiusMax" Type="Real64" Value="600"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -12542,10 +13068,49 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>4</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8</XPos>
+																	<YPos>-3</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>16</XPos>
+																	<YPos>-6</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>32</XPos>
+																	<YPos>-9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>64</XPos>
+																	<YPos>-12</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-15</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>512</XPos>
+																	<YPos>-21</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -12570,19 +13135,19 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>20.635</XPos>
+																	<XPos>24.762</XPos>
 																	<YPos>-0.00061</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>220.455</XPos>
+																	<XPos>264.546</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -12591,7 +13156,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{74E95003-141C-4668-A6C2-BBA229509050}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -12601,16 +13166,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>464.73375</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
-																	<YPos>52</YPos>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -12621,7 +13187,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{9584387F-90DD-41EF-A6A8-6628B53F7441}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -12629,11 +13195,17 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -12654,7 +13226,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>500</XPos>
+																	<XPos>600</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -12760,6 +13332,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-20</Value>
@@ -12964,16 +13537,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263499999999</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -12984,7 +13558,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{76A78E68-D9AE-4941-8338-10001C460F55}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -12992,8 +13566,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -13103,6 +13683,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-23</Value>
@@ -13222,7 +13803,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -13317,16 +13898,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.2635</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -13337,7 +13919,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{D0A91E08-7AB0-45BE-802A-91E23ECCC421}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -13345,8 +13927,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -13478,6 +14066,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{42F1CB47-6413-45DF-B9F8-0BA53EE56623}" ShortID="48965225">
@@ -13586,7 +14175,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -13691,10 +14280,22 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>70</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>2000</XPos>
-																	<YPos>100</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -13710,20 +14311,8 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>10</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>13.2</XPos>
-																	<YPos>0</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>200</XPos>
-																	<YPos>26</YPos>
-																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
@@ -13736,7 +14325,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{21CD10B7-8F6E-4EFA-8C5B-DDA770939334}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>2000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -14223,14 +14836,14 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>60</XPos>
-																	<YPos>68</YPos>
+																	<XPos>100</XPos>
+																	<YPos>70</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>68</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -14258,7 +14871,7 @@
 																</Point>
 																<Point>
 																	<XPos>60</XPos>
-																	<YPos>26</YPos>
+																	<YPos>20</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
@@ -14272,7 +14885,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{002F2A6F-7AD3-43F3-825B-3083E65A4FCF}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -14417,6 +15054,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{F8A1992F-F831-4732-B99A-7B20FD8EB0EF}" ShortID="241716192">
@@ -14525,7 +15163,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -14630,10 +15268,22 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>70</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>2000</XPos>
-																	<YPos>100</YPos>
+																	<YPos>85</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -14649,20 +15299,8 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>10</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>13.2</XPos>
-																	<YPos>0</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>200</XPos>
-																	<YPos>26</YPos>
-																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
@@ -14675,7 +15313,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{F9602F46-A395-44A5-8BD7-8B9BED25DCD6}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>2000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -14883,6 +15545,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{880DAC7E-75AA-4EA9-8B19-EF3C7FDFBFB2}" ShortID="1015299004">
@@ -15074,7 +15737,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{9F5172E3-8154-4E87-99F2-A87789248A4C}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -15084,16 +15747,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>929.4675</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>5</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
-																	<YPos>52</YPos>
+																	<YPos>30</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -15104,7 +15768,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{C60DA478-60F0-4F02-9AC1-966D938D6F71}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -15112,8 +15776,18 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>5</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -15253,7 +15927,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -15393,7 +16067,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="400"/>
+												<Property Name="RadiusMax" Type="Real64" Value="600"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -15409,13 +16083,52 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>4</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8</XPos>
+																	<YPos>-3</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>16</XPos>
+																	<YPos>-6</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>32</XPos>
+																	<YPos>-9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>64</XPos>
+																	<YPos>-12</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-15</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>512</XPos>
+																	<YPos>-21</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -15439,25 +16152,25 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>-16</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>120</XPos>
+																	<XPos>180</XPos>
 																	<YPos>-24</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -15466,7 +16179,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{8586337D-EA41-45C5-A96A-0D938E62CF29}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -15476,17 +16189,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
-																	<YPos>68</YPos>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -15507,19 +16220,19 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2.64</XPos>
+																	<XPos>3.96</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>26</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>26</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -15528,7 +16241,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{B1423199-6A5C-4C2E-9A1F-8F737CB8442F}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -15698,6 +16435,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-23</Value>
@@ -15817,7 +16555,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -15912,16 +16650,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263499999999</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>30</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -15932,7 +16671,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{DDC49FCF-7FE0-4727-8803-5E7DB39CF725}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -15940,8 +16679,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -16082,6 +16827,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>20</Value>
@@ -16288,11 +17034,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
-																	<YPos>100</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -16336,15 +17088,15 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>51.14943</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5.4</XPos>
-																	<YPos>0</YPos>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -16409,6 +17161,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-96</Value>
@@ -16712,6 +17465,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>18</Value>
@@ -16938,7 +17692,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{7EAD2FBC-315F-4E59-8780-025D2E5A434B}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -16948,17 +17702,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
-																	<YPos>68</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -16982,7 +17736,7 @@
 																	<XPos>6.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -16994,7 +17748,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{FB6DE9FE-4F8D-41C2-A72A-6CE9E2D98004}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -17123,6 +17901,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -17254,7 +18033,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -17344,7 +18123,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{13E0F890-1A68-4470-94EB-FE3BE9763EEB}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -17354,17 +18133,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
-																	<YPos>68</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -17388,7 +18167,7 @@
 																	<XPos>6.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -17400,7 +18179,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{9FFFED82-DA31-4948-A9A5-D5B49FE101BD}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -17532,6 +18335,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>20</Value>
@@ -17743,11 +18547,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
+																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
-																	<YPos>100</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -17782,7 +18592,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{0E54C7A5-BEA9-4957-89B5-D1BFE89F88A2}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -17833,6 +18667,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -18002,16 +18837,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263500000001</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -18022,7 +18858,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{062924FF-2471-4953-8759-C0F961945291}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -18030,8 +18866,13 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -18198,6 +19039,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{61AB7AB3-9B2D-4EE8-A139-2D7CD51C3048}" ShortID="753567671">
@@ -18389,7 +19231,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{54CAA995-4B03-4166-B303-850711C4F81D}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -18399,16 +19241,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>929.4675</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>5</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
-																	<YPos>52</YPos>
+																	<YPos>30</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -18419,7 +19262,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{93D0F40D-C483-4F14-9F3A-8B14351F98DB}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -18427,8 +19270,18 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>5</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -18563,6 +19416,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>18</Value>
@@ -18694,7 +19548,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -18784,7 +19638,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{25CAA8E3-5F84-4434-9494-DFCAFD3C67E6}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -18794,13 +19648,13 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -18828,7 +19682,7 @@
 																	<XPos>6.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>1000</XPos>
@@ -18840,7 +19694,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{302A80BB-FE89-4056-8308-6312361B7B3D}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -19085,7 +19963,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{F69D6458-8821-47E6-B6BB-6C6DFF157F93}" ShortID="810396002">
@@ -19217,7 +20095,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="400"/>
+												<Property Name="RadiusMax" Type="Real64" Value="600"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -19233,13 +20111,52 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>4</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8</XPos>
+																	<YPos>-3</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>16</XPos>
+																	<YPos>-6</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>32</XPos>
+																	<YPos>-9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>64</XPos>
+																	<YPos>-12</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-15</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>512</XPos>
+																	<YPos>-21</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -19263,25 +20180,25 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>-16</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>120</XPos>
+																	<XPos>180</XPos>
 																	<YPos>-24</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -19290,7 +20207,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{7481A6DC-BEBE-479C-B847-E17B7B44E2AE}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -19300,17 +20217,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
-																	<YPos>68</YPos>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -19331,19 +20248,19 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2.64</XPos>
+																	<XPos>3.96</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>26</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>26</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -19352,7 +20269,31 @@
 													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{699BC58A-96CF-4C42-98F6-46B9E3390992}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -19525,7 +20466,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -19660,7 +20601,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="400"/>
+												<Property Name="RadiusMax" Type="Real64" Value="600"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -19676,13 +20617,52 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>4</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8</XPos>
+																	<YPos>-3</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>16</XPos>
+																	<YPos>-6</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>32</XPos>
+																	<YPos>-9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>64</XPos>
+																	<YPos>-12</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-15</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>512</XPos>
+																	<YPos>-21</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -19706,25 +20686,25 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>0.4</XPos>
+																	<XPos>0.6</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>-16</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>120</XPos>
+																	<XPos>180</XPos>
 																	<YPos>-24</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -19733,7 +20713,7 @@
 													</CurveUsageInfo>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{2E479480-0F78-48BE-9027-CFA8D1520E7C}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -19743,17 +20723,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
-																	<YPos>68</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
-																	<YPos>68</YPos>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -19774,19 +20754,19 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2.64</XPos>
+																	<XPos>3.96</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>40</XPos>
+																	<XPos>60</XPos>
 																	<YPos>26</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>400</XPos>
+																	<XPos>600</XPos>
 																	<YPos>26</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -19922,6 +20902,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -20091,16 +21072,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263500000001</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -20111,7 +21093,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{C09B50EB-06A8-4935-9C30-80E067A49357}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -20119,8 +21101,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -20193,6 +21181,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-96</Value>
@@ -20234,6 +21223,9 @@
 								<Reference Name="Attenuation">
 									<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
 										<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{17A4C17A-6B87-4421-83C4-FCCD7291DBBE}" ShortID="269063662">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="600"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -20249,7 +21241,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -20271,10 +21263,26 @@
 																	<XPos>64</XPos>
 																	<YPos>-12</YPos>
 																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-15</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
 																	<SegmentShape>Exp1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>512</XPos>
+																	<YPos>-21</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -20299,19 +21307,19 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>4.127</XPos>
+																	<XPos>24.762</XPos>
 																	<YPos>-0.00061</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>44.091</XPos>
+																	<XPos>264.546</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>600</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -20330,16 +21338,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>94.0439166666668</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>52</YPos>
+																	<XPos>600</XPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -20362,7 +21371,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>600</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -20383,7 +21392,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>600</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -20449,6 +21458,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-10</Value>
@@ -20513,7 +21523,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -20608,16 +21618,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263500000001</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -20628,7 +21639,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{A0CE8A88-F666-4BA8-B8CA-D71BA0F132EC}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -20636,8 +21647,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -20746,6 +21763,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-13</Value>
@@ -20810,7 +21828,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -20905,12 +21923,13 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263500000001</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -20925,7 +21944,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{3DF68D8C-1108-4018-96F1-14634D367733}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -20933,8 +21952,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -21017,6 +22042,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-13</Value>
@@ -21081,7 +22107,7 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -21176,16 +22202,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263500000001</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>50</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -21196,7 +22223,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{4349ABEB-4B0D-429C-A353-E7FF294CA00E}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -21204,8 +22231,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
@@ -21284,6 +22317,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-10</Value>
@@ -21443,16 +22477,17 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>564.263500000001</XPos>
-																	<YPos>0</YPos>
+																	<XPos>200</XPos>
+																	<YPos>15</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log3</SegmentShape>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
-																	<YPos>52</YPos>
+																	<YPos>70</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -21463,7 +22498,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</HighPassFilterUsage>
 												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="Spread" ID="{0175A6EB-951E-497C-B0E9-7F2EBA752F64}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
@@ -21471,8 +22506,14 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>50</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>600</XPos>
