@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\GitHub\a32nx-wwise\sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="1194393379">
+		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="3050269962">
 			<ObjectPath>\SoundBanks\Asobo_A320_NEO_Improved\FBW_A320_NEO_1</ObjectPath>
 			<ShortName>FBW_A320_NEO_1</ShortName>
 			<Path>FBW_A320_NEO_1.bnk</Path>
@@ -934,6 +934,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3674470048" Name="Play_Asobo_A320_NEO_HeavyRainL" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_HeavyRainL" GUID="{D6FDA78C-8CBE-4D91-BB75-400E42DB8DAB}" MaxAttenuation="4." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="625456609" Language="SFX">
+							<ShortName>HeavyRainL.wav</ShortName>
+							<Path>SFX\HeavyRainL_CAA31466.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3674470078" Name="Play_Asobo_A320_NEO_HeavyRainR" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_HeavyRainR" GUID="{EAF089B8-9956-437E-8518-365A99A40689}" MaxAttenuation="4." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="961929128" Language="SFX">
+							<ShortName>HeavyRainR.wav</ShortName>
+							<Path>SFX\HeavyRainR_CAA31466.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3820456089" Name="Play_Asobo_A320_NEO_IdleDetent" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_IdleDetent" GUID="{CA3C54F4-327D-464E-8B64-B64BEE555F6C}" MaxAttenuation="4." DurationType="OneShot" DurationMin="0.110522" DurationMax="0.349438">
 					<IncludedMemoryFiles>
 						<File Id="382717098" Language="SFX">
@@ -1150,6 +1166,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2619314895" Name="Play_Asobo_A320_NEO_LightRainL" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_LightRainL" GUID="{19E5D0B1-C8FC-4B71-994E-8AA0BD1A2913}" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="827640527" Language="SFX">
+							<ShortName>LightRainL.wav</ShortName>
+							<Path>SFX\LightRainL_94BCBB1D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2619314897" Name="Play_Asobo_A320_NEO_LightRainR" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_LightRainR" GUID="{B9DF532C-396C-4D0E-901D-D99F283B8741}" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="739243213" Language="SFX">
+							<ShortName>LightRainR.wav</ShortName>
+							<Path>SFX\LightRainR_62BE21B4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1426475078" Name="Play_Asobo_A320_NEO_LowRumbleL" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_LowRumbleL" GUID="{4AAFFE00-5E11-4379-A42C-A812AA230CF0}" MaxAttenuation="20." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="668639489" Language="SFX">
@@ -1318,6 +1350,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2095327776" Name="Play_Asobo_A320_NEO_ModerateRainL" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_ModerateRainL" GUID="{A9CB3622-08F4-4186-BE70-6D1850EA7C81}" MaxAttenuation="4." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="884498478" Language="SFX">
+							<ShortName>ModerateRainL.wav</ShortName>
+							<Path>SFX\ModerateRainL_CAA31466.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2095327806" Name="Play_Asobo_A320_NEO_ModerateRainR" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_ModerateRainR" GUID="{4025C736-DCC1-4FD2-AF82-4AAE48FEE3DA}" MaxAttenuation="4." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="150923406" Language="SFX">
+							<ShortName>ModerateRainR.wav</ShortName>
+							<Path>SFX\ModerateRainR_CAA31466.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3243997212" Name="Play_Asobo_A320_NEO_mpb1off" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Play_Asobo_A320_NEO_mpb1off" GUID="{E8351228-0EE9-4FB7-A906-663299A85F4B}" MaxAttenuation="4." DurationType="OneShot" DurationMin="0.234417" DurationMax="0.329146">
 					<IncludedMemoryFiles>
 						<File Id="606684829" Language="SFX">
@@ -1386,7 +1434,7 @@
 					<IncludedMemoryFiles>
 						<File Id="824797442" Language="SFX">
 							<ShortName>ReverseL.wav</ShortName>
-							<Path>SFX\ReverseL_109B3792.wem</Path>
+							<Path>SFX\ReverseL_62E3C11F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1400,9 +1448,9 @@
 				</Event>
 				<Event Id="3122667437" Name="Play_Asobo_A320_NEO_ReverseR" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_ReverseR" GUID="{4EF56638-2053-45BC-A9EC-DB58764B4D2F}" MaxAttenuation="25." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="217539214" Language="SFX">
+						<File Id="629283644" Language="SFX">
 							<ShortName>ReverseR.wav</ShortName>
-							<Path>SFX\ReverseR_13DC89D4.wem</Path>
+							<Path>SFX\ReverseR_A9597E4A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2139,6 +2187,7 @@
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="263520738" Name="LOCALVAR_A32NX_EXTRACT_OVRD_01" ObjectPath="\Game Parameters\simvar\miscelleneous\LOCALVAR_A32NX_EXTRACT_OVRD_01" GUID="{A68176F4-93DC-415C-B189-9192BCD0D17D}"/>
+				<GameParameter Id="1130421863" Name="SIMVAR_AMBIENT_PRECIP_RATE" ObjectPath="\Game Parameters\simvar\ambient\SIMVAR_AMBIENT_PRECIP_RATE" GUID="{B27A88C0-52F7-4ACD-929A-DB75EB384ED4}"/>
 				<GameParameter Id="1199447224" Name="LOCALVAR_A32NX_BLOWER_OVRD" ObjectPath="\Game Parameters\simvar\miscelleneous\LOCALVAR_A32NX_BLOWER_OVRD" GUID="{8846A9D7-43A7-44D5-8893-C98424ABBDBC}"/>
 				<GameParameter Id="1240670792" Name="DISTANCE" ObjectPath="\Game Parameters\environment\common\DISTANCE" GUID="{41666719-D1A8-4D25-AFDC-D282C31D4A35}"/>
 				<GameParameter Id="1311287804" Name="LOCALVAR_A32NX_EXTRACT_OVRD" ObjectPath="\Game Parameters\simvar\miscelleneous\LOCALVAR_A32NX_EXTRACT_OVRD" GUID="{80E36563-05DF-459D-A9A5-9A4C9C3A8F79}"/>
