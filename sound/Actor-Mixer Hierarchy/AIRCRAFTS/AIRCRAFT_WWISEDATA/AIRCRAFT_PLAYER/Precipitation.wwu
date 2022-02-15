@@ -155,7 +155,7 @@
 													</Point>
 													<Point>
 														<XPos>120</XPos>
-														<YPos>65</YPos>
+														<YPos>62</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -267,21 +267,28 @@
 														<XPos>18</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-12</YPos>
+														<Flags>0</Flags>
 														<SegmentShape>Log1</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>22</XPos>
-														<YPos>-6</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>30</XPos>
+														<XPos>25</XPos>
 														<YPos>0</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>50</XPos>
+														<XPos>30</XPos>
 														<YPos>3</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>6</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -305,7 +312,7 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-18</YPos>
+														<YPos>-9</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
@@ -456,7 +463,7 @@
 													</Point>
 													<Point>
 														<XPos>400</XPos>
-														<YPos>55</YPos>
+														<YPos>53</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -504,9 +511,6 @@
 									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{4CFF5D36-D4FA-4D92-AD2D-F87633B6F348}" ShortID="292994523">
 											<ReferenceList>
@@ -566,13 +570,19 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-6</YPos>
+														<YPos>-12</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Exp2</SegmentShape>
 													</Point>
 													<Point>
+														<XPos>72.1311475409836</XPos>
+														<YPos>-1.90328883855519</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
 														<XPos>120</XPos>
-														<YPos>2</YPos>
+														<YPos>4</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
@@ -707,7 +717,7 @@
 													</Point>
 													<Point>
 														<XPos>350</XPos>
-														<YPos>55</YPos>
+														<YPos>50</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -830,7 +840,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-6</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{297D096C-89A3-4704-AC28-F14151B152B6}" ShortID="844038294">
@@ -879,12 +889,12 @@
 													</Point>
 													<Point>
 														<XPos>30</XPos>
-														<YPos>6</YPos>
+														<YPos>4</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>200</XPos>
-														<YPos>6</YPos>
+														<YPos>4</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -903,29 +913,29 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-6</YPos>
+														<YPos>-12</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
 														<XPos>60</XPos>
-														<YPos>-3</YPos>
+														<YPos>-6</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>160</XPos>
-														<YPos>3</YPos>
+														<YPos>2</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>400</XPos>
-														<YPos>8</YPos>
+														<YPos>10</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>1000</XPos>
-														<YPos>8</YPos>
+														<YPos>10</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -963,8 +973,8 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>237.44292</XPos>
-																		<YPos>100</YPos>
+																		<XPos>559.36073</XPos>
+																		<YPos>3</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -1006,12 +1016,12 @@
 																</Point>
 																<Point>
 																	<XPos>4</XPos>
-																	<YPos>-3</YPos>
+																	<YPos>-6</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>25</XPos>
-																	<YPos>-3</YPos>
+																	<YPos>-6</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
