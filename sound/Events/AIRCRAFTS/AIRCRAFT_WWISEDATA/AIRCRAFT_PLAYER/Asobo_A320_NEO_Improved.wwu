@@ -3088,6 +3088,20 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="Precipitation" ID="{2B71ADCD-AC85-465D-9154-CDF8770DAF8E}" PersistMode="Reference"/>
+				<Event Name="Play_Asobo_A320_NEO_boardingmusic" ID="{71CB20D4-0E28-4ADD-8666-6F551DA2E50E}">
+					<ChildrenList>
+						<Action Name="" ID="{B3D96537-02D1-4787-AF2D-7A2748CC5127}" ShortID="512456240">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boarding music" ID="{858A26B7-FA44-43E8-815B-005CBA640762}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
