@@ -274,7 +274,7 @@
             <Range LowerBound="1" />
             <WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="1" RTPCName="SIMVAR_TURB_ENG_N1" />
             <WwiseRTPC SimVar="AIRSPEED INDICATED" Units="knots" Index="1" RTPCName="SIMVAR_AIRSPEED_INDICATED" />
-            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="1" RTPCReleaseTime="1" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_VENTILATION_EXTRACT_TOGGLE" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_EXTRACT_OVRD" />
             <WwiseRTPC LocalVar="A32NX_VENTILATION_EXTRACT_TOGGLE" RTPCAttackTime="1" RTPCReleaseTime="1" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_EXTRACT_OVRD_01" />
             <WwiseRTPC LocalVar="A32NX_VENTILATION_BLOWER_TOGGLE" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_EXTRACT_OVRD" />
@@ -291,7 +291,7 @@
             </Requires>
             <WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="1" RTPCName="SIMVAR_TURB_ENG_N1" />
             <WwiseRTPC SimVar="AIRSPEED INDICATED" Units="knots" Index="1" RTPCName="SIMVAR_AIRSPEED_INDICATED" />
-            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="1" RTPCReleaseTime="1" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_VENTILATION_EXTRACT_TOGGLE" RTPCAttackTime="0.2" RTPCReleaseTime="0.2" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_BLOWER_OVRD" />
         </Sound>
         
@@ -305,7 +305,7 @@
             </Requires>
             <WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="1" RTPCName="SIMVAR_TURB_ENG_N1" />
             <WwiseRTPC SimVar="AIRSPEED INDICATED" Units="knots" Index="1" RTPCName="SIMVAR_AIRSPEED_INDICATED" />
-            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="1" RTPCReleaseTime="1" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_VENTILATION_EXTRACT_TOGGLE" RTPCAttackTime="0.2" RTPCReleaseTime="0.2" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_BLOWER_OVRD" />
         </Sound>
         
@@ -319,7 +319,7 @@
             </Requires>
             <WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="1" RTPCName="SIMVAR_TURB_ENG_N1" />
             <WwiseRTPC SimVar="AIRSPEED INDICATED" Units="knots" Index="1" RTPCName="SIMVAR_AIRSPEED_INDICATED" />
-            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="1" RTPCReleaseTime="1" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_VENTILATION_EXTRACT_TOGGLE" RTPCAttackTime="0.2" RTPCReleaseTime="0.2" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_BLOWER_OVRD" />
         </Sound>
         
@@ -330,7 +330,7 @@
             </Requires>
             <WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="1" RTPCName="SIMVAR_TURB_ENG_N1" />
             <WwiseRTPC SimVar="AIRSPEED INDICATED" Units="knots" Index="1" RTPCName="SIMVAR_AIRSPEED_INDICATED" />
-            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="1" RTPCReleaseTime="1" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_ELEC_AC_1_BUS_IS_POWERED" RTPCAttackTime="5" RTPCReleaseTime="1" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_EXTRACT_OVRD" />
         </Sound>
         
@@ -2046,6 +2046,28 @@
             <Requires SimVar="ELECTRICAL MAIN BUS VOLTAGE" Units="VOLTS" Index="1">
                 <Range LowerBound="28" />
             </Requires>
+        </Sound>
+        
+        <!-- Passengers ==================================================================================== -->
+        
+        <Sound WwiseEvent="paxchatter" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" FadeOutType="1" FadeOutTime="1" LocalVar="A32NX_SOUND_PAX_AMBIENCE">
+            <Range LowerBound="1" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+        </Sound>
+        
+        <Sound WwiseEvent="boardingmusic" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" LocalVar="A32NX_SOUND_PAX_AMBIENCE">
+            <Range LowerBound="1" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+        </Sound>
+        
+        <Sound WwiseEvent="boarding" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" FadeOutType="1" FadeOutTime="1" LocalVar="A32NX_SOUND_PAX_BOARDING">
+            <Range LowerBound="1" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
+        </Sound>
+        
+        <Sound WwiseEvent="boardingcompleted" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_SOUND_BOARDING_COMPLETE">
+            <Range LowerBound="1" />
+            <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
         </Sound>
 
         <!-- Altitude deviation warning =====================================================================-->
