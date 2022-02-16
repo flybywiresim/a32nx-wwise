@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B71ADCD-AC85-465D-9154-CDF8770DAF8E}" SchemaVersion="97" RootDocumentID="{662E2C1B-6F57-46BC-90E1-9E4CE64174C6}">
+	<Events>
+		<WorkUnit Name="Precipitation" ID="{2B71ADCD-AC85-465D-9154-CDF8770DAF8E}" OwnerID="{662E2C1B-6F57-46BC-90E1-9E4CE64174C6}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Asobo_A320_NEO_LightRainL" ID="{19E5D0B1-C8FC-4B71-994E-8AA0BD1A2913}">
+					<ChildrenList>
+						<Action Name="" ID="{D541A1D3-EAEB-4621-91B2-8E37060422AD}" ShortID="486094474">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightRainL" ID="{5D2EE63C-1002-4D9E-BF37-C53BEF70B26F}" WorkUnitID="{F1EE52D6-5831-4498-9A16-9E5D5152CB2C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_LightRainR" ID="{B9DF532C-396C-4D0E-901D-D99F283B8741}">
+					<ChildrenList>
+						<Action Name="" ID="{486FADD6-BD76-4F74-8E7A-74749B35DCC2}" ShortID="14702348">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightRainR" ID="{8C9F5FFA-488B-45CB-939F-C6A486FBC9B5}" WorkUnitID="{F1EE52D6-5831-4498-9A16-9E5D5152CB2C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ModerateRainL" ID="{A9CB3622-08F4-4186-BE70-6D1850EA7C81}">
+					<ChildrenList>
+						<Action Name="" ID="{5B7C3415-224D-4326-93AF-A95D80CA880B}" ShortID="144002527">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ModerateRainL" ID="{189FDFAA-2BB4-4DD7-8066-4407E23B9C02}" WorkUnitID="{F1EE52D6-5831-4498-9A16-9E5D5152CB2C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ModerateRainR" ID="{4025C736-DCC1-4FD2-AF82-4AAE48FEE3DA}">
+					<ChildrenList>
+						<Action Name="" ID="{C8822B35-4ADC-4CEC-A3EA-8CBF48FCC0FE}" ShortID="220500650">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ModerateRainR" ID="{93283EFF-9859-4AC3-859C-DE2661482A5F}" WorkUnitID="{F1EE52D6-5831-4498-9A16-9E5D5152CB2C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_HeavyRainL" ID="{D6FDA78C-8CBE-4D91-BB75-400E42DB8DAB}">
+					<ChildrenList>
+						<Action Name="" ID="{CEC1E4D5-CA2C-4051-8444-5BE8770B336B}" ShortID="238129461">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HeavyRainL" ID="{27F5C435-40D9-46F5-97BF-CDD1D8056ACC}" WorkUnitID="{F1EE52D6-5831-4498-9A16-9E5D5152CB2C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_HeavyRainR" ID="{EAF089B8-9956-437E-8518-365A99A40689}">
+					<ChildrenList>
+						<Action Name="" ID="{108B5209-4A1A-46A0-AD54-39436D536432}" ShortID="47586244">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HeavyRainR" ID="{86FAC5C2-4847-4684-903B-52D721A9F58A}" WorkUnitID="{F1EE52D6-5831-4498-9A16-9E5D5152CB2C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
