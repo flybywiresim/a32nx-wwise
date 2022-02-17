@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\GitHub\a32nx-wwise\sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="1019720231">
+		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="1521282434">
 			<ObjectPath>\SoundBanks\Asobo_A320_NEO_Improved\FBW_A320_NEO_1</ObjectPath>
 			<ShortName>FBW_A320_NEO_1</ShortName>
 			<Path>FBW_A320_NEO_1.bnk</Path>
@@ -936,7 +936,7 @@
 				</Event>
 				<Event Id="3674470048" Name="Play_Asobo_A320_NEO_HeavyRainL" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_HeavyRainL" GUID="{D6FDA78C-8CBE-4D91-BB75-400E42DB8DAB}" MaxAttenuation="4." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="291286136" Language="SFX">
+						<File Id="625456609" Language="SFX">
 							<ShortName>HeavyRainL.wav</ShortName>
 							<Path>SFX\HeavyRainL_CAA31466.wem</Path>
 						</File>
@@ -944,7 +944,7 @@
 				</Event>
 				<Event Id="3674470078" Name="Play_Asobo_A320_NEO_HeavyRainR" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_HeavyRainR" GUID="{EAF089B8-9956-437E-8518-365A99A40689}" MaxAttenuation="4." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="639602351" Language="SFX">
+						<File Id="961929128" Language="SFX">
 							<ShortName>HeavyRainR.wav</ShortName>
 							<Path>SFX\HeavyRainR_CAA31466.wem</Path>
 						</File>
@@ -1168,7 +1168,7 @@
 				</Event>
 				<Event Id="2619314895" Name="Play_Asobo_A320_NEO_LightRainL" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Precipitation\Play_Asobo_A320_NEO_LightRainL" GUID="{19E5D0B1-C8FC-4B71-994E-8AA0BD1A2913}" MaxAttenuation="30." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="85062262" Language="SFX">
+						<File Id="827640527" Language="SFX">
 							<ShortName>LightRainL.wav</ShortName>
 							<Path>SFX\LightRainL_43168D92.wem</Path>
 						</File>
@@ -1434,7 +1434,7 @@
 					<IncludedMemoryFiles>
 						<File Id="824797442" Language="SFX">
 							<ShortName>ReverseL.wav</ShortName>
-							<Path>SFX\ReverseL_62E3C11F.wem</Path>
+							<Path>SFX\ReverseL_DD8D6202.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1450,7 +1450,7 @@
 					<IncludedMemoryFiles>
 						<File Id="629283644" Language="SFX">
 							<ShortName>ReverseR.wav</ShortName>
-							<Path>SFX\ReverseR_A9597E4A.wem</Path>
+							<Path>SFX\ReverseR_E6780404.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
