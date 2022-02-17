@@ -3102,6 +3102,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_A320_NEO_deboarding" ID="{0E38916F-724A-4BF6-98A6-774C7AF8B13C}">
+					<ChildrenList>
+						<Action Name="" ID="{3A09551E-B51D-442E-B84E-69201C97AAB1}" ShortID="398493113">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="deboarding" ID="{2A91815B-5A5B-4720-84AF-CA33570A695E}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
