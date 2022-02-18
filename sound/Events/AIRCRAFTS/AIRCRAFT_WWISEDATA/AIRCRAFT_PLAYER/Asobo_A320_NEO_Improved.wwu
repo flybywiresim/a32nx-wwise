@@ -3116,6 +3116,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_A320_NEO_welcomeonboard" ID="{C8915B38-A59B-4933-9F69-38A2871D39D5}">
+					<ChildrenList>
+						<Action Name="" ID="{0B7DC903-7A10-44E1-B1B2-D25446EAA5C0}" ShortID="580053036">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="welcomeaboard" ID="{05E380F5-9564-4FF9-B8C6-091F95ECC156}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_armdoors" ID="{C9571548-0E24-409A-BA23-5D09E6866DBB}">
+					<ChildrenList>
+						<Action Name="" ID="{032CB402-1274-4788-A496-FDD6A649EC0D}" ShortID="695105222">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FAsarmXchk" ID="{CC1AC416-D625-4412-A406-DE198A5290DB}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_safetydemo" ID="{9349E7A0-CB08-4A28-99B1-17EF37C4A07B}">
+					<ChildrenList>
+						<Action Name="" ID="{34BDC3BA-D4B0-40D0-9118-DFDDF16F88FA}" ShortID="438906535">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="safetydemo" ID="{6E874A9C-D852-442A-9D54-C82F0B906FDC}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
