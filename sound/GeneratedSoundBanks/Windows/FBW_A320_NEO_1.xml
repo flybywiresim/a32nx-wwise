@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\GitHub\a32nx-wwise\sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="2372425589">
+		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="487192148">
 			<ObjectPath>\SoundBanks\Asobo_A320_NEO_Improved\FBW_A320_NEO_1</ObjectPath>
 			<ShortName>FBW_A320_NEO_1</ShortName>
 			<Path>FBW_A320_NEO_1.bnk</Path>
@@ -373,7 +373,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1302032711" Name="Play_Asobo_A320_NEO_BuzzLEXT" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_BuzzLEXT" GUID="{7499B6F8-2DCD-4CC0-8B72-9987E6CA0229}" MaxAttenuation="600." DurationType="Infinite">
+				<Event Id="1302032711" Name="Play_Asobo_A320_NEO_BuzzLEXT" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_BuzzLEXT" GUID="{7499B6F8-2DCD-4CC0-8B72-9987E6CA0229}" MaxAttenuation="3000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1001678861" Language="SFX">
 							<ShortName>FanA.wav</ShortName>
@@ -389,7 +389,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1638436053" Name="Play_Asobo_A320_NEO_BuzzREXT" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_BuzzREXT" GUID="{8D3B773D-0A6A-4DE2-B9BB-2573E04AE54A}" MaxAttenuation="600." DurationType="Infinite">
+				<Event Id="1638436053" Name="Play_Asobo_A320_NEO_BuzzREXT" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP1A\Play_Asobo_A320_NEO_BuzzREXT" GUID="{8D3B773D-0A6A-4DE2-B9BB-2573E04AE54A}" MaxAttenuation="3000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="255328967" Language="SFX">
 							<ShortName>FanB.wav</ShortName>
