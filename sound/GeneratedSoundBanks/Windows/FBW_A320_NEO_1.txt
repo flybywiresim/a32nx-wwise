@@ -224,7 +224,6 @@ Custom State	ID	Name	State Group	Owner		Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	263520738	LOCALVAR_A32NX_EXTRACT_OVRD_01			\simvar\miscelleneous\LOCALVAR_A32NX_EXTRACT_OVRD_01	
 	1199447224	LOCALVAR_A32NX_BLOWER_OVRD			\simvar\miscelleneous\LOCALVAR_A32NX_BLOWER_OVRD	
-	1240670792	DISTANCE			\environment\common\DISTANCE	
 	1311287804	LOCALVAR_A32NX_EXTRACT_OVRD			\simvar\miscelleneous\LOCALVAR_A32NX_EXTRACT_OVRD	
 	1394518213	LOCALVAR_A32NX_INTERIOR_WIND_VOLUME			\simvar\miscelleneous\LOCALVAR_A32NX_INTERIOR_WIND_VOLUME	
 	1649214721	SIMVAR_GROUND_VELOCITY			\simvar\physic\SIMVAR_GROUND_VELOCITY	Speed relative to the earths surface  Unit : Knots
@@ -239,9 +238,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2828809044	SIMVAR_SPOILERS_RIGHT_POSITION			\simvar\flight_control_surfaces\SIMVAR_SPOILERS_RIGHT_POSITION	
 	2848996843	SIMVAR_AMBIENT_TEMPERATURE			\simvar\ambient\SIMVAR_AMBIENT_TEMPERATURE	
 	2919001772	SIMVAR_AIRSPEED_TRUE			\simvar\physic\SIMVAR_AIRSPEED_TRUE	True airspeed  Unit : Knots
-	3028259178	SPP_DISTANCE			\engine\spp\SPP_DISTANCE	
 	3128954395	SIMVAR_LEADING_EDGE_FLAPS_LEFT_PERCENT			\simvar\flight_control_surfaces\SIMVAR_LEADING_EDGE_FLAPS_LEFT_PERCENT	Percent left trailing edge flap extended  Unit : Percent Over 100
 	3193646480	LOCALVAR_A32NX_COLD_START			\simvar\miscelleneous\LOCALVAR_A32NX_COLD_START	
+	3467647527	SIMVAR_PLANE_ALTITUDE			\simvar\physic\SIMVAR_PLANE_ALTITUDE	Altitude of aircraft  Unit : Feet
 	3763572042	SIMVAR_PLANE_ALT_ABOVE_GROUND			\simvar\physic\SIMVAR_PLANE_ALT_ABOVE_GROUND	Altitude above the surface  Unit : Feet
 	3779073172	ENV_DOPPLERCENTS			\environment\common\ENV_DOPPLERCENTS	Absolute cents shift caused by Doppler Effect 
 	3852284635	SIMVAR_AIRSPEED_INDICATED			\simvar\physic\SIMVAR_AIRSPEED_INDICATED	Indicated airspeed  Unit : Knots
@@ -249,6 +248,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3898595254	SIMVAR_TURB_ENG_N1_DERIVED			\simvar\engine\turbine\SIMVAR_TURB_ENG_N1_DERIVED	
 
 Effect plug-ins	ID	Name	Type				Notes
+	38271656	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	56394613	rev_inside_generic_medium	Wwise Convolution Reverb			
 	73558015	Room_Small_(Custom)	Wwise RoomVerb			
 	77454670	rev_inside_dv20	Wwise Convolution Reverb			
@@ -258,6 +258,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	143915796	Low_Pass_20KHz_(Custom)	Wwise Parametric EQ			
 	151264278	Room_Small_(Custom)	Wwise RoomVerb			
 	187442095	rev_inside_tbm930	Wwise Convolution Reverb			
+	188835393	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	208543480	New_Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	252210956	Low_Pass_20KHz_(Custom)	Wwise Parametric EQ			
 	282676318	Hall_Large_(Custom)	Wwise RoomVerb			
@@ -349,7 +350,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	178403563	pullup	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\pullup_4B486E24.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\pullup		31247
 	179237616	RSTon2	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\RSTon2_89702FF6.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\RSTon\RSTon2		2020
 	185027185	medtouch	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\medtouch_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Grounds_Rattles\medtouchdown\medtouch		22895
-	186534772	LSpool_02	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\starthigh_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\LSpool_02		24234
+	186534772	RSpool_02	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\starthigh_89DC6E16.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\RSpool_02		24234
 	190863969	firetestbutton2	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\firetestbutton2_694C7221.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\firetestbutton\firetestbutton2		2363
 	198847002	ISpoolHighL	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\ISpoolHighL_4FB4884E.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\ISpoolHighL		76419
 	199619583	SEToff1	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\SEToff1_892830DD.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\SEToff\SEToff1		5091
@@ -557,7 +558,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	975241761	OnhearingthefirstcuckooinSpringGroves (1)	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\OnhearingthefirstcuckooinSpringGroves (1)_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding music\OnhearingthefirstcuckooinSpringGroves (1)		13267428
 	976977767	CHRoff1	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\CHRoff1_C9606C57.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Buttons_Switches\CHRoff\CHRoff1		3971
 	981123248	too-low-flaps	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\too-low-flaps_499291AF.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Warnings_Chimes_Etc\Other\too-low-flaps		49747
-	988475469	ISPOOL2_01	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\ISpoolExtRearL_B4BC2447.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\InSpoolL\ISPOOL\ISPOOL2_01		662735
+	988475469	ISPOOL2	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\ISpoolExtRearL_B4BC2447.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\InSpoolL\ISPOOL\ISPOOL2		662735
 	988509994	WhaleCallL	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\WhaleCallL_ABA57DA8.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\LEAP_Int\engspeedchange\InSpoolL\ISPOOL\WhaleCallL		96231
 	992490976	In The Steppes Of Central Asia	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\In The Steppes Of Central Asia_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding music\In The Steppes Of Central Asia		16922307
 	993277435	boarding	E:\GitHub\a32nx-wwise\sound\.cache\Windows\SFX\boarding_CDB6956D.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved\Cabin_Ambience_Pax\Passengers\boarding		4196913
