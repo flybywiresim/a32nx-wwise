@@ -1909,6 +1909,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{D7D81625-7E6B-4F66-801F-1BDD5C0E756A}" ShortID="225802034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HowlLExt" ID="{547D6843-6F78-492F-B226-419872BB9E2E}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_ISpoolHighREXT" ID="{081346F7-AA7C-4288-914F-B7F462567A5B}">
@@ -1920,6 +1930,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ISpoolHighREXT" ID="{684DE69A-895E-4130-A5D0-D6EE1C5BF55D}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6703A886-BC02-441B-8005-08DEC18AB1AA}" ShortID="42344345">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HowlREXT" ID="{F524FC23-BD02-4980-82E0-1364E079FF91}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
