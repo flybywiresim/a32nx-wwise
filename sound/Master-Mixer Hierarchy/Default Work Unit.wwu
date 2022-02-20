@@ -629,6 +629,8 @@
 																				<Value>100</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+																		<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																		<Property Name="Volume" Type="Real64">
 																			<RTPCList>
 																				<RTPC Name="" ID="{4D92F7D4-88B7-41CD-8913-0C975E8DE9F2}" ShortID="296781271">
@@ -684,6 +686,9 @@
 																			</PropertyList>
 																		</Bus>
 																	</ChildrenList>
+																	<PositioningInfo>
+																		<Panner Name="" ID="{6CA8DBE0-3E57-4F91-BF35-B378401FB729}"/>
+																	</PositioningInfo>
 																</Bus>
 																<Bus Name="rattles_inside" ID="{CEF6D45C-26C9-4431-A02F-0848C4C6AF86}">
 																	<PropertyList>
