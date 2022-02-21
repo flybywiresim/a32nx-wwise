@@ -525,9 +525,9 @@ Unit : millimeters of water</Comment>
 						</GameParameter>
 						<GameParameter Name="SIMVAR_AMBIENT_TEMPERATURE" ID="{0821D3AA-067E-4542-A7C7-7A3646B44E92}">
 							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="30"/>
-								<Property Name="Max" Type="Real64" Value="30"/>
-								<Property Name="Min" Type="Real64" Value="-30"/>
+								<Property Name="InitialValue" Type="Real64" Value="15"/>
+								<Property Name="Max" Type="Real64" Value="60"/>
+								<Property Name="Min" Type="Real64" Value="-50"/>
 							</PropertyList>
 						</GameParameter>
 					</ChildrenList>
@@ -539,7 +539,7 @@ Unit : millimeters of water</Comment>
 Unit : Feet</Comment>
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="0"/>
-								<Property Name="Max" Type="Real64" Value="20000"/>
+								<Property Name="Max" Type="Real64" Value="50000"/>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="SIMVAR_VERTICAL_SPEED" ID="{41463B58-9F9D-4FDF-B198-1B856CAA76F0}">
