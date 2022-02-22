@@ -475,7 +475,7 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-5</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
@@ -1003,7 +1003,7 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-5</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
@@ -3698,7 +3698,7 @@
 													<PropertyList>
 														<Property Name="ConeAttenuation" Type="Real64">
 															<ValueList>
-																<Value>-12</Value>
+																<Value>-3</Value>
 															</ValueList>
 														</Property>
 														<Property Name="ConeInnerAngle" Type="int32" Value="120"/>
@@ -3707,7 +3707,7 @@
 																<Value>60</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeOuterAngle" Type="int32" Value="190"/>
+														<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
 														<Property Name="ConeUse" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -5624,7 +5624,7 @@
 													<PropertyList>
 														<Property Name="ConeAttenuation" Type="Real64">
 															<ValueList>
-																<Value>-12</Value>
+																<Value>-3</Value>
 															</ValueList>
 														</Property>
 														<Property Name="ConeInnerAngle" Type="int32" Value="120"/>
@@ -5633,7 +5633,7 @@
 																<Value>60</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeOuterAngle" Type="int32" Value="190"/>
+														<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
 														<Property Name="ConeUse" Type="bool">
 															<ValueList>
 																<Value>True</Value>

@@ -14,6 +14,32 @@
 									<ValueList>
 										<Value>20</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{C0D5F2B0-E0C1-4491-8AE5-532DF28AC13E}" ShortID="103646898">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" ID="{7CC1F759-E930-4848-984F-F7E07A5FB5C3}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{23228B7E-02A9-42F5-9276-D4B6FBEFFC36}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -279,6 +305,14 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="cruisealt" ID="{62A497C4-0C67-40DC-A7A9-C2BA4A64A636}" ShortID="1016125647">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -290,7 +324,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="cruisealt" ID="{EC77A92E-AA78-4A3D-A915-85ECD3271951}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0834663234663253"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="LoopBegin" Type="Real64" Value="19.7586563522047"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.978733572281959"/>
@@ -331,6 +367,14 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="initaldescent" ID="{57C44138-E164-46F9-B34E-46B1B74AB5B2}" ShortID="963929341">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -342,7 +386,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="initaldescent" ID="{C54BDBD6-F3A8-49E8-A0D2-E5EF6078F2B7}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.193682662254091"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="LoopBegin" Type="Real64" Value="17.513063271511"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.24371964216738"/>
@@ -540,11 +586,7 @@
 								</Sound>
 								<Sound Name="welcomeaboard" ID="{05E380F5-9564-4FF9-B8C6-091F95ECC156}" ShortID="763605435">
 									<PropertyList>
-										<Property Name="InitialDelay" Type="Real64">
-											<ValueList>
-												<Value>30</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -557,11 +599,13 @@
 									<ChildrenList>
 										<AudioFileSource Name="welcomeaboard" ID="{A16D3A4A-757E-437B-A262-2E32BD0B2854}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.718798798798801"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="LoopBegin" Type="Real64" Value="28.5983511830322"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.04928701682522"/>
-												<Property Name="TrimEnd" Type="Real64" Value="28.1759366157329"/>
+												<Property Name="TrimEnd" Type="Real64" Value="28.6306868761974"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>welcomeaboard.wav</AudioFile>
@@ -766,6 +810,7 @@
 														<Value>3</Value>
 													</ValueList>
 												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 												<Property Name="Volume" Type="Real64">
@@ -1038,11 +1083,13 @@
 											<ChildrenList>
 												<AudioFileSource Name="FAsarmXchk" ID="{9A99FF1B-FF96-4CA9-ACFB-9DD7A2AA6535}">
 													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.175270314045824"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="3.15631901509037"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.838178600623422"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.9327315215843"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>FAsarmXchk.wav</AudioFile>
@@ -1068,6 +1115,7 @@
 														<Value>30</Value>
 													</ValueList>
 												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
@@ -1238,7 +1286,9 @@
 												<AudioFileSource Name="welcomeaboardv1" ID="{81B115A5-2871-4AA3-964C-1531A13B90A0}">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.181747695217083"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.203328302381095"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="125.521945438236"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
@@ -3429,6 +3479,34 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{6EBDA7ED-DF04-4225-ACBE-7CA5C7C9AAE3}" ShortID="540469695">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3F5BEB4A-FA42-46A2-AA8A-51F5FAD7BD82}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

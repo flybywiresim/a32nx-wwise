@@ -969,16 +969,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{201E2BE2-319A-476D-B9A7-55B955693B54}" ShortID="423575837">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ExL2" ID="{8966AD42-4D88-41E5-93C4-DD126783CD46}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{DD0490AC-544A-4636-9C34-B90B4838F291}" ShortID="93167014">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
@@ -1020,16 +1010,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ISPOOL2_01" ID="{F7575F81-229B-40BD-95AD-3F8317CD2B5F}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{82A9B307-BBCD-4EE6-8AED-973891CCE415}" ShortID="448978519">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ExR2" ID="{EA538869-921E-41F5-9DF0-7A6BA818778C}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -3181,6 +3161,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="disarmdoors" ID="{8E92D901-1861-4A96-A44D-2180A2B96B82}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_descent" ID="{94DC82AC-1551-4BD9-B99A-954AEA643E9F}">
+					<ChildrenList>
+						<Action Name="" ID="{C7B16C72-8914-4637-A0F7-531C420AE559}" ShortID="272995526">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="initaldescent" ID="{57C44138-E164-46F9-B34E-46B1B74AB5B2}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_cruise" ID="{FA6B60A1-2ABE-492E-A13A-E41AF2534024}">
+					<ChildrenList>
+						<Action Name="" ID="{48B3E68D-10AF-464A-BCC3-7BA5C7556280}" ShortID="1038605439">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cruisealt" ID="{62A497C4-0C67-40DC-A7A9-C2BA4A64A636}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
