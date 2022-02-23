@@ -1494,6 +1494,18 @@ Unit : Percent</Comment>
 								<Property Name="Max" Type="Real64" Value="1"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" ID="{7CC1F759-E930-4848-984F-F7E07A5FB5C3}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

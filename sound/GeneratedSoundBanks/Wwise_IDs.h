@@ -98,6 +98,7 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BLUESHUT = 1077221735U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOARDING = 1944365829U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOARDINGCOMPLETED = 1111164168U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_BOARDINGMUSIC = 1488764950U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOOML = 2102434864U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOOMLEXT = 770563073U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_BOOMR = 2102434862U;
