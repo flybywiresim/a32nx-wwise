@@ -169,6 +169,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{9371CF7F-3BD4-41F9-A96B-EEA91D84279C}" ShortID="26075751">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="windcruise" ID="{6AF4A207-CFBE-42F1-81B8-13790EFACCD7}" WorkUnitID="{B98A18FB-2008-4669-8E8A-FAF6B85903B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="PW 1100G" ID="{80552B54-D435-430F-8DB9-EC3B80A41D5E}" ShortID="1029316100">
