@@ -1754,7 +1754,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>27</Value>
+								<Value>25</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{BDC11735-B81E-4E3F-A2D9-B89C5AD5721A}" ShortID="845307308">
@@ -2056,6 +2056,152 @@
 					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Cabin_wind" ID="{7AF4AA28-DA3E-44FA-9F3C-607C2273C714}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="windcruise" ID="{6AF4A207-CFBE-42F1-81B8-13790EFACCD7}" ShortID="268246782">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{3CB33724-E91E-46CC-9687-5E841AEA5012}" ShortID="36375311">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SIMVAR_AIRSPEED_INDICATED" ID="{55CFC0B1-B68E-46B8-8121-18B4F1AA6E4F}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C75BEE06-0889-40AB-AE3E-29788453023D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>30</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>-2.03611000000001</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>346.52329</XPos>
+												<YPos>1.50174999999999</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Constant</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1000</XPos>
+												<YPos>1.44246999999999</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{08F60C30-A886-4621-B01F-48928DB8C8B6}" ShortID="653665690">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{78EAAA8D-FC50-42E1-9BBD-79418A0AC21C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-198</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>29.05759</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>InvertedSCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>74.08377</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>200</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{3A0B258D-457E-4011-83A6-64C990651CE2}" ShortID="427578826">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="LOCALVAR_A32NX_INTERIOR_WIND_VOLUME" ID="{99886ED2-70F1-4384-8C1E-79B2AACFDF28}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{093DDEB0-E059-4B68-A4AC-AF9F30DF1C86}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-50</XPos>
+												<YPos>-6</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>6</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="miscellaneous_inside" ID="{A94A7A7F-2F28-46C7-9158-EA25E9E42914}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="windcruise" ID="{51FCC9AE-EBB4-43CE-9444-E395628989EC}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.00262546957591426"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.00151469398610971"/>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>windcruise.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="windcruise" ID="{51FCC9AE-EBB4-43CE-9444-E395628989EC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
