@@ -21461,7 +21461,7 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
@@ -21471,7 +21471,7 @@
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>494.7634</XPos>
+														<XPos>702.87858</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp3</SegmentShape>
@@ -21841,20 +21841,20 @@
 												</PointList>
 											</Curve>
 										</RTPC>
-										<RTPC Name="" ID="{E505DDE3-4E74-48DC-9DAB-B06A28AE6360}" ShortID="745659357">
+										<RTPC Name="" ID="{1760B2BC-BB10-49ED-81F8-0B10303D0736}" ShortID="653975041">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SIMVAR_AIRSPEED_TRUE" ID="{23F33E5A-B0EE-4CD5-AE2C-178797545D5C}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{C98D05A2-935F-4C58-B16A-8E968E7C2643}">
+											<Curve Name="" ID="{B3ACDDC8-2035-4065-9F03-0157AE50BEA2}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
@@ -21864,7 +21864,7 @@
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>494.7634</XPos>
+														<XPos>702.87858</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp3</SegmentShape>

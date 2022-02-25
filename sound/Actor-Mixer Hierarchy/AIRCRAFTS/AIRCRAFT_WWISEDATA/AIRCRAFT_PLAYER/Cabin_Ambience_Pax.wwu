@@ -3542,32 +3542,6 @@
 							<ValueList>
 								<Value>-2</Value>
 							</ValueList>
-							<RTPCList>
-								<RTPC Name="" ID="{6EBDA7ED-DF04-4225-ACBE-7CA5C7C9AAE3}" ShortID="540469695">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{3F5BEB4A-FA42-46A2-AA8A-51F5FAD7BD82}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-200</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>1</XPos>
-												<YPos>0</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -3802,30 +3776,25 @@
 										<Value>5</Value>
 									</ValueList>
 									<RTPCList>
-										<RTPC Name="" ID="{0176B024-F51D-442F-975D-F5D6278B15A0}" ShortID="150434024">
+										<RTPC Name="" ID="{550FE5BF-E2E9-4C0D-8142-6588FD53D556}" ShortID="155422412">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+													<ObjectRef Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{72CFB374-B9E4-4D40-B076-2002716EE8FF}">
+											<Curve Name="" ID="{F5712C6E-B851-47BF-A441-1E9325A6857C}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>0</YPos>
+														<YPos>-200</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>18</XPos>
-														<YPos>-4</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>-12.09816</YPos>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -3907,6 +3876,30 @@
 													<Point>
 														<XPos>200</XPos>
 														<YPos>-12.09816</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{7559F0BD-651A-4C3F-B9CA-729932D6C4AE}" ShortID="1042579060">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C615D4B4-F937-49ED-9507-E53AED06AC0C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -4182,6 +4175,32 @@
 									<ValueList>
 										<Value>5</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{137A0133-11E9-44C2-B175-ADD299D8CCB3}" ShortID="769197149">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EA6345FA-302A-4578-A9CB-A1FCA3BA474B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -4436,6 +4455,32 @@
 									<ValueList>
 										<Value>10</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{DC3E9986-294B-4720-988B-468B6C4DE2B8}" ShortID="92666774">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0CB94173-266F-48F7-ADEA-F9F73E6637B2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -4655,9 +4700,10 @@
 						</Sound>
 						<RandomSequenceContainer Name="boarding_music" ID="{0598DB92-3C31-4244-85F2-7F37B511E637}" ShortID="44481583">
 							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-15</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{23F33F1E-773D-46BB-8AE2-F57280C23D29}" ShortID="586809019">
@@ -4691,12 +4737,53 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{F9627628-0B10-4272-BC30-D4C20423CB38}">
+										<Effect Name="High_Pass_60Hz_(Custom)" ID="{22852745-3BA3-4D8E-AA87-34137CAF88D3}" ShortID="888126471" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="878"/>
+												<Property Name="OnOffBand2" Type="bool" Value="False"/>
+												<Property Name="OnOffBand3" Type="bool" Value="False"/>
+												<Property Name="OutputLevel" Type="Real32" Value="-3"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+										<Effect Name="Room_Small_(Custom)" ID="{AE9A1EF5-C065-4D78-98EA-D268706B2F29}" ShortID="820245275" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="0.2"/>
+												<Property Name="Density" Type="Real32" Value="100"/>
+												<Property Name="Diffusion" Type="Real32" Value="0"/>
+												<Property Name="ERLevel" Type="Real32" Value="-6"/>
+												<Property Name="ERPattern" Type="int32" Value="13"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+												<Property Name="HFDamping" Type="Real32" Value="0.5"/>
+												<Property Name="PreDelay" Type="Real32" Value="0"/>
+												<Property Name="Quality" Type="int32" Value="16"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+												<Property Name="RoomShape" Type="Real32" Value="0"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Holst_Planets_Calgary_2015_Aug_9" ID="{7FCF9025-C30A-499B-B8F3-C893097193EF}" ShortID="319643443">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -4722,6 +4809,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="In The Steppes Of CentralAsia" ID="{76AE7E0D-E32A-4263-871C-59C46E47E960}" ShortID="215917521">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
