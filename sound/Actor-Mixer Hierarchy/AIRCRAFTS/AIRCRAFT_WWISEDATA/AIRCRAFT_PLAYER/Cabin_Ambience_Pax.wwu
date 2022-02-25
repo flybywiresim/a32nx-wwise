@@ -4891,6 +4891,27 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+										<CustomState Name="" ID="{ACF5ADE5-8BD1-4E45-A18C-9ED1DFB2440E}" ShortID="519805198"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+										<CustomState Name="" ID="{2D27B7A6-05EA-4A4B-A732-42C42EC1905A}" ShortID="141622414">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</RandomSequenceContainer>
 					</ChildrenList>
 					<StateInfo>
