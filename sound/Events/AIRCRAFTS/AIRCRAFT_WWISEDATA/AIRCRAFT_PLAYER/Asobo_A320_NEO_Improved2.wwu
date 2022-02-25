@@ -2675,16 +2675,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{5939CB4E-6A9B-4BF7-91A4-2CC138B16124}" ShortID="161791566">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="boarding music" ID="{858A26B7-FA44-43E8-815B-005CBA640762}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_cockpitdooropen" ID="{F2704434-6DF2-4719-BFA1-60838A69EE73}">
@@ -3096,6 +3086,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="boardingcompleted" ID="{14C4EDDD-AB49-4655-888F-B1D23AE3AE9C}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_boardingmusic" ID="{C74A5F71-39C3-4293-BAB5-D6CCF844DAAB}">
+					<ChildrenList>
+						<Action Name="" ID="{F31DAC59-AD59-4006-A9E6-5118260D67A7}" ShortID="592732078">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boarding music" ID="{A2043329-335D-4AB8-8378-F3BDC7C740F1}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
