@@ -1129,15 +1129,15 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_packcabinshut" ID="{A01D57D0-162D-471F-82D0-6CEFA6157C73}">
+				<Event Name="Play_Asobo_A320_NEO_packscabinshut" ID="{A01D57D0-162D-471F-82D0-6CEFA6157C73}">
 					<ChildrenList>
-						<Action Name="" ID="{366E2234-AE54-4EF9-AE2A-DE8DCE6FC73C}" ShortID="449214355">
+						<Action Name="" ID="{91F14B8F-76AB-4DD1-A097-A85A135ACF88}" ShortID="25230426">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="packscabin" ID="{C755177E-B074-441B-8849-E0ACCDEB4E7A}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
+									<ObjectRef Name="packscabinshut" ID="{3A225E4C-CBC6-4785-AA67-B427893DAC8F}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -3072,16 +3072,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="boarding" ID="{80B59654-777A-4E57-A180-B6224C369A30}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{F096BE03-69BB-4CDB-9AB3-8E83194B66F3}" ShortID="856763206">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="boarding music" ID="{858A26B7-FA44-43E8-815B-005CBA640762}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

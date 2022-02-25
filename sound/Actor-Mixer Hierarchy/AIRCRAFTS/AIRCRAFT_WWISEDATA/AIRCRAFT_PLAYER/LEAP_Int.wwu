@@ -1692,14 +1692,25 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>0</YPos>
+														<YPos>-3</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>198.53406</XPos>
+														<XPos>140</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>270</XPos>
 														<YPos>0</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>300</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>360</XPos>
@@ -1709,6 +1720,45 @@
 													</Point>
 													<Point>
 														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{A69C19FA-BD6E-4EF5-8F9C-6C73CCEC92FE}" ShortID="268754400">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_AMBIENT_TEMPERATURE" ID="{0821D3AA-067E-4542-A7C7-7A3646B44E92}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E4F4E476-5883-4D99-91EB-06BC1F03C87E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-50</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-30</XPos>
+														<YPos>2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>15</XPos>
+														<YPos>-3</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>30</XPos>
+														<YPos>-12</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
 														<YPos>-200</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -2102,6 +2152,45 @@
 										<Value>11</Value>
 									</ValueList>
 									<RTPCList>
+										<RTPC Name="" ID="{430DD41C-7C2F-4755-A897-1A541035D25A}" ShortID="192971213">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_AMBIENT_TEMPERATURE" ID="{0821D3AA-067E-4542-A7C7-7A3646B44E92}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{456BB50A-C894-4E5D-B184-7BD765C77446}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-50</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-30</XPos>
+														<YPos>2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>15</XPos>
+														<YPos>-3</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>30</XPos>
+														<YPos>-12</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{E6E75D1F-86A4-4421-9C14-07B32423C9FD}" ShortID="40017551">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -2156,14 +2245,24 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>0</YPos>
+														<YPos>-3</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>198.53406</XPos>
+														<XPos>140</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>270</XPos>
 														<YPos>0</YPos>
 														<Flags>0</Flags>
-														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>300</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>360</XPos>

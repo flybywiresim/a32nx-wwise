@@ -1342,10 +1342,10 @@
 							<ChildrenList>
 								<Effect Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="10"/>
+										<Property Name="DecayTime" Type="Real32" Value="1.6"/>
 										<Property Name="Density" Type="Real32" Value="55"/>
 										<Property Name="ERFrontBackDelay" Type="Real32" Value="7"/>
-										<Property Name="ERLevel" Type="Real32" Value="-24"/>
+										<Property Name="ERLevel" Type="Real32" Value="-30"/>
 										<Property Name="ERPattern" Type="int32" Value="12"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="490"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
@@ -1356,7 +1356,7 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.5"/>
 										<Property Name="PreDelay" Type="Real32" Value="0"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-19"/>
 										<Property Name="RoomSize" Type="Real32" Value="100"/>
 										<Property Name="StereoWidth" Type="Real32" Value="172"/>
 									</PropertyList>

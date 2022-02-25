@@ -1905,17 +1905,17 @@
 					<PropertyList>
 						<Property Name="DryLevel" Type="Real32" Value="0.2"/>
 						<Property Name="IRChannelSelect" Type="int32" Value="4"/>
-						<Property Name="IRConvolutionStop" Type="Real64" Value="0.904520833333333"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="0.898321995464853"/>
 						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
 						<Property Name="IRStretch" Type="Real32" Value="108"/>
 						<Property Name="InputStereoWidth" Type="Real32" Value="180"/>
 						<Property Name="WetLevel" Type="Real32" Value="-31"/>
 					</PropertyList>
 					<ChildrenList>
-						<PluginMediaSource Name="IR_ATR42-600_AT4022" ID="{8BECCF3E-0724-4D26-8D50-694A78CAF6AB}">
+						<PluginMediaSource Name="boardingcompleted" ID="{8BECCF3E-0724-4D26-8D50-694A78CAF6AB}">
 							<ParentPluginID>8323075</ParentPluginID>
 							<PropertyList>
-								<Property Name="DataFileName" Type="string" Value="IR_ATR42-600_AT4022.wav"/>
+								<Property Name="DataFileName" Type="string" Value="boardingcompleted.wav"/>
 							</PropertyList>
 						</PluginMediaSource>
 					</ChildrenList>
@@ -1968,7 +1968,7 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>0.904520833333333</XPos>
+							<XPos>0.898321995464853</XPos>
 							<YPos>20</YPos>
 							<Flags>37</Flags>
 						</Point>
@@ -1988,7 +1988,7 @@
 							<SegmentShape>Log3</SegmentShape>
 						</Point>
 						<Point>
-							<XPos>0.904520833333333</XPos>
+							<XPos>0.898321995464853</XPos>
 							<YPos>-120</YPos>
 							<Flags>37</Flags>
 						</Point>

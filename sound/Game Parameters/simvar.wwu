@@ -525,9 +525,9 @@ Unit : millimeters of water</Comment>
 						</GameParameter>
 						<GameParameter Name="SIMVAR_AMBIENT_TEMPERATURE" ID="{0821D3AA-067E-4542-A7C7-7A3646B44E92}">
 							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="30"/>
-								<Property Name="Max" Type="Real64" Value="30"/>
-								<Property Name="Min" Type="Real64" Value="-30"/>
+								<Property Name="InitialValue" Type="Real64" Value="15"/>
+								<Property Name="Max" Type="Real64" Value="60"/>
+								<Property Name="Min" Type="Real64" Value="-50"/>
 							</PropertyList>
 						</GameParameter>
 					</ChildrenList>
@@ -539,7 +539,7 @@ Unit : millimeters of water</Comment>
 Unit : Feet</Comment>
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="0"/>
-								<Property Name="Max" Type="Real64" Value="20000"/>
+								<Property Name="Max" Type="Real64" Value="50000"/>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="SIMVAR_VERTICAL_SPEED" ID="{41463B58-9F9D-4FDF-B198-1B856CAA76F0}">
@@ -1489,6 +1489,18 @@ Unit : Percent</Comment>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="LOCALVAR_A32NX_EXTRACT_OVRD_01" ID="{A68176F4-93DC-415C-B189-9192BCD0D17D}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" ID="{7CC1F759-E930-4848-984F-F7E07A5FB5C3}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" ID="{F1EF4B6F-677B-4212-866F-71B050BC4032}">
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="1"/>
 								<Property Name="Max" Type="Real64" Value="1"/>
