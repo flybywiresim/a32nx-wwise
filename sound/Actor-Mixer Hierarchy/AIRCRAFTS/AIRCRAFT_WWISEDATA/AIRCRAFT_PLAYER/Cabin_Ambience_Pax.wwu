@@ -4653,18 +4653,20 @@
 								<ActiveSource Name="shutdownclicks" ID="{5ED519B3-95C2-453F-8898-3AE73D0C186D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="boarding music" ID="{A2043329-335D-4AB8-8378-F3BDC7C740F1}" ShortID="440807886">
+						<RandomSequenceContainer Name="boarding_music" ID="{0598DB92-3C31-4244-85F2-7F37B511E637}" ShortID="44481583">
 							<PropertyList>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
 									<RTPCList>
-										<RTPC Name="" ID="{81C9962E-D709-4B43-8534-31A2A4F467D1}" ShortID="873629035">
+										<RTPC Name="" ID="{23F33F1E-773D-46BB-8AE2-F57280C23D29}" ShortID="586809019">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="LOCALVAR_A32NX_BOARDING_MUSIC_TOGGLE" ID="{F367B303-8C45-4A91-9BF2-F9F3AE52AD78}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{CD55849E-4B5C-43AC-81FA-D09923817D81}">
+											<Curve Name="" ID="{DAF41366-E24B-4BE2-9AB1-728699861D99}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -4694,7 +4696,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9" ID="{939A2679-1FEB-422E-A169-4DFB07D7E34F}" ShortID="117453560">
+								<Sound Name="Holst_Planets_Calgary_2015_Aug_9" ID="{7FCF9025-C30A-499B-B8F3-C893097193EF}" ShortID="319643443">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -4704,7 +4706,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9" ID="{9F096F2C-1E5C-4A73-BFDA-E3CF42B350F6}">
+										<AudioFileSource Name="Holst_Planets_Calgary_2015_Aug_9" ID="{72CCDD90-73B5-4A0D-90ED-81A0B68D3A5F}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -4712,14 +4714,14 @@
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9.wav</AudioFile>
+											<AudioFile>Holst_Planets_Calgary_2015_Aug_9.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="IMSLP473859-PMLP33488-Holst_Planets_Calgary_2015_Aug_9" ID="{9F096F2C-1E5C-4A73-BFDA-E3CF42B350F6}" Platform="Linked"/>
+										<ActiveSource Name="Holst_Planets_Calgary_2015_Aug_9" ID="{72CCDD90-73B5-4A0D-90ED-81A0B68D3A5F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="IMSLP571344-PMLP03577-Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963" ID="{A0F812A7-B23E-400B-A843-946242C14D5E}" ShortID="133114768">
+								<Sound Name="In The Steppes Of CentralAsia" ID="{76AE7E0D-E32A-4263-871C-59C46E47E960}" ShortID="215917521">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -4729,7 +4731,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="IMSLP571344-PMLP03577-Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963" ID="{C107B645-01D4-46B1-AD9D-33FC48277265}">
+										<AudioFileSource Name="In The Steppes Of CentralAsia" ID="{DE8D89D3-90B0-46F0-B1C8-33A8A3FED0DA}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -4737,14 +4739,14 @@
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>IMSLP571344-PMLP03577-Ravel_M.,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963.wav</AudioFile>
+											<AudioFile>In The Steppes Of CentralAsia.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="IMSLP571344-PMLP03577-Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963" ID="{C107B645-01D4-46B1-AD9D-33FC48277265}" Platform="Linked"/>
+										<ActiveSource Name="In The Steppes Of CentralAsia" ID="{DE8D89D3-90B0-46F0-B1C8-33A8A3FED0DA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="In The Steppes Of Central Asia" ID="{DD85631A-92EE-441B-B008-6CBCCAB7E3E4}" ShortID="400045587">
+								<Sound Name="OnhearingthefirstcuckooinSpringGroves" ID="{698EDBF1-9304-483B-AD8B-578C35E119D3}" ShortID="204402230">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -4754,7 +4756,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="In The Steppes Of Central Asia" ID="{F290B60A-CDA9-4869-8467-C7B878212DFD}">
+										<AudioFileSource Name="OnhearingthefirstcuckooinSpringGroves" ID="{78C1D114-A6C4-4499-B791-CB2B3CA2EC47}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -4762,14 +4764,14 @@
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>In The Steppes Of Central Asia.wav</AudioFile>
+											<AudioFile>OnhearingthefirstcuckooinSpringGroves.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="In The Steppes Of Central Asia" ID="{F290B60A-CDA9-4869-8467-C7B878212DFD}" Platform="Linked"/>
+										<ActiveSource Name="OnhearingthefirstcuckooinSpringGroves" ID="{78C1D114-A6C4-4499-B791-CB2B3CA2EC47}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="OnhearingthefirstcuckooinSpringGroves (1)" ID="{2C6BBAF9-33F7-4EBB-BF20-271DE03C85C6}" ShortID="882877311">
+								<Sound Name="Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963" ID="{DEB461F2-AF75-4855-B88E-F4D6020A46CE}" ShortID="331385183">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -4779,7 +4781,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="OnhearingthefirstcuckooinSpringGroves (1)" ID="{02F1387A-E573-4CB7-9001-707FDA27992B}">
+										<AudioFileSource Name="Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963" ID="{24439F6A-80D1-4DC1-96F8-D179D1302042}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -4787,35 +4789,14 @@
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>OnhearingthefirstcuckooinSpringGroves (1).wav</AudioFile>
+											<AudioFile>Ravel_M.,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="OnhearingthefirstcuckooinSpringGroves (1)" ID="{02F1387A-E573-4CB7-9001-707FDA27992B}" Platform="Linked"/>
+										<ActiveSource Name="Ravel_M_,_Pavane_pour_une_Infante_défunte_(Eugène_Ormandy)_Sony_1963" ID="{24439F6A-80D1-4DC1-96F8-D179D1302042}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
-										<CustomState Name="" ID="{62B0E79F-8424-4CB8-BB67-524773B048EE}" ShortID="396510056"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
-										<CustomState Name="" ID="{F382A342-D777-4F50-9235-23194E917817}" ShortID="677213275">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 						</RandomSequenceContainer>
 					</ChildrenList>
 					<StateInfo>
