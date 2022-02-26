@@ -1506,6 +1506,12 @@ Unit : Percent</Comment>
 								<Property Name="Max" Type="Real64" Value="1"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_BOARDING_MUSIC_TOGGLE" ID="{F367B303-8C45-4A91-9BF2-F9F3AE52AD78}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
