@@ -3478,6 +3478,32 @@
 									<ValueList>
 										<Value>12</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{A936F13E-E651-4120-B32A-F1EA52EE9259}" ShortID="982123896">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" ID="{7CC1F759-E930-4848-984F-F7E07A5FB5C3}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D65D24A0-4A3E-4FF0-A172-37A23858734D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>

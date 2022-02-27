@@ -9939,6 +9939,9 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B1F585AD-CF97-40C4-B5F5-8BDF404EF51D}" ShortID="444270973">
 											<ReferenceList>
@@ -10858,6 +10861,9 @@
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{FC0491B7-338E-43BE-B577-6ED10065F6E7}" ShortID="158548369">
 											<ReferenceList>
@@ -11574,7 +11580,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>10</Value>
+										<Value>8</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B5033005-DE71-426F-A889-A6EA7FFA8A90}" ShortID="222593363">
@@ -12982,9 +12988,6 @@
 								</Property>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{34BAD913-CF45-4E8C-B9EC-8DFD25C9DE13}" ShortID="251408313">
 											<ReferenceList>
@@ -14873,7 +14876,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-21</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{1CFCB864-392D-477C-8C3C-4BA2ED122050}" ShortID="711233396">
@@ -15309,9 +15312,6 @@
 								</Property>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{4E09294D-A83C-4981-88A1-3A0EA274C63A}" ShortID="506955150">
 											<ReferenceList>
@@ -15745,7 +15745,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-21</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B3217D1A-85AC-4E93-9951-2651E3E51EA9}" ShortID="463971087">
@@ -16130,7 +16130,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-23</Value>
+										<Value>-24</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{995A634A-399E-45E7-83CE-CA27DEF9DD33}" ShortID="86932287">
@@ -16480,6 +16480,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
 										<RTPC Name="" ID="{021BB169-EF3F-4003-8550-D98B7B03DBA7}" ShortID="455364204">
@@ -16620,17 +16621,19 @@
 									<Custom CreatedFrom="{BA363F22-61E2-479C-9307-89C68E72B24D}">
 										<Attenuation Name="aircraft_player_outside_turbofan_airliner_10000m_combustion (Custom)" ID="{CFC04447-A7FB-4D70-8A24-CE8A8943B2CD}" ShortID="439406859">
 											<PropertyList>
-												<Property Name="ConeHighPassFilterValue" Type="int32">
-													<ValueList>
-														<Value>20</Value>
-													</ValueList>
-												</Property>
+												<Property Name="ConeInnerAngle" Type="int32" Value="135"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
 														<Value>40</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="260"/>
+												<Property Name="ConeUse" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -16646,7 +16649,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>3</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
@@ -16696,7 +16699,12 @@
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>2048</XPos>
+																	<YPos>-28</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -16720,25 +16728,25 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>3</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>200</XPos>
+																	<XPos>300</XPos>
 																	<YPos>-16</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>600</XPos>
+																	<XPos>900</XPos>
 																	<YPos>-24</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>3000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -16757,22 +16765,41 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>Exp2</SegmentShape>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>57</XPos>
+																	<YPos>27</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>32</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>200</XPos>
-																	<YPos>15</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Log2</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>1000</XPos>
-																	<YPos>70</YPos>
+																	<YPos>36</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
-																	<YPos>85</YPos>
+																	<XPos>300</XPos>
+																	<YPos>39</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>550</XPos>
+																	<YPos>44</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1430</XPos>
+																	<YPos>52</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
+																	<YPos>58</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -16793,8 +16820,8 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
-																	<YPos>26</YPos>
+																	<XPos>3000</XPos>
+																	<YPos>10</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -16814,13 +16841,13 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>20</XPos>
 																	<YPos>10</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>3000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -17005,7 +17032,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>10</Value>
+										<Value>8</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B6CBEE91-0948-4DF4-845D-EDED746537DB}" ShortID="247819656">
@@ -17476,6 +17503,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
 										<RTPC Name="" ID="{B9C7D62F-44E1-408F-8E50-BC70603B5A62}" ShortID="487194509">
@@ -17616,17 +17644,19 @@
 									<Custom CreatedFrom="{BA363F22-61E2-479C-9307-89C68E72B24D}">
 										<Attenuation Name="aircraft_player_outside_turbofan_airliner_10000m_combustion (Custom)" ID="{7BB75860-A471-40F6-800D-D3FF50F00D01}" ShortID="601475288">
 											<PropertyList>
-												<Property Name="ConeHighPassFilterValue" Type="int32">
-													<ValueList>
-														<Value>20</Value>
-													</ValueList>
-												</Property>
+												<Property Name="ConeInnerAngle" Type="int32" Value="135"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>40</Value>
+														<Value>50</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="260"/>
+												<Property Name="ConeUse" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -17642,7 +17672,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>3</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
@@ -17692,7 +17722,12 @@
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>2048</XPos>
+																	<YPos>-28</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -17716,25 +17751,25 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>3</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>200</XPos>
+																	<XPos>300</XPos>
 																	<YPos>-16</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>600</XPos>
+																	<XPos>900</XPos>
 																	<YPos>-24</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>3000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -17753,22 +17788,41 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>Exp2</SegmentShape>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>57</XPos>
+																	<YPos>27</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>32</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>200</XPos>
-																	<YPos>15</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Log2</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>1000</XPos>
-																	<YPos>70</YPos>
+																	<YPos>36</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
-																	<YPos>85</YPos>
+																	<XPos>300</XPos>
+																	<YPos>39</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>550</XPos>
+																	<YPos>44</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1430</XPos>
+																	<YPos>52</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
+																	<YPos>58</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -17789,8 +17843,8 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
-																	<YPos>26</YPos>
+																	<XPos>3000</XPos>
+																	<YPos>10</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -17810,13 +17864,13 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>20</XPos>
 																	<YPos>10</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>3000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -18503,7 +18557,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{8195087B-57D5-44A2-A841-A86332E40825}" ShortID="204162976">
@@ -19045,7 +19099,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-23</Value>
+										<Value>-24</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{2C101806-8410-42E9-8FB9-1CF2B987B70F}" ShortID="480777553">
@@ -21446,7 +21500,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{7A5CD394-1365-4E77-B2CD-02959D070360}" ShortID="459507608">
@@ -22887,6 +22941,9 @@
 								</Property>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{F69D6458-8821-47E6-B6BB-6C6DFF157F93}" ShortID="810396002">
 											<ReferenceList>
@@ -23919,7 +23976,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{FAAE111B-F606-47CE-AC6B-79687D0DC9E8}" ShortID="34843274">
