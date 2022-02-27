@@ -26100,7 +26100,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>14</Value>
+										<Value>11</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{6FE1CD41-D646-493E-B263-E3103BF4071E}" ShortID="447094892">
@@ -26129,10 +26129,10 @@
 														<XPos>48.95288</XPos>
 														<YPos>-2</YPos>
 														<Flags>0</Flags>
-														<SegmentShape>Exp2</SegmentShape>
+														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>83</XPos>
+														<XPos>85</XPos>
 														<YPos>-24</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -26533,7 +26533,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>14</Value>
+										<Value>11</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{EE848C24-13B2-4B32-B0DB-3C3C213E6886}" ShortID="13578779">
@@ -26632,10 +26632,10 @@
 														<XPos>48.95288</XPos>
 														<YPos>-2</YPos>
 														<Flags>0</Flags>
-														<SegmentShape>Exp2</SegmentShape>
+														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>83</XPos>
+														<XPos>85</XPos>
 														<YPos>-24</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -26878,6 +26878,7 @@
 						</Sound>
 						<Sound Name="ISpoolHighL_Hi" ID="{6B11CDAC-29F7-4524-B664-C422077B93EE}" ShortID="173751040">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
@@ -26918,10 +26919,8 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B9F90947-C8B3-465B-AD98-69B20CB27CEB}" ShortID="584245949">
 											<ReferenceList>
@@ -27176,7 +27175,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+									<ObjectRef Name="combustion_inside" ID="{2BDCFD7D-E150-4823-BD18-35B9A0274672}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -27199,6 +27198,7 @@
 						</Sound>
 						<Sound Name="ISpoolHighL_01_Hi" ID="{B9801B77-2580-4DC6-98B6-B14AF723EBEA}" ShortID="530648950">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Highpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{E433B443-92F9-4290-A718-55AAE418BCE7}" ShortID="242633529">
@@ -27239,10 +27239,8 @@
 									</RTPCList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{1E5E0D21-1DC1-42B3-8208-8117ED82716F}" ShortID="275801453">
 											<ReferenceList>
@@ -27496,7 +27494,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+									<ObjectRef Name="combustion_inside" ID="{2BDCFD7D-E150-4823-BD18-35B9A0274672}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -27539,6 +27537,7 @@
 						</Sound>
 						<Sound Name="ISpoolHighR_Hi" ID="{8145EC4F-95D3-48F0-94F4-FA89D057E623}" ShortID="974699345">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
@@ -27579,10 +27578,8 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{7FA4F38B-E78F-459F-B033-7BDC99642F45}" ShortID="919468293">
 											<ReferenceList>
@@ -27770,7 +27767,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+									<ObjectRef Name="combustion_inside" ID="{2BDCFD7D-E150-4823-BD18-35B9A0274672}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -27793,6 +27790,7 @@
 						</Sound>
 						<Sound Name="ISpoolHighR_01_Hi" ID="{B98B1079-F3EA-4A71-8F48-4F6A75F6391C}" ShortID="316103459">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Highpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{15F58358-29ED-4E9A-9B72-0455BE93DB0E}" ShortID="896472668">
@@ -27833,10 +27831,8 @@
 									</RTPCList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{21360648-DD8A-4A0F-AD88-1DFD16057931}" ShortID="664180445">
 											<ReferenceList>
@@ -28115,7 +28111,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+									<ObjectRef Name="combustion_inside" ID="{2BDCFD7D-E150-4823-BD18-35B9A0274672}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
