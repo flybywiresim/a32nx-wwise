@@ -169,6 +169,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{9371CF7F-3BD4-41F9-A96B-EEA91D84279C}" ShortID="26075751">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="windcruise" ID="{6AF4A207-CFBE-42F1-81B8-13790EFACCD7}" WorkUnitID="{B98A18FB-2008-4669-8E8A-FAF6B85903B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="PW 1100G" ID="{80552B54-D435-430F-8DB9-EC3B80A41D5E}" ShortID="1029316100">
@@ -2665,16 +2675,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{5939CB4E-6A9B-4BF7-91A4-2CC138B16124}" ShortID="161791566">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="boarding music" ID="{858A26B7-FA44-43E8-815B-005CBA640762}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_cockpitdooropen" ID="{F2704434-6DF2-4719-BFA1-60838A69EE73}">
@@ -2727,7 +2727,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ptusound_01" ID="{E8B892EE-D1FD-425B-BA30-3DE76E7CAD4A}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+									<ObjectRef Name="ptucont" ID="{E8B892EE-D1FD-425B-BA30-3DE76E7CAD4A}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -3072,6 +3072,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="boarding" ID="{80B59654-777A-4E57-A180-B6224C369A30}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7DF68E7B-BAEF-4A38-A7FF-725EB66D330E}" ShortID="426713722">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boarding_music" ID="{0598DB92-3C31-4244-85F2-7F37B511E637}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
