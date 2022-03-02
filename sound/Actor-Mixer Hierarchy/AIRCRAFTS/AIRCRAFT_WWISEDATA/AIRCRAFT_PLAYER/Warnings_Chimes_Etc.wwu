@@ -4586,6 +4586,11 @@
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4715,9 +4720,22 @@
 									<Language>SFX</Language>
 									<AudioFile>cpdlc_ring.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="cpdlc_ring_high" ID="{DA26BC0E-15C2-417D-86F3-BD4AAAB55262}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00861188812719438"/>
+										<Property Name="FadeOutShape" Type="int16" Value="0"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.04913060655408"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>cpdlc_ring_high.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="cpdlc_ring" ID="{52129E20-9229-4AC1-ADE9-BA76E337CE9A}" Platform="Linked"/>
+								<ActiveSource Name="cpdlc_ring_high" ID="{DA26BC0E-15C2-417D-86F3-BD4AAAB55262}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="CRC" ID="{5E7473BD-B6F1-46BD-8EBA-3564DDA9ABAD}" ShortID="626301765">

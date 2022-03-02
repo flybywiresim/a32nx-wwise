@@ -1476,10 +1476,10 @@ Unit : Percent</Comment>
 								<Property Name="Max" Type="Real64" Value="1"/>
 							</PropertyList>
 						</GameParameter>
-						<GameParameter Name="LOCALVAR_A32NX_HYD_PTU_MOTOR_FLOW" ID="{7FE409A7-4C5F-4BD9-B656-D90D69CFCFE1}">
+						<GameParameter Name="LOCALVAR_A32NX_PTU_RPM" ID="{7FE409A7-4C5F-4BD9-B656-D90D69CFCFE1}">
 							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0.2"/>
-								<Property Name="Max" Type="Real64" Value="0.25"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="2000"/>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="LOCALVAR_A32NX_EXTRACT_OVRD" ID="{80E36563-05DF-459D-A9A5-9A4C9C3A8F79}">
