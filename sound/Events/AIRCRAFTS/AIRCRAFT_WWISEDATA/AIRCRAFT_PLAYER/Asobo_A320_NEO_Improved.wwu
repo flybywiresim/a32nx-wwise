@@ -1349,6 +1349,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{B53F1F90-C0DC-47E1-8477-85289CEEB3EF}" ShortID="101717805">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ISpoolHighL_01_Hi" ID="{B9801B77-2580-4DC6-98B6-B14AF723EBEA}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{02E2CC32-C97E-44FD-9DAD-D72AF15D18C7}" ShortID="833445271">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ISpoolHighL_Hi" ID="{6B11CDAC-29F7-4524-B664-C422077B93EE}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_ISpoolHighR" ID="{2A1F970C-91F8-4765-B0C9-9572C89DF5B6}">
@@ -1370,6 +1390,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ISPoolHighR_01" ID="{36A53866-3B53-451A-82AB-BE41DD93973D}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2C073113-1AA1-4556-92B6-B95A1F6501AF}" ShortID="962268073">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ISpoolHighR_01_Hi" ID="{B98B1079-F3EA-4A71-8F48-4F6A75F6391C}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B0AB83D5-6107-446C-9E75-7C6F8A417048}" ShortID="25601386">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ISpoolHighR_Hi" ID="{8145EC4F-95D3-48F0-94F4-FA89D057E623}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
