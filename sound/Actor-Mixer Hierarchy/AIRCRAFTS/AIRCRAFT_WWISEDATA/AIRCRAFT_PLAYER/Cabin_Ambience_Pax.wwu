@@ -201,7 +201,7 @@
 												<Property Name="IRConvolutionStop" Type="Real64" Value="0.898321995464853"/>
 												<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
 												<Property Name="IRStretch" Type="Real32" Value="108"/>
-												<Property Name="WetLevel" Type="Real32" Value="17"/>
+												<Property Name="WetLevel" Type="Real32" Value="13"/>
 											</PropertyList>
 											<ChildrenList>
 												<PluginMediaSource Name="boardingcompleted" ID="{00A50651-9877-4587-A2CB-135930593E40}">
@@ -300,7 +300,7 @@
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="warning_inside" ID="{4BCCE09B-10CD-460C-9056-AC161C7B29DD}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+									<ObjectRef Name="miscellaneous_inside" ID="{A94A7A7F-2F28-46C7-9158-EA25E9E42914}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -4199,7 +4199,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>-2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{137A0133-11E9-44C2-B175-ADD299D8CCB3}" ShortID="769197149">

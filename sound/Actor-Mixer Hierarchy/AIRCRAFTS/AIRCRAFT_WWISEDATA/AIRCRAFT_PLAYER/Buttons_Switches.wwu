@@ -601,7 +601,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -744,7 +744,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="flapnotch2" ID="{BEBBAB20-00BE-46DC-AA4D-F1CC8EED8BBF}" ShortID="254105716">
+						<Sound Name="flap1" ID="{1A597090-E560-411E-8A22-86FD099871EE}" ShortID="232701540">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -754,22 +754,24 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="flapnotch2" ID="{D152F7D5-3FA4-448D-8ADD-5E221B4E543D}">
+								<AudioFileSource Name="flap1" ID="{0A155262-32E1-43D8-B3E7-166F0CA3322D}">
 									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.334168712871287"/>
 										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.83521267326733"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.21115247524752"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>flapnotch2.wav</AudioFile>
+									<AudioFile>flap1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="flapnotch2" ID="{D152F7D5-3FA4-448D-8ADD-5E221B4E543D}" Platform="Linked"/>
+								<ActiveSource Name="flap1" ID="{0A155262-32E1-43D8-B3E7-166F0CA3322D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="flapnotch3" ID="{AC859C49-9EE2-4335-8BFA-FFA6AE630801}" ShortID="769404431">
+						<Sound Name="flap2" ID="{566857B3-D427-45B4-95C1-901289851C77}" ShortID="354894558">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -779,7 +781,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="flapnotch3" ID="{2EDDA178-5533-4530-8322-3E1F67E50C18}">
+								<AudioFileSource Name="flap2" ID="{ACE72212-3C51-4F20-AE17-C4CA43BE6E8C}">
 									<PropertyList>
 										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -787,14 +789,14 @@
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>flapnotch3.wav</AudioFile>
+									<AudioFile>flap2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="flapnotch3" ID="{2EDDA178-5533-4530-8322-3E1F67E50C18}" Platform="Linked"/>
+								<ActiveSource Name="flap2" ID="{ACE72212-3C51-4F20-AE17-C4CA43BE6E8C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="flapnotch" ID="{20609953-157E-4093-8901-6ADADD6DCB52}" ShortID="488031225">
+						<Sound Name="flap3" ID="{64F95490-9A88-40BC-8CFE-3D298A50D369}" ShortID="666684031">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -804,7 +806,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="flapnotch" ID="{114D0496-7376-4F3A-9383-98999434742F}">
+								<AudioFileSource Name="flap3" ID="{2771D789-CB55-4208-9599-590D87C2820B}">
 									<PropertyList>
 										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -812,11 +814,36 @@
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>flapnotch.wav</AudioFile>
+									<AudioFile>flap3.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="flapnotch" ID="{114D0496-7376-4F3A-9383-98999434742F}" Platform="Linked"/>
+								<ActiveSource Name="flap3" ID="{2771D789-CB55-4208-9599-590D87C2820B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="flap4" ID="{3CB882BD-2D6F-4107-A12C-ECF1EE134E91}" ShortID="1014624467">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="flap4" ID="{724FD15E-D141-4525-969E-1ED90FEDD777}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>flap4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="flap4" ID="{724FD15E-D141-4525-969E-1ED90FEDD777}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -9355,7 +9382,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>-96</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

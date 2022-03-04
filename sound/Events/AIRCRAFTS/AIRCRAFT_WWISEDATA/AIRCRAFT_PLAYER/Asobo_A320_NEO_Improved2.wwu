@@ -3101,6 +3101,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_A320_NEO_cabinpackshigh" ID="{1CF237E1-0039-4504-8A0D-16CD89C1F378}">
+					<ChildrenList>
+						<Action Name="" ID="{93BB1FC4-E1FC-4F9A-9ED0-DE3098F17AA1}" ShortID="641713859">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="packshigh" ID="{B77967CB-A744-465D-99EE-C8C6495D08F8}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
