@@ -1787,21 +1787,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-30</Value>
-													</ValueList>
-												</Property>
-												<Property Name="ConeHighPassFilterValue" Type="int32">
-													<ValueList>
-														<Value>20</Value>
+														<Value>0</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeInnerAngle" Type="int32" Value="150"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>40</Value>
+														<Value>70</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="215"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -2381,21 +2376,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-30</Value>
-													</ValueList>
-												</Property>
-												<Property Name="ConeHighPassFilterValue" Type="int32">
-													<ValueList>
-														<Value>20</Value>
+														<Value>0</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeInnerAngle" Type="int32" Value="150"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>40</Value>
+														<Value>70</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="215"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -3189,17 +3179,55 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
+								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
-										<RTPC Name="" ID="{965766DB-7E28-44BF-A4FB-6EFCDBEC54C5}" ShortID="491313211">
+										<RTPC Name="" ID="{82B44C9C-75A8-483C-AAFB-B805AACDD9C7}" ShortID="623684698">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{A2C4619F-5C5D-40FF-8535-5E39B2A7E465}">
+											<Curve Name="" ID="{D206DD64-F8D5-4771-B9CF-AE7D56D12EAD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>19</XPos>
+														<YPos>2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>21.5131</XPos>
+														<YPos>41</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>19</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{F049BFC7-4668-4924-8A61-39C481C0298B}" ShortID="1072661848">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{834E809B-60C2-41AE-8E3B-494595033079}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
@@ -3215,19 +3243,21 @@
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>19.5182228649799</XPos>
-														<YPos>-50</YPos>
+														<XPos>20</XPos>
+														<YPos>30</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>20.1021</XPos>
+														<XPos>20.001</XPos>
 														<YPos>-90</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>20.95337</XPos>
+														<XPos>20.97995</XPos>
 														<YPos>80</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>25.70158</XPos>
@@ -3259,7 +3289,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>10</Value>
+										<Value>2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{F8E8AB74-DA7C-48FB-BDD2-C42E24313D74}" ShortID="258124858">
@@ -3286,6 +3316,96 @@
 													</Point>
 													<Point>
 														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{A559DFAA-EEF9-47F3-8C61-95F00E307CDD}" ShortID="625807395">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{147B7B75-C1E1-4632-B17F-7547CAE68FAA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>16</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>17</XPos>
+														<YPos>0.114290000000011</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>18.68124</XPos>
+														<YPos>-0.02808</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>18.88588</XPos>
+														<YPos>-3.02535</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>19.09053</XPos>
+														<YPos>0.05696</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>19.96544</XPos>
+														<YPos>-0.11433</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>20.20092</XPos>
+														<YPos>-6</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>20.49847</XPos>
+														<YPos>-0.01496</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>22.4261044270267</XPos>
+														<YPos>-0.0165369588580688</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>23.18719</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>28.54974</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
 														<YPos>-200</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -3321,84 +3441,6 @@
 												</PointList>
 											</Curve>
 										</RTPC>
-										<RTPC Name="" ID="{6735AFD8-7EC9-4416-96CF-49880729ED60}" ShortID="984519891">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{7A57C481-7079-4D4B-A5BE-DB802C082E79}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>16</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>17</XPos>
-														<YPos>0.114290000000011</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>20.4013</XPos>
-														<YPos>-4.00000000126965E-05</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>21.27866</XPos>
-														<YPos>-2.1102</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>21.42979</XPos>
-														<YPos>-2.1102</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>21.49246</XPos>
-														<YPos>-0.0149600000000021</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>22.4261044270267</XPos>
-														<YPos>-0.0165369588580688</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>23.18719</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>28.54974</XPos>
-														<YPos>-31.65264</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -3408,6 +3450,11 @@
 										<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{72D4BD85-501C-423C-83B3-08D777EBE449}" ShortID="930737201">
 											<PropertyList>
 												<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
+												<Property Name="ConeUse" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="RadiusMax" Type="Real64" Value="25"/>
 											</PropertyList>
 											<CurveUsageInfoList>
@@ -3532,8 +3579,8 @@
 							<ChildrenList>
 								<AudioFileSource Name="idlehighL" ID="{01E49498-10F5-4930-9DA4-906C707A3CD2}">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0262687346727033"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.0525374693454097"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0189119173583188"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00735681731438476"/>
 										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -3585,17 +3632,55 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
+								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
-										<RTPC Name="" ID="{8A93686B-9130-4B2C-9819-D65081BAE85A}" ShortID="509655159">
+										<RTPC Name="" ID="{C826571D-282B-418A-AB1B-9DAD7497B222}" ShortID="923050451">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{A59057D6-2B92-4F0A-A474-B1D5A278A022}">
+											<Curve Name="" ID="{E00EFF16-B73F-4725-A606-319F8A52373F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>19</XPos>
+														<YPos>2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>21.5131</XPos>
+														<YPos>41</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>19</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{45AC21D4-BCB1-42C5-9C39-3F52206AE78C}" ShortID="386751144">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{419531CD-2105-4F8B-8ACE-CAD0075082A6}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
@@ -3611,19 +3696,21 @@
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>19.5182228649799</XPos>
-														<YPos>-50</YPos>
+														<XPos>20</XPos>
+														<YPos>30</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>20.1021</XPos>
+														<XPos>20.001</XPos>
 														<YPos>-90</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>20.95337</XPos>
+														<XPos>20.97995</XPos>
 														<YPos>80</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>25.70158</XPos>
@@ -3655,7 +3742,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>10</Value>
+										<Value>2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{30886E47-B290-445A-9A90-C8D52957D046}" ShortID="338844594">
@@ -3687,13 +3774,13 @@
 												</PointList>
 											</Curve>
 										</RTPC>
-										<RTPC Name="" ID="{1252A7E9-F404-467A-8D60-CF93F1ECD414}" ShortID="337009942">
+										<RTPC Name="" ID="{68E53EA3-F4C3-4008-B86D-8C1BCEAAA12A}" ShortID="873291434">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{6683515D-848E-4E4B-9865-DDABE50D75D2}">
+											<Curve Name="" ID="{CCCE727E-3763-4848-84E5-ED9FDEBAB4F3}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -3716,25 +3803,37 @@
 														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>20.4013</XPos>
-														<YPos>-4.00000000126965E-05</YPos>
+														<XPos>18.68124</XPos>
+														<YPos>-0.0280799999999886</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>21.27866</XPos>
-														<YPos>-2.1102</YPos>
+														<XPos>18.88588</XPos>
+														<YPos>-3.02535</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>21.42979</XPos>
-														<YPos>-2.1102</YPos>
+														<XPos>19.09053</XPos>
+														<YPos>0.0569600000000037</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>19.96544</XPos>
+														<YPos>-0.114329999999995</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>20.20092</XPos>
+														<YPos>-6</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>21.49246</XPos>
+														<XPos>20.49847</XPos>
 														<YPos>-0.0149600000000021</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp3</SegmentShape>
@@ -3753,7 +3852,7 @@
 													</Point>
 													<Point>
 														<XPos>28.54974</XPos>
-														<YPos>-31.65264</YPos>
+														<YPos>-200</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp3</SegmentShape>
 													</Point>
@@ -3804,6 +3903,11 @@
 										<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{F2A88202-A845-4D75-9FAC-4F0AC0F195ED}" ShortID="335138955">
 											<PropertyList>
 												<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
+												<Property Name="ConeUse" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="RadiusMax" Type="Real64" Value="25"/>
 											</PropertyList>
 											<CurveUsageInfoList>
@@ -7217,7 +7321,7 @@
 												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-5</Value>
 													</ValueList>
 													<RTPCList>
 														<RTPC Name="" ID="{658D8056-5FC5-4435-9F89-CBCE20F71DCC}" ShortID="604927443">
@@ -11300,7 +11404,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-5</Value>
 													</ValueList>
 													<RTPCList>
 														<RTPC Name="" ID="{21411F14-1671-49C8-8E84-F5316D699EE0}" ShortID="438461356">
@@ -22441,7 +22545,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="20"/>
+												<Property Name="RadiusMax" Type="Real64" Value="25"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -22458,7 +22562,7 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>20</XPos>
+																	<XPos>25</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -22483,19 +22587,19 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>0.8254</XPos>
+																	<XPos>1.03175</XPos>
 																	<YPos>-0.00061</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>8.8182</XPos>
+																	<XPos>11.02275</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>20</XPos>
+																	<XPos>25</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -22522,7 +22626,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>20</XPos>
+																	<XPos>25</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -22543,7 +22647,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>20</XPos>
+																	<XPos>25</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -24677,7 +24781,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>18</XPos>
+														<XPos>19</XPos>
 														<YPos>-20</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -24867,7 +24971,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="15"/>
+												<Property Name="RadiusMax" Type="Real64" Value="20"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -24884,7 +24988,7 @@
 																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
+																	<XPos>20</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -24909,19 +25013,19 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>0.61905</XPos>
+																	<XPos>0.8254</XPos>
 																	<YPos>-0.00061</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6.61365</XPos>
+																	<XPos>8.8182</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
+																	<XPos>20</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -24948,7 +25052,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
+																	<XPos>20</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -24969,7 +25073,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
+																	<XPos>20</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -25234,32 +25338,32 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-373</YPos>
+														<YPos>-303</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
 														<XPos>19.63351</XPos>
-														<YPos>-971</YPos>
+														<YPos>-901</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>74.60733</XPos>
-														<YPos>1100</YPos>
+														<YPos>1170</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>81.41361</XPos>
-														<YPos>861</YPos>
+														<YPos>931</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>90.50262</XPos>
-														<YPos>1096</YPos>
+														<YPos>1166</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>200</XPos>
-														<YPos>1559</YPos>
+														<YPos>1629</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -25270,7 +25374,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{7D0A151C-4726-4FCE-80E9-65D247D69D1D}" ShortID="702377983">
@@ -25559,6 +25663,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="combustion_inside" ID="{2BDCFD7D-E150-4823-BD18-35B9A0274672}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
@@ -25566,10 +25673,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="ISpoolHighL" ID="{E8463B44-F06E-4700-80EF-A4D583CB3EA7}">
 									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="50"/>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.00218155768864602"/>
-										<Property Name="LoopBegin" Type="Real64" Value="0.137471033105023"/>
-										<Property Name="LoopEnd" Type="Real64" Value="2.02295612157534"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00156332367930667"/>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -25704,12 +25811,6 @@
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>36.91099</XPos>
-														<YPos>-2.1102</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>40.5759162303665</XPos>
@@ -26210,12 +26311,6 @@
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>36.91099</XPos>
-														<YPos>-2.11019999999999</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
 														<XPos>40.5759162303665</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
@@ -26504,45 +26599,45 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
-										<RTPC Name="" ID="{368A5DDB-524E-45E1-AFBF-39984568B805}" ShortID="683686605">
+										<RTPC Name="" ID="{0180DE8C-879C-4A46-B415-6ED72A4373DC}" ShortID="617865440">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{1D6E5049-AB21-46CF-B929-F9D0B22F3B0C}">
+											<Curve Name="" ID="{E666686B-E946-4583-9F32-8A9D748F7591}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-373</YPos>
+														<YPos>-303</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
 														<XPos>19.63351</XPos>
-														<YPos>-971</YPos>
+														<YPos>-901</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>74.60733</XPos>
-														<YPos>1100</YPos>
+														<YPos>1170</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>81.41361</XPos>
-														<YPos>861</YPos>
+														<YPos>931</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>90.50262</XPos>
-														<YPos>1096</YPos>
+														<YPos>1166</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>200</XPos>
-														<YPos>1559</YPos>
+														<YPos>1629</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -26842,6 +26937,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="combustion_inside" ID="{2BDCFD7D-E150-4823-BD18-35B9A0274672}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
@@ -26877,8 +26975,11 @@
 								</AudioFileSource>
 								<AudioFileSource Name="ISpoolHighR" ID="{5D0EA21F-F28E-418E-8984-4A937F171C6F}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00205990884802765"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00174720487302515"/>
 										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
@@ -29797,7 +29898,7 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+										<Property Name="RadiusMax" Type="Real64" Value="25"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -29814,7 +29915,7 @@
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>20</XPos>
+															<XPos>25</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -29839,19 +29940,19 @@
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>0.8254</XPos>
+															<XPos>1.03175</XPos>
 															<YPos>-0.00061</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>8.8182</XPos>
+															<XPos>11.02275</XPos>
 															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>20</XPos>
+															<XPos>25</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -29878,7 +29979,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>20</XPos>
+															<XPos>25</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -29899,7 +30000,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>20</XPos>
+															<XPos>25</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -30304,7 +30405,7 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="RadiusMax" Type="Real64" Value="15"/>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -30321,7 +30422,7 @@
 															<SegmentShape>Exp2</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>15</XPos>
+															<XPos>20</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -30346,19 +30447,19 @@
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>0.61905</XPos>
+															<XPos>0.8254</XPos>
 															<YPos>-0.00061</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>6.61365</XPos>
+															<XPos>8.8182</XPos>
 															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>15</XPos>
+															<XPos>20</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -30385,7 +30486,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>15</XPos>
+															<XPos>20</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -30406,7 +30507,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>15</XPos>
+															<XPos>20</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>

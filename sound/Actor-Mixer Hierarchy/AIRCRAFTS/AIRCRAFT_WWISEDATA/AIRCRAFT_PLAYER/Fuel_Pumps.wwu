@@ -23,7 +23,7 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
-										<Property Name="RadiusMax" Type="Real64" Value="14"/>
+										<Property Name="RadiusMax" Type="Real64" Value="15"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -37,10 +37,10 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Log1</SegmentShape>
+															<SegmentShape>SCurve</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>14</XPos>
+															<XPos>15</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -65,19 +65,19 @@
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>0.57778</XPos>
+															<XPos>0.61905</XPos>
 															<YPos>-0.00061</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>6.17274</XPos>
+															<XPos>6.61365</XPos>
 															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>14</XPos>
+															<XPos>15</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -98,7 +98,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>14</XPos>
+															<XPos>15</XPos>
 															<YPos>4</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -122,7 +122,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>14</XPos>
+															<XPos>15</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -143,7 +143,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>14</XPos>
+															<XPos>15</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -171,7 +171,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{AA0A4141-376B-4E79-BC7C-9786705E07C5}" ShortID="734748077">
@@ -468,6 +468,17 @@
 									<Language>SFX</Language>
 									<AudioFile>paxchatter.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="fuelpump1" ID="{54982CA6-623B-40EE-A66C-B54223394BD2}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="1.16263589062251"/>
+										<Property Name="LoopEnd" Type="Real64" Value="19.0917594714438"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>fuelpump1.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{7D45F11A-A5F7-4AC4-91A9-B1128F775DDB}">
@@ -498,13 +509,42 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="fuelpumps" ID="{7D2C75DC-8941-4050-A61C-AD8CDE203F8B}" Platform="Linked"/>
+								<ActiveSource Name="fuelpump1" ID="{54982CA6-623B-40EE-A66C-B54223394BD2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="fuelpumps2" ID="{4EFC063F-B2F3-4889-9353-157EF9571B24}" ShortID="238186221">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{EA5EA2BE-308D-437B-A664-EB69598D7983}" ShortID="252326696">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C2889CDE-83A9-408D-A4CF-82D70FBA42A0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>20</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Constant</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>200</XPos>
+														<YPos>20</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
@@ -897,7 +937,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{BA909F09-E0C8-4043-B2CF-F18811BB7019}" ShortID="109301547">
@@ -1205,6 +1245,17 @@
 									<Language>SFX</Language>
 									<AudioFile>fuelpumps3.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="fuelpump3" ID="{529D0681-8FCD-4AB3-92F0-B9BBFF325CFE}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.440803663366337"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>fuelpump3.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{34E53FB4-0219-4B84-9383-5788C497A28B}">
@@ -1235,7 +1286,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="fuelpumps3" ID="{D292AA58-DAB8-4561-945D-F4BAEE1D517D}" Platform="Linked"/>
+								<ActiveSource Name="fuelpump3" ID="{529D0681-8FCD-4AB3-92F0-B9BBFF325CFE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="fuelpumps4" ID="{A56E9966-71CB-4F60-9CA3-47A6EFD864EA}" ShortID="175322051">
@@ -1246,7 +1297,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{32E5DF28-8403-4C3A-883F-FED5A9961967}" ShortID="1005971506">
@@ -1543,6 +1594,17 @@
 									<Language>SFX</Language>
 									<AudioFile>fuelpumps4.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="fuelpump4" ID="{1409AFE4-79AD-4607-BFEC-77E8B5DD3057}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="16.9736418481848"/>
+										<Property Name="LoopEnd" Type="Real64" Value="22.7879848184818"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>fuelpump4.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{DD83C5F2-2B5B-4AEB-98B1-A4A513567E38}">
@@ -1573,7 +1635,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="fuelpumps4" ID="{87A7E639-B3D0-40E0-8709-67EB7E43E53F}" Platform="Linked"/>
+								<ActiveSource Name="fuelpump4" ID="{1409AFE4-79AD-4607-BFEC-77E8B5DD3057}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
