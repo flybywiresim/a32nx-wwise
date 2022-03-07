@@ -139,7 +139,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_ROLLRATTLE" ID="{4CB230B2-CCA7-4B1F-BFF2-A683A35C19A2}">
+				<Event Name="Play_Asobo_A320_NEO_whinerollint" ID="{4CB230B2-CCA7-4B1F-BFF2-A683A35C19A2}">
 					<ChildrenList>
 						<Action Name="" ID="{4D4CF0C8-D46E-4978-AF68-CC03C9FE1445}" ShortID="537303733">
 							<PropertyList>
@@ -1339,33 +1339,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{402ACB8C-0BD4-4B5A-97BD-6644E8787E7F}" ShortID="799706247">
+								<Action Name="" ID="{7CE8F3B0-EB0E-4E48-8905-23EC6ADC4BC8}" ShortID="139490405">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ISpoolHighL_01" ID="{5015BC4A-6615-4490-8439-D0970E081BF2}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{B53F1F90-C0DC-47E1-8477-85289CEEB3EF}" ShortID="101717805">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ISpoolHighL_01_Hi" ID="{B9801B77-2580-4DC6-98B6-B14AF723EBEA}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{02E2CC32-C97E-44FD-9DAD-D72AF15D18C7}" ShortID="833445271">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ISpoolHighL_Hi" ID="{6B11CDAC-29F7-4524-B664-C422077B93EE}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+											<ObjectRef Name="ISpoolHighL_01" ID="{374BDF56-CE42-4D17-AD40-1F105125AD37}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1373,43 +1353,23 @@
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_ISpoolHighR" ID="{2A1F970C-91F8-4765-B0C9-9572C89DF5B6}">
 							<ChildrenList>
-								<Action Name="" ID="{D43B644D-7CAE-4B11-974F-89725F188BC3}" ShortID="149307907">
+								<Action Name="" ID="{CB557868-83AF-4AF6-B594-707BD22B4353}" ShortID="1027360009">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ISPoolHighR" ID="{6C12A35F-980D-4D4E-973B-728E1FF89E0E}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+											<ObjectRef Name="ISpoolHighR" ID="{D6764DE1-74F0-422C-B1CB-02A79B765406}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{FE8F280B-21AE-4466-9D2C-8EF8D41F928C}" ShortID="39794807">
+								<Action Name="" ID="{F73375C3-399E-480F-BDF5-C045630F0D91}" ShortID="229020234">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ISPoolHighR_01" ID="{36A53866-3B53-451A-82AB-BE41DD93973D}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{2C073113-1AA1-4556-92B6-B95A1F6501AF}" ShortID="962268073">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ISpoolHighR_01_Hi" ID="{B98B1079-F3EA-4A71-8F48-4F6A75F6391C}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{B0AB83D5-6107-446C-9E75-7C6F8A417048}" ShortID="25601386">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ISpoolHighR_Hi" ID="{8145EC4F-95D3-48F0-94F4-FA89D057E623}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+											<ObjectRef Name="ISpoolHighR_01" ID="{5D43DDF7-5C80-4111-B250-120E58AF2F74}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1949,6 +1909,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3080ACC0-D485-486F-8E58-93E5FA6BD14A}" ShortID="12470599">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ISpoolHighLEXT_01" ID="{701C3CBB-D44E-4FB8-995D-84C07F83AA63}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_ISpoolHighREXT" ID="{081346F7-AA7C-4288-914F-B7F462567A5B}">
@@ -1970,6 +1940,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="HowlREXT" ID="{F524FC23-BD02-4980-82E0-1364E079FF91}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{76074AEA-62A8-4BE6-B653-3F10FC9526BE}" ShortID="624099482">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ISpoolHighREXT_01" ID="{2E702530-1D73-435E-85C9-67B365CE3917}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FEEBAD68-7885-4775-A8A8-CBD2B404F6E0}" ShortID="777548253">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="extwindtest" ID="{1230434E-B74B-4A1C-A82B-FF289A635703}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2291,13 +2281,13 @@
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_firmtouch" ID="{A8C192A2-B35B-4E43-818E-C763B78E0095}">
 					<ChildrenList>
-						<Action Name="" ID="{4844AB94-F230-479F-8922-10262A625692}" ShortID="899792418">
+						<Action Name="" ID="{BC9FD655-5492-48BC-BB14-544B34652999}" ShortID="462977703">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CENTER_TOUCHDOWN" ID="{BA767610-0976-4FAF-9CFA-34FEBF33F830}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
+									<ObjectRef Name="hardtouchdown" ID="{AAE46355-75FD-4D58-8EB5-18E633DD2A0F}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2345,21 +2335,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_taxirumble" ID="{CD01237B-2B82-4657-9283-25C115D647BC}">
-					<ChildrenList>
-						<Action Name="" ID="{2201C72D-3FD0-4DFA-A737-206F690F3037}" ShortID="106152748">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="taxi" ID="{95B03699-9C63-486D-9C40-47CF3A80F3D0}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Asobo_A320_NEO_taxirumblecabin" ID="{F8B37D17-91CC-4414-A161-3F64DB073806}">
+				<Event Name="Play_Asobo_A320_NEO_taxirumble" ID="{F8B37D17-91CC-4414-A161-3F64DB073806}">
 					<ChildrenList>
 						<Action Name="" ID="{8514A16F-12D1-48FB-993B-BD351C08AB60}" ShortID="439998744">
 							<PropertyList>
@@ -2367,7 +2343,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="taxi_01" ID="{691FB977-3E64-410D-96EF-8855BC0EFF68}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
+									<ObjectRef Name="taxi" ID="{691FB977-3E64-410D-96EF-8855BC0EFF68}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2409,7 +2385,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="cabtouchmed" ID="{8B6C4C75-18DA-4F60-8717-B11A0C67911F}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
+									<ObjectRef Name="cabtouchsmooth" ID="{8B6C4C75-18DA-4F60-8717-B11A0C67911F}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2423,7 +2399,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="cabtouchsmooth" ID="{6846FACC-1E15-4139-865F-DFA16EDC27AF}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
+									<ObjectRef Name="cabtouchmed" ID="{6846FACC-1E15-4139-865F-DFA16EDC27AF}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -3283,6 +3259,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ptuend" ID="{9DDE2FF1-2FE8-41ED-B2A4-EA6472BA70AD}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_whinerollext" ID="{E14EE8D3-B903-4147-B0FF-FB019401C952}">
+					<ChildrenList>
+						<Action Name="" ID="{BBE46913-E4C6-4B10-9439-C6A32D96E9FD}" ShortID="518480186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gearwhineext" ID="{FF8FFC4B-295B-4E81-A348-A59B4269726E}" WorkUnitID="{CAE73978-5E81-440C-B34C-A57C2DB982E2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -336,7 +336,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>24</Value>
+								<Value>22</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{E21AC109-31E9-4D36-8D6E-F34009636ACA}" ShortID="357249019">
@@ -386,14 +386,19 @@
 												<SegmentShape>Exp3</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>114.37908</XPos>
+												<XPos>85.58327</XPos>
 												<YPos>-200</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
+												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>206.53595</XPos>
 												<YPos>-1.09979</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>298.42932</XPos>
+												<YPos>2</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Constant</SegmentShape>
 											</Point>
@@ -2388,7 +2393,6 @@
 												<XPos>30</XPos>
 												<YPos>-200</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Exp2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>346.52329</XPos>

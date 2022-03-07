@@ -73,7 +73,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_tinnyroll" ID="{B2F89BAA-8194-41E6-BA58-B852EB4F3364}">
+				<Event Name="Play_Asobo_A320_NEO_noseroll" ID="{B2F89BAA-8194-41E6-BA58-B852EB4F3364}">
 					<ChildrenList>
 						<Action Name="" ID="{D30E0C0C-A248-4F80-B80F-CE46A30433C1}" ShortID="891675011">
 							<PropertyList>
@@ -117,13 +117,23 @@
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_flapsmovement" ID="{9D3C0780-4711-4624-ABE0-97CEA20D47B0}">
 					<ChildrenList>
-						<Action Name="" ID="{99EFA3E3-21CD-453F-8A5B-9AAFD9A34112}" ShortID="380203850">
+						<Action Name="" ID="{B2769629-79FB-47B2-8162-A62355CAF974}" ShortID="43009735">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="flaps1" ID="{E34955C5-FDED-418C-B95B-78031758F865}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+									<ObjectRef Name="flaps2" ID="{CA0948D8-0026-4E2E-8D64-1D5512A4FABC}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DD986401-8E5B-490A-B979-A4456BAA90C3}" ShortID="515637359">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="flaps1" ID="{6C3DF2FB-C95D-4AD9-A9D2-1AF251D54119}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -515,7 +525,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="flaplevercover" ID="{4A78732B-2B8B-4929-874C-C8E2F2DF4809}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
+									<ObjectRef Name="flapcover" ID="{E37B4FD8-9B2E-4834-9B74-FEDF6507C7C2}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2093,7 +2103,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="yellowsystem_01" ID="{DFE28518-C6F2-40CE-96C6-3439B67F23BC}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+									<ObjectRef Name="yellowsystem" ID="{DFE28518-C6F2-40CE-96C6-3439B67F23BC}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2103,7 +2113,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="yellowsystem" ID="{4E416564-71C2-4A86-AA20-CAB63DDCE503}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+									<ObjectRef Name="yellowpumplow" ID="{4E416564-71C2-4A86-AA20-CAB63DDCE503}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2817,7 +2827,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_cabinpacks" ID="{C30E5F84-65FE-436F-BB1C-B964E5238976}">
+				<Event Name="Play_Asobo_A320_NEO_cabinpack1" ID="{C30E5F84-65FE-436F-BB1C-B964E5238976}">
 					<ChildrenList>
 						<Action Name="" ID="{CA78C5BA-5B78-4AFB-9C1C-254180E1B24C}" ShortID="259321309">
 							<PropertyList>
@@ -2825,7 +2835,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="cab packs" ID="{36765CA8-97C0-4AB6-B6AF-A76AEA03AEF4}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
+									<ObjectRef Name="cabpack1" ID="{36765CA8-97C0-4AB6-B6AF-A76AEA03AEF4}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -3096,6 +3106,76 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="boardingcompleted" ID="{14C4EDDD-AB49-4655-888F-B1D23AE3AE9C}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_cabinpackshigh" ID="{1CF237E1-0039-4504-8A0D-16CD89C1F378}">
+					<ChildrenList>
+						<Action Name="" ID="{93BB1FC4-E1FC-4F9A-9ED0-DE3098F17AA1}" ShortID="641713859">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="packshigh" ID="{B77967CB-A744-465D-99EE-C8C6495D08F8}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_slatsmovement" ID="{B0D671C8-1A65-4DB1-9957-C39E22FB80D7}">
+					<ChildrenList>
+						<Action Name="" ID="{63FAA1B6-CE27-49C6-86CC-0DFADF2D3474}" ShortID="68932752">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="slats" ID="{E05B387F-E3CA-4E60-AFA2-F864B3E650DC}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_cabinpack2" ID="{E7D0AA40-3B04-441E-9EA3-717689913DB6}">
+					<ChildrenList>
+						<Action Name="" ID="{514FE091-1A92-4F26-BF64-51D844CD598E}" ShortID="61689310">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cabpack2" ID="{188836C7-25E1-4223-9819-21A9CBA42568}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_gearcab" ID="{9653399A-42C0-403B-A1FA-6A371CA6BBE3}">
+					<ChildrenList>
+						<Action Name="" ID="{A9574ECC-9E40-41FF-BF92-596DCD27033F}" ShortID="918302254">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gearcab" ID="{EEF19C38-6C33-41B0-A78B-2384F6ED9A13}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_gearlock" ID="{14452D62-AFBE-4122-80EC-C52FEAF7DDA5}">
+					<ChildrenList>
+						<Action Name="" ID="{EC3EAD66-15E6-4E3D-882F-C382C3C270BE}" ShortID="400001474">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gearlock" ID="{FC4413B7-D590-4499-90F3-2A3383008AFE}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

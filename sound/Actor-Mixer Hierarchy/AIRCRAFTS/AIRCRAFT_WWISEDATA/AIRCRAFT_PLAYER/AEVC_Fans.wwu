@@ -91,37 +91,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
-										<Property Name="ConeLowPassFilterValue" Type="int32">
-											<ValueList>
-												<Value>40</Value>
-											</ValueList>
-											<RTPCList>
-												<RTPC Name="" ID="{55EE1418-AB84-48CB-84DC-B35E383F5035}" ShortID="495902864">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" ID="{2F9A69DC-0ADD-4D3D-A520-983F2958A1BA}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{005D36F1-553A-4193-B55C-07A23E1B264D}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>50</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 										<Property Name="ConeOuterAngle" Type="int32" Value="210"/>
 										<Property Name="ConeUse" Type="bool">
 											<ValueList>
@@ -5691,7 +5660,7 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
-										<Property Name="RadiusMax" Type="Real64" Value="30"/>
+										<Property Name="RadiusMax" Type="Real64" Value="40"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -5705,10 +5674,10 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Exp2</SegmentShape>
+															<SegmentShape>Log1</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>30</XPos>
+															<XPos>40</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -5733,19 +5702,19 @@
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1.2381</XPos>
+															<XPos>1.6508</XPos>
 															<YPos>-0.00061</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>13.2273</XPos>
+															<XPos>17.6364</XPos>
 															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>30</XPos>
+															<XPos>40</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -5766,7 +5735,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>30</XPos>
+															<XPos>40</XPos>
 															<YPos>4</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -5790,7 +5759,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>30</XPos>
+															<XPos>40</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -5811,7 +5780,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>30</XPos>
+															<XPos>40</XPos>
 															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
