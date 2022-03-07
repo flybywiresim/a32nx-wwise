@@ -7850,6 +7850,27 @@
 					<PositioningInfo>
 						<Panner Name="" ID="{5B7FD442-0A26-4576-8BF7-8036B4EB4321}"/>
 					</PositioningInfo>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+								<CustomState Name="" ID="{9980D114-3075-441F-A4E9-9592833CB03A}" ShortID="113292283"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+								<CustomState Name="" ID="{BFA418D0-C1F0-4D03-B763-05463DCD0FF6}" ShortID="676895517">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</RandomSequenceContainer>
 				<Sound Name="packshigh" ID="{B77967CB-A744-465D-99EE-C8C6495D08F8}" ShortID="969857435">
 					<PropertyList>
@@ -8421,6 +8442,27 @@
 					<PositioningInfo>
 						<Panner Name="" ID="{9CA27C59-B660-43B9-9576-CE293EE47680}"/>
 					</PositioningInfo>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+								<CustomState Name="" ID="{8A3139DA-E91D-4BEE-9271-96EA159A96FD}" ShortID="477041792"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+								<CustomState Name="" ID="{2F090C9D-5616-405F-B046-C9E1597FB1AC}" ShortID="883889796">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
