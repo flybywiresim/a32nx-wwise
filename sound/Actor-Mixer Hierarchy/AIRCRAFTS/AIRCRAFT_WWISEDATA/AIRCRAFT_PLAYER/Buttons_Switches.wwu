@@ -751,12 +751,12 @@
 							<ChildrenList>
 								<AudioFileSource Name="flap1" ID="{0A155262-32E1-43D8-B3E7-166F0CA3322D}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.334168712871287"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.279497615511551"/>
 										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="2.83521267326733"/>
-										<Property Name="TrimEnd" Type="Real64" Value="3.21115247524752"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>flap1.wav</AudioFile>
@@ -10957,7 +10957,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
