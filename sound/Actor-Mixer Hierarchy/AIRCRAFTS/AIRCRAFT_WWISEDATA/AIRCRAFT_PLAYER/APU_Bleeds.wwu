@@ -7792,8 +7792,8 @@
 							<ChildrenList>
 								<AudioFileSource Name="cabpack1(1)" ID="{5EA44598-8BA0-4BDD-80F5-3BDCB549E7B5}">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="37.4698215509857"/>
-										<Property Name="LoopEnd" Type="Real64" Value="43.3739604946834"/>
+										<Property Name="LoopBegin" Type="Real64" Value="35.0347044717778"/>
+										<Property Name="LoopEnd" Type="Real64" Value="43.3919983989738"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -7832,14 +7832,24 @@
 							<ChildrenList>
 								<AudioFileSource Name="cabpack1" ID="{F1A67271-159B-4C5E-B445-55AC1D29A844}">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="56.0987089570276"/>
-										<Property Name="LoopEnd" Type="Real64" Value="77.152480012279"/>
+										<Property Name="LoopBegin" Type="Real64" Value="56.5389426533972"/>
+										<Property Name="LoopEnd" Type="Real64" Value="76.2405673555133"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>cabpack1.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="cabpack1(1)" ID="{27092475-417F-4F4B-86A2-ECD79005FF34}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>cabpack1(1).wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
