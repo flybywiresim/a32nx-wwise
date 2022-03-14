@@ -392,7 +392,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>10</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{F77C0B79-A2E9-4F1C-89AE-28F4970ACC8B}" ShortID="425828894">
@@ -475,16 +475,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>0</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>60</Value>
+														<Value>40</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="290"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -791,6 +791,7 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="RWhineEXT" ID="{6A8EFB69-08D4-4A7E-BCD1-040007367A0D}" ShortID="439147328">
+							<Comment> </Comment>
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Highpass" Type="int16">
@@ -920,7 +921,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>10</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{27CEFCAC-E775-4A67-9247-67C808FF6D5F}" ShortID="509053297">
@@ -1003,16 +1004,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>0</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>60</Value>
+														<Value>40</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="290"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -2420,6 +2421,9 @@
 										</Property>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{7158A0BC-30D6-4E80-A383-0363F5A9069B}" ShortID="254429020">
 													<ReferenceList>
@@ -2441,17 +2445,17 @@
 																<XPos>28.27224</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log2</SegmentShape>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>49.73822</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>2.99999999999997</YPos>
+																<YPos>6</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp3</SegmentShape>
 															</Point>
@@ -2502,21 +2506,16 @@
 													<PropertyList>
 														<Property Name="ConeAttenuation" Type="Real64">
 															<ValueList>
-																<Value>-5</Value>
-															</ValueList>
-														</Property>
-														<Property Name="ConeHighPassFilterValue" Type="int32">
-															<ValueList>
-																<Value>20</Value>
+																<Value>-8</Value>
 															</ValueList>
 														</Property>
 														<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
 														<Property Name="ConeLowPassFilterValue" Type="int32">
 															<ValueList>
-																<Value>50</Value>
+																<Value>55</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeOuterAngle" Type="int32" Value="270"/>
+														<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
 														<Property Name="ConeUse" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -4686,6 +4685,9 @@
 										</Property>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{F9C36123-41C2-4193-B7AC-884175E7AC36}" ShortID="803859451">
 													<ReferenceList>
@@ -4707,17 +4709,17 @@
 																<XPos>28.27224</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log2</SegmentShape>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>49.73822</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>2.99999999999997</YPos>
+																<YPos>6</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp3</SegmentShape>
 															</Point>
@@ -4768,21 +4770,16 @@
 													<PropertyList>
 														<Property Name="ConeAttenuation" Type="Real64">
 															<ValueList>
-																<Value>-5</Value>
-															</ValueList>
-														</Property>
-														<Property Name="ConeHighPassFilterValue" Type="int32">
-															<ValueList>
-																<Value>20</Value>
+																<Value>-8</Value>
 															</ValueList>
 														</Property>
 														<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
 														<Property Name="ConeLowPassFilterValue" Type="int32">
 															<ValueList>
-																<Value>50</Value>
+																<Value>55</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeOuterAngle" Type="int32" Value="270"/>
+														<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
 														<Property Name="ConeUse" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -19456,7 +19453,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-3</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{880DAC7E-75AA-4EA9-8B19-EF3C7FDFBFB2}" ShortID="1015299004">
@@ -19540,8 +19537,8 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>360</XPos>
-														<YPos>-40</YPos>
+														<XPos>240</XPos>
+														<YPos>-30</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
@@ -20884,7 +20881,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>20</Value>
+										<Value>17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{0DC63509-C42A-4A27-9FF9-E698FCAF7A4E}" ShortID="726305476">
@@ -20970,7 +20967,7 @@
 														<Value>35</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -22493,7 +22490,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>20</Value>
+										<Value>17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{49E97177-A9EB-4D53-A197-D1AC5F057A5A}" ShortID="1060200813">
@@ -22579,7 +22576,7 @@
 														<Value>35</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -23266,7 +23263,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-3</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{61AB7AB3-9B2D-4EE8-A139-2D7CD51C3048}" ShortID="753567671">
@@ -23318,6 +23315,7 @@
 														<XPos>28.79581</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>85.60209</XPos>
@@ -23349,8 +23347,8 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>360</XPos>
-														<YPos>-40</YPos>
+														<XPos>240</XPos>
+														<YPos>-30</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
