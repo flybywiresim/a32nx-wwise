@@ -873,7 +873,17 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ExLComb" ID="{5276DEDA-36C1-4E30-AC2C-D8C17ACBE40B}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+											<ObjectRef Name="ExLCombInv" ID="{5276DEDA-36C1-4E30-AC2C-D8C17ACBE40B}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{84AB4ACB-003B-4C4A-8D15-57AEB3AD5BB5}" ShortID="696134949">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExLComb" ID="{57AB96DF-5547-4865-8780-31517277DB06}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1243,7 +1253,17 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ExRComb" ID="{69312A7E-52AA-411D-AF39-1234063A3B10}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+											<ObjectRef Name="ExRCombInv" ID="{69312A7E-52AA-411D-AF39-1234063A3B10}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{401B8A96-DEC5-4835-B47A-0EDBF77EF220}" ShortID="1054359026">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExRComb" ID="{034DBF05-905F-4E0C-9362-CB12D237D218}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1436,7 +1456,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ExL_01" ID="{57AB96DF-5547-4865-8780-31517277DB06}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+											<ObjectRef Name="ExLComb" ID="{57AB96DF-5547-4865-8780-31517277DB06}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1739,16 +1759,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{15CA1A5A-59C3-45DA-9D03-410B11C304EE}" ShortID="72362158">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ExL_01" ID="{57AB96DF-5547-4865-8780-31517277DB06}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_FlyOverR" ID="{BDD6378F-2B46-4DD4-9E1A-F12C68E76976}">
@@ -1780,16 +1790,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ExR" ID="{E35FDB4A-2012-490C-8E89-09AE061A04AF}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{455B80AC-BD1D-41EC-B17E-CBFD9DBBB63C}" ShortID="352148193">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ExR_01" ID="{034DBF05-905F-4E0C-9362-CB12D237D218}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

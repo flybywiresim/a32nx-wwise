@@ -2514,7 +2514,7 @@
 																<Value>55</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+														<Property Name="ConeOuterAngle" Type="int32" Value="230"/>
 														<Property Name="ConeUse" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -2767,8 +2767,10 @@
 											<Custom>
 												<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{66D02BA8-24B6-4254-91C9-E59394793077}" ShortID="451209786" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<PropertyList>
+														<Property Name="FrequencyBand1" Type="Real32" Value="300"/>
 														<Property Name="FrequencyBand3" Type="Real32" Value="1502"/>
-														<Property Name="GainBand3" Type="Real32" Value="3"/>
+														<Property Name="GainBand1" Type="Real32" Value="-2"/>
+														<Property Name="GainBand3" Type="Real32" Value="5"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
@@ -4778,7 +4780,7 @@
 																<Value>55</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+														<Property Name="ConeOuterAngle" Type="int32" Value="230"/>
 														<Property Name="ConeUse" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -5027,8 +5029,10 @@
 											<Custom>
 												<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{2EB9D647-19E1-424D-90E9-434B3AC01FBD}" ShortID="583158998" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<PropertyList>
+														<Property Name="FrequencyBand1" Type="Real32" Value="300"/>
 														<Property Name="FrequencyBand3" Type="Real32" Value="1359"/>
-														<Property Name="GainBand3" Type="Real32" Value="3"/>
+														<Property Name="GainBand1" Type="Real32" Value="-2"/>
+														<Property Name="GainBand3" Type="Real32" Value="5"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
@@ -10150,6 +10154,11 @@
 						<Sound Name="extwindtest" ID="{1230434E-B74B-4A1C-A82B-FF289A635703}" ShortID="927043136">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -13392,7 +13401,7 @@
 								<ActiveSource Name="FflowREXT" ID="{D7953703-E68A-49C7-99D0-DF10A0AD44F0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ExL_01" ID="{57AB96DF-5547-4865-8780-31517277DB06}" ShortID="843042817">
+						<Sound Name="ExLComb" ID="{57AB96DF-5547-4865-8780-31517277DB06}" ShortID="843042817">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -13458,12 +13467,22 @@
 												<PointList>
 													<Point>
 														<XPos>-4800</XPos>
-														<YPos>-4000</YPos>
+														<YPos>-4800</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>-3000</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>4800</XPos>
-														<YPos>4000</YPos>
+														<YPos>4800</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -13474,7 +13493,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{14CE240A-A9D0-48C2-BB61-32F5D19C268F}" ShortID="959849558">
@@ -13551,16 +13570,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
+												<Property Name="ConeInnerAngle" Type="int32" Value="200"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>55</Value>
+														<Value>100</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="220"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="300"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -13738,6 +13757,17 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{9A0A2F96-AD67-4F03-83D7-74FEF154BB87}" ShortID="1048899667" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FrequencyBand1" Type="Real32" Value="200"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="964"/>
+												<Property Name="GainBand3" Type="Real32" Value="10"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="combustion_outside" ID="{1EA04105-4B61-4FB8-AD52-C54F31277539}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
@@ -13768,10 +13798,11 @@
 								</AudioFileSource>
 								<AudioFileSource Name="ExLComb" ID="{AC0F90C2-10D6-457C-A230-52E9B3C63800}">
 									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="100"/>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.0174785530133578"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.0149816168685923"/>
-										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
-										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.5"/>
+										<Property Name="LoopEnd" Type="Real64" Value="4"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -13784,7 +13815,7 @@
 								<ActiveSource Name="ExLComb" ID="{AC0F90C2-10D6-457C-A230-52E9B3C63800}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ExR_01" ID="{034DBF05-905F-4E0C-9362-CB12D237D218}" ShortID="659794571">
+						<Sound Name="ExRComb" ID="{034DBF05-905F-4E0C-9362-CB12D237D218}" ShortID="659794571">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -13850,12 +13881,22 @@
 												<PointList>
 													<Point>
 														<XPos>-4800</XPos>
-														<YPos>-4000</YPos>
+														<YPos>-4800</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>-3000</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>4800</XPos>
-														<YPos>4000</YPos>
+														<YPos>4800</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -13866,7 +13907,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B205ED79-D727-4957-84DE-2D6619E4AF34}" ShortID="657025562">
@@ -13943,16 +13984,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
+												<Property Name="ConeInnerAngle" Type="int32" Value="200"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>55</Value>
+														<Value>100</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="220"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="300"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -14192,6 +14233,17 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{A728AF9B-2C16-48C5-88CA-89CC454C5397}" ShortID="978385063" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FrequencyBand1" Type="Real32" Value="200"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="964"/>
+												<Property Name="GainBand3" Type="Real32" Value="10"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="combustion_outside" ID="{1EA04105-4B61-4FB8-AD52-C54F31277539}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 								</Reference>
@@ -14222,10 +14274,11 @@
 								</AudioFileSource>
 								<AudioFileSource Name="ExRComb" ID="{FA8857D6-7402-494D-9228-43C993C967B8}">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0210173154340023"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.0210173154340012"/>
-										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
-										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="100"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.5"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.5"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1"/>
+										<Property Name="LoopEnd" Type="Real64" Value="18"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -20956,16 +21009,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-15</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeInnerAngle" Type="int32" Value="140"/>
+												<Property Name="ConeInnerAngle" Type="int32" Value="100"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>50</Value>
+														<Value>35</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -22577,16 +22630,16 @@
 											<PropertyList>
 												<Property Name="ConeAttenuation" Type="Real64">
 													<ValueList>
-														<Value>-15</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeInnerAngle" Type="int32" Value="140"/>
+												<Property Name="ConeInnerAngle" Type="int32" Value="100"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
-														<Value>50</Value>
+														<Value>35</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -27222,15 +27275,10 @@
 								<ActiveSource Name="LEAPshutL" ID="{16342C8A-7866-4C1A-9412-10C2BCC67428}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ExLComb" ID="{5276DEDA-36C1-4E30-AC2C-D8C17ACBE40B}" ShortID="826236508">
+						<Sound Name="ExLCombInv" ID="{5276DEDA-36C1-4E30-AC2C-D8C17ACBE40B}" ShortID="826236508">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>35</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -27293,12 +27341,22 @@
 												<PointList>
 													<Point>
 														<XPos>-4800</XPos>
-														<YPos>-4000</YPos>
+														<YPos>-4800</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>-3000</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>4800</XPos>
-														<YPos>4000</YPos>
+														<YPos>4800</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -27309,7 +27367,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{3BCFF093-1CB3-41EE-A64E-C7EA3BBD61CF}" ShortID="39576761">
@@ -27389,13 +27447,13 @@
 														<Value>-10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeInnerAngle" Type="int32" Value="220"/>
+												<Property Name="ConeInnerAngle" Type="int32" Value="70"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
 														<Value>90</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="300"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="160"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -27638,8 +27696,8 @@
 										<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{FEB50CEB-BCD2-4C84-B54C-A2A84DC51698}" ShortID="141712127" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
 												<Property Name="FrequencyBand1" Type="Real32" Value="200"/>
-												<Property Name="FrequencyBand3" Type="Real32" Value="2364"/>
-												<Property Name="GainBand3" Type="Real32" Value="3"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="964"/>
+												<Property Name="GainBand3" Type="Real32" Value="10"/>
 											</PropertyList>
 										</Effect>
 									</Custom>
@@ -27672,20 +27730,27 @@
 									<Language>SFX</Language>
 									<AudioFile>ExR.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="ExLCombInv" ID="{BDFAAD6A-07D3-43F9-98AD-65F1E7C48319}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="100"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.5"/>
+										<Property Name="LoopEnd" Type="Real64" Value="4"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ExLCombInv.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ExL" ID="{B5E0FF29-BDAD-44BB-AA5A-6B7167C30367}" Platform="Linked"/>
+								<ActiveSource Name="ExLCombInv" ID="{BDFAAD6A-07D3-43F9-98AD-65F1E7C48319}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ExRComb" ID="{69312A7E-52AA-411D-AF39-1234063A3B10}" ShortID="629859666">
+						<Sound Name="ExRCombInv" ID="{69312A7E-52AA-411D-AF39-1234063A3B10}" ShortID="629859666">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>35</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -27748,12 +27813,22 @@
 												<PointList>
 													<Point>
 														<XPos>-4800</XPos>
-														<YPos>-4000</YPos>
+														<YPos>-4800</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>-3000</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>4800</XPos>
-														<YPos>4000</YPos>
+														<YPos>4800</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -27764,7 +27839,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{716E2F7A-6555-4701-A38C-935AB87A9C5E}" ShortID="625275951">
@@ -27844,13 +27919,13 @@
 														<Value>-10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeInnerAngle" Type="int32" Value="220"/>
+												<Property Name="ConeInnerAngle" Type="int32" Value="70"/>
 												<Property Name="ConeLowPassFilterValue" Type="int32">
 													<ValueList>
 														<Value>90</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeOuterAngle" Type="int32" Value="300"/>
+												<Property Name="ConeOuterAngle" Type="int32" Value="160"/>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -28087,11 +28162,11 @@
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom>
-										<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{3C056011-C7C4-401E-9E9F-FBB82FE50CC4}" ShortID="357613080" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+										<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{788808E0-D54B-4A99-B1F0-AE9CED2C880B}" ShortID="520858210" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
 												<Property Name="FrequencyBand1" Type="Real32" Value="200"/>
-												<Property Name="FrequencyBand3" Type="Real32" Value="2364"/>
-												<Property Name="GainBand3" Type="Real32" Value="3"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="964"/>
+												<Property Name="GainBand3" Type="Real32" Value="10"/>
 											</PropertyList>
 										</Effect>
 									</Custom>
@@ -28124,9 +28199,23 @@
 									<Language>SFX</Language>
 									<AudioFile>ExL.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="ExRCombInv" ID="{EC39BD6C-607E-4265-9109-25E7954AD5E1}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="100"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.5"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.5"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1"/>
+										<Property Name="LoopEnd" Type="Real64" Value="18"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ExRCombInv.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ExR" ID="{76E1BAE0-F933-49B3-9D45-ADAEF4FF33C0}" Platform="Linked"/>
+								<ActiveSource Name="ExRCombInv" ID="{EC39BD6C-607E-4265-9109-25E7954AD5E1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
