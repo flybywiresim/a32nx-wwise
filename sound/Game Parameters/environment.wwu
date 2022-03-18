@@ -40,6 +40,14 @@
 								<Property Name="Max" Type="Real64" Value="5000"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="CAM_ELEVATION" ID="{5F76C2FD-5D7D-4DCA-87A1-F106E1F7170B}">
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="3"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="90"/>
+								<Property Name="Min" Type="Real64" Value="-90"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

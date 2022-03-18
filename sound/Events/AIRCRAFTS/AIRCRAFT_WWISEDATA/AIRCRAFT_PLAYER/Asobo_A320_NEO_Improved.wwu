@@ -887,6 +887,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{D473722E-522E-4E85-8A78-77A173A8BD33}" ShortID="512901849">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExLCombInvDel" ID="{1BA0D59A-9EAF-4D3B-8554-01AD6BC64825}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5BCA69D7-93AF-4E4F-84DC-67FE77CEFD67}" ShortID="898375505">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExLCombDel" ID="{896DE3C4-23F4-4658-9377-CCAD1603D449}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_LSpool" ID="{FD807BC8-714F-4064-9484-238F58CE9595}">
@@ -1264,6 +1284,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ExRComb" ID="{034DBF05-905F-4E0C-9362-CB12D237D218}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FE4DBF29-B55B-4B0E-B655-B6CE185B7A3E}" ShortID="433432229">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExRCombDel" ID="{504643E0-A369-4788-BA6D-4D1F0C461896}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D0A95AD5-EE6C-44C9-A0FF-E8AF58E3D825}" ShortID="987886659">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExRCombInvDel" ID="{63BCACE3-2C2E-49CE-8C8A-FB4257A79955}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
