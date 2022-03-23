@@ -24430,7 +24430,210 @@
 							</ActiveSourceList>
 						</Sound>
 						<ActorMixer Name="ExhCombGrp" ID="{AA9031C3-9428-49F6-98BD-F89726BC47EF}" ShortID="288949610">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{20842724-A183-478E-9770-6D60863932F7}">
+										<Attenuation Name="Eng_Out_Ver_1 (Custom)" ID="{03227A25-77F9-4925-8243-E381F599D19D}" ShortID="922022386">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="12000"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{D649F1AD-4472-4846-804B-8FFBA8951BB4}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>4</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8</XPos>
+																	<YPos>-3</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>16</XPos>
+																	<YPos>-6</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>32</XPos>
+																	<YPos>-10</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>64</XPos>
+																	<YPos>-14</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>128</XPos>
+																	<YPos>-18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>256</XPos>
+																	<YPos>-23</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>512</XPos>
+																	<YPos>-28</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1024</XPos>
+																	<YPos>-33</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2048</XPos>
+																	<YPos>-38</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>4096</XPos>
+																	<YPos>-44</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8192</XPos>
+																	<YPos>-50</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>12000</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{787CCF46-63A6-4BDC-A29F-0BEC54008425}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>57</XPos>
+																	<YPos>27</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>32</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>200</XPos>
+																	<YPos>36</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>300</XPos>
+																	<YPos>39</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>550</XPos>
+																	<YPos>44</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1430</XPos>
+																	<YPos>52</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3330</XPos>
+																	<YPos>60</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8570</XPos>
+																	<YPos>69</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>12000</XPos>
+																	<YPos>73</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{AAA20762-1726-43C8-9727-F1A9EC3DD9E9}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>2000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>12000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 								</Reference>
@@ -24442,10 +24645,10 @@
 								<Sound Name="ExRComb3" ID="{69312A7E-52AA-411D-AF39-1234063A3B10}" ShortID="629859666">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{7443503A-B9BC-41E4-83CC-44633B80435F}" ShortID="240475214">
@@ -25766,10 +25969,10 @@
 								<Sound Name="ExRComb4" ID="{63BCACE3-2C2E-49CE-8C8A-FB4257A79955}" ShortID="907968752">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{56429A8E-C303-436D-B02E-7CEC770FFF4D}" ShortID="548351843">
@@ -25936,7 +26139,7 @@
 															</Point>
 															<Point>
 																<XPos>85</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -26249,10 +26452,10 @@
 								<Sound Name="ExLComb1" ID="{57AB96DF-5547-4865-8780-31517277DB06}" ShortID="843042817">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{412E260B-8191-4F3E-8A15-59666A1F3DBD}" ShortID="625085506">
@@ -26726,10 +26929,10 @@
 								<Sound Name="ExRComb1" ID="{034DBF05-905F-4E0C-9362-CB12D237D218}" ShortID="659794571">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{13FEC156-EBD5-4BFF-AC47-3E5E09BC427A}" ShortID="254907858">
@@ -27208,10 +27411,10 @@
 								<Sound Name="ExLComb3" ID="{5276DEDA-36C1-4E30-AC2C-D8C17ACBE40B}" ShortID="826236508">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{658E77BB-4A59-48BB-9973-23CEF07B12A3}" ShortID="534683720">
@@ -27695,10 +27898,10 @@
 								<Sound Name="ExLComb2" ID="{896DE3C4-23F4-4658-9377-CCAD1603D449}" ShortID="449573664">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{B920E57F-5F25-46F5-B3BC-B1F4DBC89B16}" ShortID="348507539">
@@ -28177,10 +28380,10 @@
 								<Sound Name="ExLComb4" ID="{1BA0D59A-9EAF-4D3B-8554-01AD6BC64825}" ShortID="292780986">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{35F04B14-D70A-4F2F-AB41-E2DDB0E95B9D}" ShortID="137199044">
@@ -28312,7 +28515,7 @@
 															</Point>
 															<Point>
 																<XPos>85</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -28658,10 +28861,10 @@
 								<Sound Name="ExRComb2" ID="{504643E0-A369-4788-BA6D-4D1F0C461896}" ShortID="256465664">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{1CDBFE25-DBA3-4BEA-A861-26BBACE45B21}" ShortID="228180406">
@@ -29138,6 +29341,9 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{0F7D3490-3039-45B0-9E57-F28BED3BA695}"/>
+							</PositioningInfo>
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>

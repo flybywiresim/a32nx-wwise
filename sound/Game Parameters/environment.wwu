@@ -46,6 +46,9 @@
 								<Property Name="InitialValue" Type="Real64" Value="0"/>
 								<Property Name="Max" Type="Real64" Value="90"/>
 								<Property Name="Min" Type="Real64" Value="-90"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="10"/>
 							</PropertyList>
 						</GameParameter>
 					</ChildrenList>
