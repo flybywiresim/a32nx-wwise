@@ -5066,6 +5066,200 @@
 								</Attenuation>
 							</ChildrenList>
 						</Folder>
+						<Attenuation Name="Eng_Out_Ver_1" ID="{20842724-A183-478E-9770-6D60863932F7}" ShortID="799772164">
+							<PropertyList>
+								<Property Name="RadiusMax" Type="Real64" Value="12000"/>
+							</PropertyList>
+							<CurveUsageInfoList>
+								<VolumeDryUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="VolumeDry" ID="{84D7CE45-EC3D-4604-B639-2B5572829C99}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="3"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>4</XPos>
+													<YPos>-0</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>8</XPos>
+													<YPos>-3</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>16</XPos>
+													<YPos>-6</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>32</XPos>
+													<YPos>-10</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>64</XPos>
+													<YPos>-14</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>128</XPos>
+													<YPos>-18</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>256</XPos>
+													<YPos>-23</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>512</XPos>
+													<YPos>-28</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>1024</XPos>
+													<YPos>-33</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>2048</XPos>
+													<YPos>-38</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>4096</XPos>
+													<YPos>-44</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>8192</XPos>
+													<YPos>-50</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>12000</XPos>
+													<YPos>-200</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
+								</VolumeDryUsage>
+								<VolumeWetGameUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetGameUsage>
+								<VolumeWetUserUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetUserUsage>
+								<LowPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="LowPassFilter" ID="{7DA1A692-406E-4393-A2B5-48E8B6C54D5A}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="65537"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>5</Flags>
+													<SegmentShape>Log1</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>57</XPos>
+													<YPos>27</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>32</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>200</XPos>
+													<YPos>36</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>300</XPos>
+													<YPos>39</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>550</XPos>
+													<YPos>44</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>1430</XPos>
+													<YPos>52</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>3330</XPos>
+													<YPos>60</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>8570</XPos>
+													<YPos>69</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>12000</XPos>
+													<YPos>73</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
+								</LowPassFilterUsage>
+								<HighPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</HighPassFilterUsage>
+								<SpreadUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="Spread" ID="{F98051D9-C6C9-43A1-A8A9-69046D0AF4A0}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="1"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>20</XPos>
+													<YPos>10</YPos>
+													<Flags>0</Flags>
+													<SegmentShape>Log3</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>2000</XPos>
+													<YPos>-0</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>12000</XPos>
+													<YPos>0</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
+								</SpreadUsage>
+								<FocusUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</FocusUsage>
+							</CurveUsageInfoList>
+						</Attenuation>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="player_inside" ID="{EECFB9D6-3795-49C7-BD08-3E12111944E3}" ShortID="514133212">
