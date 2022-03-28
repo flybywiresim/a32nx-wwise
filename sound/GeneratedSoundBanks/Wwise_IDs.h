@@ -235,6 +235,8 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_A320_NEO_ISPOOLR = 685985719U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_ISPOOLREXT = 916493196U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_KEEP_MAX_REVERSE = 1694915690U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_LANDLIGHTSDRAGL = 3166594677U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_LANDLIGHTSDRAGR = 3166594667U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_LEVEL_OFF_LEVEL_OFF = 4205612366U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_LIGHT_SWITCH_SEATBELT = 1143436301U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_LIGHTRAINL = 2619314895U;
@@ -947,6 +949,7 @@ namespace AK
     {
         static const AkUniqueID CAMERA_VIEWPOINT = 147416178U;
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID ELEVATION = 2141048674U;
         static const AkUniqueID ENV_COCKPIT_INSULATION = 4194702645U;
         static const AkUniqueID ENV_DOPPLERCENTS = 3779073172U;
         static const AkUniqueID ENV_ELEVATION_AGL = 648297999U;
