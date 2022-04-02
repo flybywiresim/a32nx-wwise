@@ -1403,7 +1403,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Asobo_A320_NEO_ExL" ID="{1461CFF5-8973-42A2-BCD7-523E1A14B2B1}">
+						<Event Name="Play_Asobo_A320_NEO_CombExL" ID="{1461CFF5-8973-42A2-BCD7-523E1A14B2B1}">
 							<ChildrenList>
 								<Action Name="" ID="{C5AA6285-4166-4EC4-AF26-A6BD49CB9090}" ShortID="859617043">
 									<PropertyList>
@@ -1445,9 +1445,39 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{7C3B3F3F-F7A8-4366-8027-BB50614EA302}" ShortID="921821480">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExLComb1Inv" ID="{46307BFD-9281-42D9-8773-06DF995D2BF2}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3A6DE025-0998-4CB7-A43A-10A05D217A1B}" ShortID="420553109">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExLComb2Inv" ID="{E8185F57-845A-4ECB-A1B7-7A45E74F21C9}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ED916A40-7D05-4202-BB80-0CCA12BE3A0A}" ShortID="844968203">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExLComb3Inv" ID="{4CDF1ED8-9DBE-4BC5-81E9-01FE6F7178CE}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Asobo_A320_NEO_ExR" ID="{BB38E7B4-90F0-4BCC-9AC2-AAB7AFD78035}">
+						<Event Name="Play_Asobo_A320_NEO_CombExR" ID="{BB38E7B4-90F0-4BCC-9AC2-AAB7AFD78035}">
 							<ChildrenList>
 								<Action Name="" ID="{2B240B35-1337-4ECF-BE16-D9F8BDF86EF2}" ShortID="637082970">
 									<PropertyList>
@@ -1486,6 +1516,36 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ExRComb4" ID="{63BCACE3-2C2E-49CE-8C8A-FB4257A79955}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{278A3ADB-7469-4206-B480-D3422D635DC8}" ShortID="549103061">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExRComb1Inv" ID="{B56A2506-D5DA-4ADC-A15E-4ADE9406A676}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2793EAED-036A-44B1-B9B9-517018E356DC}" ShortID="765047882">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExRComb2Inv" ID="{8FF79F62-CA70-439F-A71F-F089AA274B47}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F82EB5A6-E7A9-4493-BCD0-1AD9C4AAFD05}" ShortID="880928549">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ExRComb3Inv" ID="{09D14710-DEE8-467C-8A0E-1A4606898E36}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
