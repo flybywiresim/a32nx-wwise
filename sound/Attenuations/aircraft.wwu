@@ -5085,7 +5085,7 @@
 												</Point>
 												<Point>
 													<XPos>4</XPos>
-													<YPos>-0</YPos>
+													<YPos>0</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
@@ -5243,7 +5243,7 @@
 												</Point>
 												<Point>
 													<XPos>2000</XPos>
-													<YPos>-0</YPos>
+													<YPos>0</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
@@ -5615,12 +5615,18 @@
 							<PropertyList>
 								<Property Name="ConeAttenuation" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
+								<Property Name="ConeInnerAngle" Type="int32" Value="175"/>
 								<Property Name="ConeLowPassFilterValue" Type="int32">
 									<ValueList>
 										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ConeUse" Type="bool">
+									<ValueList>
+										<Value>True</Value>
 									</ValueList>
 								</Property>
 								<Property Name="RadiusMax" Type="Real64" Value="30"/>
