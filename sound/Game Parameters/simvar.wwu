@@ -530,6 +530,13 @@ Unit : millimeters of water</Comment>
 								<Property Name="Min" Type="Real64" Value="-50"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="SIMVAR_AMBIENT_DENSITY" ID="{6D7CFE41-AFCD-446A-BBF2-52D2AF75FCB0}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1.3"/>
+								<Property Name="Max" Type="Real64" Value="1.3"/>
+								<Property Name="Min" Type="Real64" Value="0.9"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="physic" ID="{ACA1142A-5586-4512-ADC2-1A3B340E902F}" ShortID="835960093">
@@ -1466,7 +1473,7 @@ Unit : Percent</Comment>
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="7400"/>
 								<Property Name="Max" Type="Real64" Value="7595"/>
-								<Property Name="Min" Type="Real64" Value="7400"/>
+								<Property Name="Min" Type="Real64" Value="7300"/>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="LOCALVAR_A32NX_LEFT_WIPER_SETTING" ID="{20E51AB4-7E07-49D6-B6E3-20F89B6E15E4}"/>
