@@ -918,6 +918,18 @@
             <WwiseRTPC LocalVar="A32NX_SOUND_EXTERIOR_MASTER" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_EXTERIOR_VOLUME" />
         </Sound>
 
+		<Sound WwiseEvent="CombExL" WwiseData="true" NodeName="SOUND_ENGINE_LEFT" SimVar="TURB ENG N1" ConePitch="90" Units="percent" Index="1" ViewPoint="Outside" Continuous="true">
+			<Range LowerBound="1" />
+			<WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="1" RTPCName="SIMVAR_TURB_ENG_N1" />
+			<WwiseRTPC LocalVar="A32NX_SOUND_EXTERIOR_MASTER" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_EXTERIOR_VOLUME" />
+		</Sound>
+
+		<Sound WwiseEvent="CombExR" WwiseData="true" NodeName="SOUND_ENGINE_RIGHT" SimVar="TURB ENG N1" ConePitch="90" Units="percent" Index="2" ViewPoint="Outside" Continuous="true">
+			<Range LowerBound="1" />
+			<WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="2" RTPCName="SIMVAR_TURB_ENG_N1" />
+			<WwiseRTPC LocalVar="A32NX_SOUND_EXTERIOR_MASTER" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_EXTERIOR_VOLUME" />
+		</Sound>
+
         <Sound WwiseEvent="FlyOverL" WwiseData="true" NodeName="SOUND_ENGINE_LEFT" ConeHeading="180.0" SimVar="TURB ENG N1" Units="percent" Index="1" ViewPoint="Outside" Continuous="true">
             <Range LowerBound="1" />
             <WwiseRTPC SimVar="TURB ENG N1" Units="percent" Index="1" RTPCName="SIMVAR_TURB_ENG_N1" />
