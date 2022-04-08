@@ -1875,7 +1875,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>9</Value>
+								<Value>12</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{3350A510-864C-44DE-86DE-AEDA26797B97}" ShortID="638662511">
@@ -2489,7 +2489,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>6</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{1A599412-148F-41E8-A817-C147F5F17492}" ShortID="156740028">
@@ -2828,7 +2828,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>6</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{E41FAA20-2926-4E86-B8B8-6129D4AAA3FE}" ShortID="822215862">
@@ -3189,7 +3189,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>6</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{E808E614-FBCE-43E1-988A-381C7AFD8608}" ShortID="377039767">
@@ -3922,6 +3922,9 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{97C9B6B2-ADA2-4943-B541-B44AEC6B4133}" ShortID="267757029">
 									<ReferenceList>
@@ -4195,9 +4198,6 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-3</Value>
-							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{D867A153-36F2-4DAD-97F1-66A0B7ABBF23}" ShortID="367971604">
 									<ReferenceList>
@@ -4710,6 +4710,9 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{AEB08C0E-BB0A-4850-8BDD-F665C991928A}" ShortID="271587209">
 									<ReferenceList>
@@ -5015,6 +5018,11 @@
 							</RTPCList>
 						</Property>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="40"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

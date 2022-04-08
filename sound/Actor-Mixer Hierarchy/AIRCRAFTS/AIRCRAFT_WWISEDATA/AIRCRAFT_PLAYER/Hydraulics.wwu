@@ -250,7 +250,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>7</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{451959EA-0327-4955-B538-9C3B47776A99}" ShortID="388894222">
@@ -1130,6 +1130,9 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{695AEEE1-C2EE-4A80-B8B8-7411FE6FA9A4}" ShortID="660389252">
 									<ReferenceList>
@@ -6651,7 +6654,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>7</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{1112C114-7036-470A-9E5A-0F43A559AADD}" ShortID="155477760">
