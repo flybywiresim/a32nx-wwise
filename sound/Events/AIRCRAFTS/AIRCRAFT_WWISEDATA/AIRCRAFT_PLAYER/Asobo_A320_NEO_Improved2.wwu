@@ -3209,6 +3209,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_A320_NEO_apurearint" ID="{0E9169DC-D992-44A9-A3D5-94683C8E96AF}">
+					<ChildrenList>
+						<Action Name="" ID="{58D4B734-5DA7-4EB4-B39D-4569E801620D}" ShortID="705245305">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="apurearint" ID="{F2322F04-1668-4F48-9F95-6D880B9A0747}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
