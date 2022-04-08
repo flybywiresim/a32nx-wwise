@@ -481,6 +481,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3C2C510B-B12D-412F-9A07-B0631C1BC18D}" ShortID="304591277">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BuzzRMid" ID="{DA7E45B6-F387-484A-9A97-F73FF173C571}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B5C27446-9077-424A-B71D-E20464BF93CF}" ShortID="709755998">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BuzzRWet" ID="{B504B579-96A8-4AC2-ADCB-62B09567890F}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_BuzzLEXT" ID="{7499B6F8-2DCD-4CC0-8B72-9987E6CA0229}">
@@ -520,6 +540,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BuzzL" ID="{F5032246-B49F-433A-9114-7B02E1D57756}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EA3B81BD-8749-4DBF-A25B-F6DCB6306608}" ShortID="716800226">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BuzzLMid" ID="{5A5EDAD3-8B14-46CF-977E-FCC483E16045}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A6DA3961-6BB9-4D0F-B6F8-61F78D111587}" ShortID="225315117">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BuzzLWet" ID="{7AB74B8F-CF2A-4BCE-A64D-D905D4A3B209}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -575,36 +615,6 @@
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_FFlowR" ID="{90207C9B-BBB8-4CF5-874E-B771E7408E3E}">
 							<ChildrenList>
-								<Action Name="" ID="{A4D57955-FFC4-440E-A953-9FEFA30B20F7}" ShortID="626909504">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic1" ID="{4FBA0D42-9E79-4870-BAFD-97E0C3FE136E}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{E129C214-A394-44AC-A08A-70FD68045F74}" ShortID="459748732">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic2" ID="{D606A7CD-2279-4EE3-8F23-E05FA82BC11A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{F616CA25-F93A-4F99-94EE-2518AEF3BC7F}" ShortID="1068608553">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic2_01" ID="{CC501CB5-4A39-4B6F-985E-A93F0F83E751}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{9E82B675-61D4-4D1C-BBED-7461756ACE45}" ShortID="517630041">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
@@ -612,16 +622,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="harmonic5" ID="{D7C70F87-44CB-481E-802C-ACB4D81E10BA}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{BDC07651-671C-4889-8B5D-7F531FFAEE75}" ShortID="640964504">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic5_01" ID="{6AB02396-D8BB-4C6E-8B03-BFB2F9A1949F}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -635,40 +635,20 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{65D4981F-05EC-4A6D-B43F-15CDBDF9F777}" ShortID="960153585">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="harmonic5_01" ID="{B3CF4CB1-41AF-43D9-A277-615331ADF01A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_FFlowL" ID="{34AF1497-F46F-4AB7-AA67-BF0EF562EFE5}">
 							<ChildrenList>
-								<Action Name="" ID="{BB436265-ED5E-4224-A85D-C41918265FBF}" ShortID="556735194">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic1" ID="{4FBA0D42-9E79-4870-BAFD-97E0C3FE136E}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{068FF985-FDE1-4F4E-8CF3-0879A8E794EC}" ShortID="493089178">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic2" ID="{D606A7CD-2279-4EE3-8F23-E05FA82BC11A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{B96D43D1-93B1-48AA-9314-37F700867EDA}" ShortID="181197539">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic2_01" ID="{CC501CB5-4A39-4B6F-985E-A93F0F83E751}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{19521739-BEC3-42CA-A504-06694420BDA6}" ShortID="909966088">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
@@ -679,16 +659,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{258AF61F-9790-450C-9C6C-16E8D750749C}" ShortID="109833970">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="harmonic5_01" ID="{6AB02396-D8BB-4C6E-8B03-BFB2F9A1949F}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{536C2ABB-2D09-4879-A88D-D955B0B0738A}" ShortID="958984531">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
@@ -696,6 +666,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="cutoffs" ID="{CD04482C-6C4E-428D-8C04-A565C0F84AE7}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3950B0C0-3AAF-4A92-9CEE-1BFFAA0E2DDA}" ShortID="273914518">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="harmonic5_01" ID="{B3CF4CB1-41AF-43D9-A277-615331ADF01A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -905,16 +885,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{EB6AC2E1-BC7B-45D9-BAAF-B70366039473}" ShortID="420546725">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="WhaleCallL" ID="{EA9990EC-F86E-4986-AB0E-1E21278C0B18}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{E5785A67-3027-40B2-BEAA-FCC40602823A}" ShortID="355521829">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
@@ -962,6 +932,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ISPOOL8" ID="{1A7E5D1E-9C28-4EAF-BFAC-10ADD61D7D17}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F2793CC9-66DF-4A0D-B9B1-ECA8AA282A02}" ShortID="869603472">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HowlL_01" ID="{3827AC12-BDD9-44C1-BA57-0B74777FC309}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1067,16 +1047,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{CF869D2F-ADC1-4AC6-997B-7F367582B073}" ShortID="453902347">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="WhaleCallR" ID="{BA5F6B04-DD45-4FEA-85C8-58259EB688A9}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{F59F455C-12EF-4C3E-908B-33043D72DA1C}" ShortID="92662358">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
@@ -1134,6 +1104,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ISPOOL8_01" ID="{3D1E37A4-7D3D-44A0-A3A9-77CADA84054D}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{01F644C7-23D2-43ED-B958-04FE45725C24}" ShortID="569104116">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HowlR_01" ID="{F19F17BF-DB2E-4C4D-8C2A-E56B5041C057}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1659,16 +1639,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{A34EF0F2-88D1-4D5C-BAD9-C58DB08CE2B0}" ShortID="831564541">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="BoomHot" ID="{93706E94-D92E-4ED2-9006-9D2DC975120A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_BoomR" ID="{1FB02DAA-DB57-47A8-8F43-D0DB3DB34F62}">
@@ -1680,16 +1650,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BoomCold" ID="{529367B0-93C2-4097-9400-8CE4A0E4D8C6}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{78251706-9B1E-4E97-832E-53B7624E1BB2}" ShortID="550266894">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="BoomHot" ID="{93706E94-D92E-4ED2-9006-9D2DC975120A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1918,34 +1878,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ExR" ID="{E35FDB4A-2012-490C-8E89-09AE061A04AF}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Asobo_A320_NEO_LWhale" ID="{F321F0AB-325F-4DB9-B985-977A270709B6}">
-							<ChildrenList>
-								<Action Name="" ID="{214A2503-B202-413E-9844-923B414AC42E}" ShortID="309943112">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="LWhale" ID="{9B3D0107-FA5A-45A3-8279-93347378D027}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Asobo_A320_NEO_RWhale" ID="{6197E648-F352-4DB2-BD3D-6EC3EC3B9870}">
-							<ChildrenList>
-								<Action Name="" ID="{2D296F2A-D287-4B7C-A319-8413AEF0BA18}" ShortID="953313212">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="RWhale" ID="{2E366449-FC0F-41B1-B3EB-06C64AF1D520}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2364,6 +2296,34 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ShutScreechR_AIR" ID="{6FA93BAC-EA61-4E46-A18D-CCF1D6527950}" WorkUnitID="{A152D108-533C-443B-AF5A-2F959DCE00CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_BoomRHot" ID="{A7EBC32A-E527-40B5-AB9C-DC941B2BBAD0}">
+							<ChildrenList>
+								<Action Name="" ID="{74C15D29-598A-4840-B4B1-557402113EC4}" ShortID="885537737">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BoomHot" ID="{93706E94-D92E-4ED2-9006-9D2DC975120A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Asobo_A320_NEO_BoomLHot" ID="{D53594FC-93DD-4915-8716-BEFC807AFE5D}">
+							<ChildrenList>
+								<Action Name="" ID="{88D2E6A6-5CE2-4B1C-9ED6-8016CA5A8A12}" ShortID="602437148">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BoomHot" ID="{93706E94-D92E-4ED2-9006-9D2DC975120A}" WorkUnitID="{AA4FB1DD-8F8A-4447-B8AB-2E45C6870DB6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -3349,50 +3309,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="cruisealt" ID="{62A497C4-0C67-40DC-A7A9-C2BA4A64A636}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Asobo_A320_NEO_ptu_cont" ID="{018AB933-9250-4AD1-AA03-BB95415C057E}">
-					<ChildrenList>
-						<Action Name="" ID="{8F629EF5-C90E-4445-B79C-79637159B7C1}" ShortID="355623632">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ptucont" ID="{E8B892EE-D1FD-425B-BA30-3DE76E7CAD4A}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{F8EEFBDE-0790-4CA2-BFEC-89CEEC597152}" ShortID="297002948">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ptucontslow" ID="{7D2D9AF6-93B8-4F71-B683-FAD0B033C7AF}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{2E4A0A7C-8A53-4455-94E5-D536A009003F}" ShortID="546238368">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ptucontfast" ID="{DDDC8D06-DCB1-4319-B416-9DB372CF04B5}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{956AF817-2084-4446-8609-B55962E0344A}" ShortID="507596632">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ptucontmid" ID="{98D8FDE4-86FF-42BA-BBB6-B663AEC85F10}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

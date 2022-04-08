@@ -2729,20 +2729,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_ptu_sound_loop" ID="{208DBF06-2E32-4A4A-9990-D48A3A9B9706}">
-					<ChildrenList>
-						<Action Name="" ID="{906C64B9-09D0-49E0-9926-01778F46A599}" ShortID="887881708">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ptucont" ID="{E8B892EE-D1FD-425B-BA30-3DE76E7CAD4A}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Asobo_A320_NEO_ptu_start" ID="{93062993-12DC-4E2A-89F7-E77A9A8B7110}">
 					<ChildrenList>
 						<Action Name="" ID="{5EB6CF62-ED7A-46A5-86CE-EEB5CEC1452D}" ShortID="246404548">
@@ -3176,6 +3162,48 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="gearlock" ID="{FC4413B7-D590-4499-90F3-2A3383008AFE}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ptu_cont_low" ID="{8C156B5C-6A00-410D-B263-0F60212A73A5}">
+					<ChildrenList>
+						<Action Name="" ID="{BCF27E41-7612-49DF-B690-29343BBD15AD}" ShortID="111157899">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ptucontslow" ID="{7D2D9AF6-93B8-4F71-B683-FAD0B033C7AF}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ptu_cont_mid" ID="{F3F1AE98-161C-43AD-8467-C145B84411AA}">
+					<ChildrenList>
+						<Action Name="" ID="{4C0EF163-91E9-4357-9A77-D8F182EB260B}" ShortID="49122189">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ptufast" ID="{A4B063E9-985D-40D6-9FE0-464D7348A27D}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ptu_cont_high" ID="{364D899A-E74D-46BE-A613-E2A20C9A293F}">
+					<ChildrenList>
+						<Action Name="" ID="{A9ABC96D-262C-4762-AD17-521B56DDCC06}" ShortID="271422729">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ptucontmiddle" ID="{E8B892EE-D1FD-425B-BA30-3DE76E7CAD4A}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
