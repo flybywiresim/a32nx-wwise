@@ -1519,6 +1519,18 @@ Unit : Percent</Comment>
 								<Property Name="Max" Type="Real64" Value="1"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_PUMP_ON" ID="{C633EED6-C780-4AFD-B511-EB52FED02587}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LOCALVAR_A32NX_FLUID_LEVEL" ID="{9A9A33CD-3C79-4470-ACE9-013FFDF4156F}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="3"/>
+								<Property Name="Max" Type="Real64" Value="3"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
