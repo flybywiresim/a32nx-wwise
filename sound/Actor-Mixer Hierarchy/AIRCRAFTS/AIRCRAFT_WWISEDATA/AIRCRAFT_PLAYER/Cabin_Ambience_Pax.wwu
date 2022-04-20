@@ -3941,7 +3941,7 @@
 								<AudioFileSource Name="cabin" ID="{615166A0-C1C5-41F9-B359-107C618CFD27}">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="4.95165209807567"/>
-										<Property Name="LoopBegin" Type="Real64" Value="93.4923232324593"/>
+										<Property Name="LoopBegin" Type="Real64" Value="92.3134666750822"/>
 										<Property Name="LoopEnd" Type="Real64" Value="108.912330859878"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.937017143259331"/>
@@ -4452,9 +4452,10 @@
 								</AudioFileSource>
 								<AudioFileSource Name="deboarding" ID="{961A9AFE-D287-424B-B185-D9802D6F18D1}">
 									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2729.18487165526"/>
 										<Property Name="FadeInDuration" Type="Real64" Value="2.06712640765766"/>
-										<Property Name="LoopBegin" Type="Real64" Value="52.564071509009"/>
-										<Property Name="LoopEnd" Type="Real64" Value="86.9880541344916"/>
+										<Property Name="LoopBegin" Type="Real64" Value="18.2109938199092"/>
+										<Property Name="LoopEnd" Type="Real64" Value="85.4419770925014"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="14.7230023729086"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>

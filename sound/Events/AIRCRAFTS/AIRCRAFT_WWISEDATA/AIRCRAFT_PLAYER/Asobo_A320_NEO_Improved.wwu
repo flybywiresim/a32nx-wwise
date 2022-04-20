@@ -3314,20 +3314,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_ptuend" ID="{6D232324-DD2E-4870-AAAB-45DF983FF73B}">
-					<ChildrenList>
-						<Action Name="" ID="{145D5231-EFB3-4FB3-9901-1ABC4A6E4FEA}" ShortID="744356502">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ptuend" ID="{9DDE2FF1-2FE8-41ED-B2A4-EA6472BA70AD}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Asobo_A320_NEO_whinerollext" ID="{E14EE8D3-B903-4147-B0FF-FB019401C952}">
 					<ChildrenList>
 						<Action Name="" ID="{BBE46913-E4C6-4B10-9439-C6A32D96E9FD}" ShortID="518480186">

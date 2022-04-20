@@ -2213,6 +2213,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="midtouch2" ID="{914D279D-4263-489A-B86E-CABD219A4D15}" ShortID="742230682">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -2491,6 +2498,16 @@
 							<Language>SFX</Language>
 							<AudioFile>flaps1.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="cabtouchhard" ID="{F5627EF9-AA2D-4AAE-903B-3609E97BC765}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>cabtouchhard.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{78047CA3-EECB-45C7-B0F7-C98C260D4B16}"/>
@@ -2506,7 +2523,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>15</Value>
+								<Value>5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2673,12 +2690,22 @@
 							<Language>SFX</Language>
 							<AudioFile>FFlowR.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="cabtouchmid" ID="{8D1A39B9-6CD8-4E4C-A922-9053F36A7E8B}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>cabtouchmid.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{BFA996CD-4D9E-4DE4-ADC5-34333C76AF00}"/>
 					</PositioningInfo>
 					<ActiveSourceList>
-						<ActiveSource Name="cabtouchsmooth" ID="{96455035-6972-4833-B6D3-281FA79037EA}" Platform="Linked"/>
+						<ActiveSource Name="cabtouchmid" ID="{8D1A39B9-6CD8-4E4C-A922-9053F36A7E8B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="cabtouchsmooth" ID="{8B6C4C75-18DA-4F60-8717-B11A0C67911F}" ShortID="748065435">
@@ -2686,11 +2713,6 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>10</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -2845,12 +2867,24 @@
 							<Language>SFX</Language>
 							<AudioFile>cabtouchhard.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="cabtouchsoft" ID="{DD8CD45E-BDB6-4AEA-A481-94AF11B5F49E}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0629883843097205"/>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.172725960099312"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>cabtouchsoft.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{2ACD8AD3-1F1F-47F6-BE40-8873DF61F81C}"/>
 					</PositioningInfo>
 					<ActiveSourceList>
-						<ActiveSource Name="cabtouchmed" ID="{DDC6804A-F76B-4E42-B0A0-D2956EF1B28C}" Platform="Linked"/>
+						<ActiveSource Name="cabtouchsoft" ID="{DD8CD45E-BDB6-4AEA-A481-94AF11B5F49E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="cabtouchhard" ID="{D7A8C7D0-C35D-4214-A30E-DD89A7F2A6C0}" ShortID="730678441">
@@ -2858,6 +2892,11 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

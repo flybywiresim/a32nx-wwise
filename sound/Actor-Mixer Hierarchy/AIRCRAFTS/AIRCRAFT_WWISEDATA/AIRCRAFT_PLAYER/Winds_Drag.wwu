@@ -1379,9 +1379,9 @@
 											</Point>
 											<Point>
 												<XPos>250</XPos>
-												<YPos>0</YPos>
+												<YPos>-2</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
+												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>400</XPos>
@@ -1615,13 +1615,13 @@
 										</PointList>
 									</Curve>
 								</RTPC>
-								<RTPC Name="" ID="{7DDA9AA8-A321-422D-8A8F-4047FC27E1BC}" ShortID="147575995">
+								<RTPC Name="" ID="{37E18961-5467-4D08-A958-F2D900D73E33}" ShortID="913737708">
 									<ReferenceList>
 										<Reference Name="ControlInput">
 											<ObjectRef Name="SIMVAR_AIRSPEED_INDICATED" ID="{55CFC0B1-B68E-46B8-8121-18B4F1AA6E4F}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 										</Reference>
 									</ReferenceList>
-									<Curve Name="" ID="{74D710E8-F20E-4BEE-8EEC-241DB4529641}">
+									<Curve Name="" ID="{E6C5C7F5-F6DD-4F73-AAE5-3E5D66AFFE68}">
 										<PropertyList>
 											<Property Name="Flags" Type="int32" Value="3"/>
 										</PropertyList>
@@ -1644,9 +1644,9 @@
 											</Point>
 											<Point>
 												<XPos>250</XPos>
-												<YPos>0</YPos>
+												<YPos>-2</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
+												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>400</XPos>
