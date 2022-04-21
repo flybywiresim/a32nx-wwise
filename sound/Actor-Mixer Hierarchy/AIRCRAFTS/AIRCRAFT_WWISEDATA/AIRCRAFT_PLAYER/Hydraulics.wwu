@@ -13010,7 +13010,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -16182,7 +16182,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>9</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{36DE9931-F591-43EC-997E-667B24EFDA5A}" ShortID="72529197">
