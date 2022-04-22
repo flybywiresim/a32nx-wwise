@@ -27151,6 +27151,53 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{23BBE220-6753-49C3-AC71-3A0A114679EC}" ShortID="210090653">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_AIRSPEED_TRUE" ID="{23F33E5A-B0EE-4CD5-AE2C-178797545D5C}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4D7461D6-0560-45A9-9E04-360B249DD6C6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>140</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>270</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>300</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>455.54974</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{4C310E59-E22A-40EB-B3A6-DECBDAAA4EF9}" ShortID="507074269">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -27215,53 +27262,6 @@
 													<Point>
 														<XPos>20000</XPos>
 														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-										<RTPC Name="" ID="{09C6029F-50AD-4859-94E8-90B22190E0FB}" ShortID="826161507">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SIMVAR_AIRSPEED_TRUE" ID="{23F33E5A-B0EE-4CD5-AE2C-178797545D5C}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{B364F87E-849B-4ABD-B2D7-0A2ACD567F98}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-3</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>140</XPos>
-														<YPos>-2</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>270</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp1</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>300</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log2</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>455.54974</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>1000</XPos>
-														<YPos>-200</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -27884,13 +27884,13 @@
 													</Point>
 													<Point>
 														<XPos>270</XPos>
-														<YPos>0</YPos>
+														<YPos>-2</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>300</XPos>
-														<YPos>0</YPos>
+														<YPos>-2</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
