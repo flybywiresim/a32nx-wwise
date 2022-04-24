@@ -1689,21 +1689,21 @@
 												<XPos>160</XPos>
 												<YPos>-8</YPos>
 												<Flags>0</Flags>
+												<SegmentShape>Exp2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>250</XPos>
-												<YPos>-2</YPos>
+												<YPos>-5</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>400</XPos>
-												<YPos>10</YPos>
+												<YPos>0</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
 												<XPos>1000</XPos>
-												<YPos>9</YPos>
+												<YPos>0.87824</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -1946,13 +1946,13 @@
 										</PointList>
 									</Curve>
 								</RTPC>
-								<RTPC Name="" ID="{37E18961-5467-4D08-A958-F2D900D73E33}" ShortID="913737708">
+								<RTPC Name="" ID="{5A573B80-3699-49D9-98F0-7141671F5725}" ShortID="969469518">
 									<ReferenceList>
 										<Reference Name="ControlInput">
 											<ObjectRef Name="SIMVAR_AIRSPEED_INDICATED" ID="{55CFC0B1-B68E-46B8-8121-18B4F1AA6E4F}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 										</Reference>
 									</ReferenceList>
-									<Curve Name="" ID="{E6C5C7F5-F6DD-4F73-AAE5-3E5D66AFFE68}">
+									<Curve Name="" ID="{355A800C-195E-4860-9A2A-E743C1E6545F}">
 										<PropertyList>
 											<Property Name="Flags" Type="int32" Value="3"/>
 										</PropertyList>
@@ -1972,21 +1972,21 @@
 												<XPos>160</XPos>
 												<YPos>-8</YPos>
 												<Flags>0</Flags>
+												<SegmentShape>Exp2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>250</XPos>
-												<YPos>-2</YPos>
+												<YPos>-5</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>400</XPos>
-												<YPos>10</YPos>
+												<YPos>0</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
 												<XPos>1000</XPos>
-												<YPos>9</YPos>
+												<YPos>0.878239999999977</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
