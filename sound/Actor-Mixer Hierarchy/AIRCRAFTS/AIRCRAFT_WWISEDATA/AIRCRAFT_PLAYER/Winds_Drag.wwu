@@ -635,11 +635,6 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
-										<Property Name="ConeUse" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="RadiusMax" Type="Real64" Value="40"/>
 									</PropertyList>
 									<CurveUsageInfoList>
@@ -976,11 +971,6 @@
 										<Property Name="ConeLowPassFilterValue" Type="int32">
 											<ValueList>
 												<Value>30</Value>
-											</ValueList>
-										</Property>
-										<Property Name="ConeUse" Type="bool">
-											<ValueList>
-												<Value>True</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RadiusMax" Type="Real64" Value="40"/>
@@ -1631,7 +1621,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="35"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>2</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{A7F93E2C-8011-4113-A2F3-83CDC0680EA5}" ShortID="543425961">
@@ -1914,7 +1904,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="35"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>2</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{3DFFEE0A-6067-4BB6-9B74-8BEC70041A93}" ShortID="573451521">
