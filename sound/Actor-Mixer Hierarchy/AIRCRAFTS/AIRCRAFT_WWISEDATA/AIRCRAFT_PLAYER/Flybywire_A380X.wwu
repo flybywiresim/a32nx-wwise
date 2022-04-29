@@ -778,7 +778,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-1</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{18969018-0E32-4829-877F-E70EEB4F6FAF}" ShortID="105737130">
@@ -845,6 +845,27 @@
 											<AudioFile>Buzz1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+												<CustomState Name="" ID="{A8A80180-751A-48F1-A9DA-34CB178947E3}" ShortID="723902986"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+												<CustomState Name="" ID="{3B104BA0-96F8-4502-9A9F-7B2BB45810F9}" ShortID="723442795">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Buzz1" ID="{2F5F253F-78DB-49FB-87E7-0C130813CE3D}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -887,7 +908,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{3ABD7C30-2BA0-45BC-8487-FB57AEC02858}" ShortID="138485442">
@@ -907,7 +928,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>25.1309</XPos>
+																<XPos>15.44504</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp1</SegmentShape>
@@ -916,6 +937,7 @@
 																<XPos>36.12565</XPos>
 																<YPos>-4.0484</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>82.72251</XPos>
@@ -923,8 +945,8 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>100.26078</XPos>
-																<YPos>-4.0484</YPos>
+																<XPos>100.78434</XPos>
+																<YPos>-1.28235</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -958,6 +980,27 @@
 											<AudioFile>MidWhine1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+												<CustomState Name="" ID="{54C6550E-7DE0-4E66-8C13-0DCFE2B20EDC}" ShortID="40932743"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+												<CustomState Name="" ID="{4C79F012-AF87-4B92-8E55-1B4BF867C601}" ShortID="734906415">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="MidWhine1" ID="{8304BF1C-C52C-49BF-AB2E-45C99E9ED344}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1000,7 +1043,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{56C2BDC0-BCF8-46E5-9516-D9046CBD3F6B}" ShortID="601198820">
@@ -1066,6 +1109,27 @@
 											<AudioFile>Idle1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+												<CustomState Name="" ID="{9CB65E93-57CC-4CC9-AD41-636B8B659542}" ShortID="904840938"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+												<CustomState Name="" ID="{1975FEEC-4623-4DA8-B315-D38ABAED6344}" ShortID="480856829">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Idle1" ID="{52239A73-40D6-4B3D-89D4-8D3B45473BC8}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1107,6 +1171,9 @@
 											</RTPCList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{653F479D-8750-49D9-9FAB-46DBDB962ED8}" ShortID="622030071">
 													<ReferenceList>
@@ -1171,6 +1238,27 @@
 											<AudioFile>LowWhine1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+												<CustomState Name="" ID="{76826864-B0C3-4CC8-9DE7-11571F29E69D}" ShortID="697221878"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+												<CustomState Name="" ID="{795BD541-D81F-47BB-8218-9E98F24004A8}" ShortID="58374614">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="LowWhine1" ID="{D08E7041-A426-4DC4-ACA0-45F6C18BA9A8}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1217,9 +1305,6 @@
 											</RTPCList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{77E270BB-CC08-49BD-B564-3964936F68FD}" ShortID="776099585">
 													<ReferenceList>
@@ -1238,10 +1323,9 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>23.29844</XPos>
+																<XPos>17.80106</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>27.74869</XPos>
@@ -1285,6 +1369,27 @@
 											<AudioFile>Howl1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+												<CustomState Name="" ID="{4D83CBFF-1C52-4CB5-B8C1-65B9DF1CCAC3}" ShortID="634089835"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+												<CustomState Name="" ID="{0AD0B152-F3D5-4BD5-B315-F2FAE16FBEFD}" ShortID="123790302">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Howl1" ID="{055D8663-7BCD-45AD-B803-3F71403411F5}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1398,6 +1503,27 @@
 											<AudioFile>IdleHigh1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+												<CustomState Name="" ID="{740033F5-1E08-4A80-86A1-3B649EA744B1}" ShortID="214437637"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+												<CustomState Name="" ID="{EC466B1B-B6CD-4322-8D85-43DF313C1827}" ShortID="796168758">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="IdleHigh1" ID="{EF9078FE-37C1-4FD6-827A-5222691C46F8}" Platform="Linked"/>
 									</ActiveSourceList>

@@ -509,13 +509,14 @@
 								</AudioFileSource>
 								<AudioFileSource Name="WLeft" ID="{EC157C57-4101-4101-A9D9-C0049D64E913}">
 									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="468.478"/>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.00123167644947686"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.00184751467421518"/>
-										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
-										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.253027416315966"/>
+										<Property Name="LoopEnd" Type="Real64" Value="1.33782246404458"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.00492670579790744"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.57161914953247"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>WLeft.wav</AudioFile>
