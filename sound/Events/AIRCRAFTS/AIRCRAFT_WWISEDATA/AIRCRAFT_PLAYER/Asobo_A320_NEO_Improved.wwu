@@ -3356,6 +3356,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_A320_NEO_gravitygear" ID="{DD1B81C2-98CD-437A-B2F4-776B956B7F0E}">
+					<ChildrenList>
+						<Action Name="" ID="{C03A46DF-478F-4E58-993E-04238906F504}" ShortID="297396708">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gravitygear" ID="{C8F43265-AEB9-4ED8-A791-F8D06F1BCB0F}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_glareshieldpbon" ID="{837D0521-CD0E-41AB-8A49-1E410148147B}">
+					<ChildrenList>
+						<Action Name="" ID="{444CBAC7-E2A2-44BB-930A-3DEBE3B00578}" ShortID="423927733">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="glareshieldpbon" ID="{2459A87A-80EE-4499-81E1-75D70B239170}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_glareshieldpboff" ID="{520EE708-FA9A-4B7E-B55C-65672AFFF5F1}">
+					<ChildrenList>
+						<Action Name="" ID="{2D77AB58-87D5-45A1-9BE7-AEA7BAB2AAA3}" ShortID="1004892164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="glareshieldpbonoff" ID="{350F557F-A49F-45C8-860C-4C98EDED0D96}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
