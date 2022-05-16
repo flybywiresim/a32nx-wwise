@@ -284,7 +284,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="45"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -928,7 +928,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
