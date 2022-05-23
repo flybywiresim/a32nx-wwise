@@ -949,13 +949,13 @@
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_apurunext" ID="{FD3E3C5A-BB7B-4F44-BAE2-DD46BE1F0132}">
 					<ChildrenList>
-						<Action Name="" ID="{ADFF24C7-591E-4614-9C95-E0EF36B585FB}" ShortID="452406348">
+						<Action Name="" ID="{EC56A106-389B-4545-BB5C-1197D2BEA70D}" ShortID="948775717">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="apurunext" ID="{99F428AD-A113-45E2-A0FB-ACCD2A7EEF4E}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
+									<ObjectRef Name="apurunext_01" ID="{31C2E927-DD02-4C36-A93A-EF0260812D57}" WorkUnitID="{AEE3F8E1-CB86-4376-A865-19E48C06C3DE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -3223,6 +3223,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{F249B168-300D-4059-A2D6-7E251CEBED23}" ShortID="16412051">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz1Bass" ID="{414BAAAC-80E7-4470-ACF7-A88797BAABC5}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_flaps380" ID="{96D63314-4BBA-45D6-971D-E14586431CF9}">
@@ -3311,6 +3321,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{1ADB6B87-27E0-41E7-9347-8D2731EC21ED}" ShortID="771838229">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz2Bass" ID="{29FE8B2A-7714-4400-A12E-982C5A9583B3}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_Engine_3_Front" ID="{8323F958-E0E7-496E-89AC-6C88C5E535CF}">
@@ -3385,6 +3405,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{59594F48-8802-4A51-9061-E44129406B48}" ShortID="960151776">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz3Bass" ID="{A9B2E0BC-094A-4F0F-8EB6-8EB763C0C5A7}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Asobo_A320_NEO_Engine_4_Front" ID="{698BF743-41C5-4BC1-9FE5-F686F14706EA}">
@@ -3456,6 +3486,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MidWhine4" ID="{AA62CE0A-F246-48B8-89E2-85EF19E45C08}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DA47869F-2568-4D8B-9407-592E9286294D}" ShortID="608464065">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz4Bass" ID="{1834A2F9-0FC0-43DB-AA20-2350A1C2F61A}" WorkUnitID="{73156610-4571-46F9-A408-EDA20039973C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

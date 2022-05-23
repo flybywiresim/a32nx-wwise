@@ -474,6 +474,9 @@
 						<RandomSequenceContainer Name="general" ID="{9F3C938E-6BBE-49FD-A2AC-886D494B4ACD}" ShortID="542738607">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{DF72CBCE-55DA-4B2D-A044-C45A7850B4C1}" ShortID="239535746">
 											<ReferenceList>
@@ -1285,7 +1288,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-2</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1434,6 +1437,21 @@
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>trunit.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="TRNew" ID="{BF4C13DA-ABAC-4C9E-B78F-329B8196A15E}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0982069322967284"/>
+								<Property Name="FadeInShape" Type="int16" Value="9"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="3.56359556851312"/>
+								<Property Name="FadeOutShape" Type="int16" Value="0"/>
+								<Property Name="LoopBegin" Type="Real64" Value="8.76143746031746"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>TRNew.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
@@ -1667,6 +1685,16 @@
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>trunit.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="TRNew" ID="{112B8D26-2735-4ACE-8EF2-C2C7386DA483}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>TRNew.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
