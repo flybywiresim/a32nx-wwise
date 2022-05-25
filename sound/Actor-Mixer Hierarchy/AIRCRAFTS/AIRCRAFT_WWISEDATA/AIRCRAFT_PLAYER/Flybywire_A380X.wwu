@@ -2915,7 +2915,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-96</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3093,7 +3093,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-96</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3301,33 +3301,76 @@
 								<Sound Name="MidWhine1" ID="{7F9ADC3E-D871-4826-AF4E-77BAC9D7D7A0}" ShortID="9335335">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
+										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{0576042D-1DC5-455A-96EE-D7CC87D468FA}" ShortID="189052456">
+												<RTPC Name="" ID="{1E16F844-684B-4208-8B74-D2AA417ADD37}" ShortID="798857804">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{81EE6C2E-2F9A-4261-B9B4-51ED913AF426}">
+													<Curve Name="" ID="{4DA9D5B1-C010-4BAC-A282-74628BED1A36}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2041</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-200</YPos>
+																<XPos>52.3560209424084</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>77.48691</XPos>
+																<YPos>66</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{98174B42-280A-4D89-90B9-812A7B49416C}" ShortID="615792997">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{61DCAB97-004E-4AC3-A888-C031A46267DC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-970</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>80.10471</XPos>
+																<YPos>950</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1150</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -3337,16 +3380,16 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{3ABD7C30-2BA0-45BC-8487-FB57AEC02858}" ShortID="138485442">
+												<RTPC Name="" ID="{514EF8BB-DA4B-41C9-88CB-44AA913F1B7C}" ShortID="705961496">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{7808023A-51AB-4DA9-A7CE-6CCC9AAC9737}">
+													<Curve Name="" ID="{A9BA88EB-9797-4AC0-874C-44983DA72722}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -3360,16 +3403,16 @@
 																<XPos>25.39268</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Exp2</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>57.8534</XPos>
-																<YPos>-2.40468</YPos>
+																<YPos>-2.40468000000001</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>93.19272</XPos>
+																<XPos>104.97282</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -3390,7 +3433,7 @@
 										</Reference>
 										<Reference Name="Effect0">
 											<Custom CreatedFrom="{3EA7C9BD-6F9A-4000-A227-F86B5B4328EE}">
-												<Effect Name="Boost_3dB_100Hz_(Custom)" ID="{A73A02FD-969E-4D69-B628-EB504815D9B0}" ShortID="522659899" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<Effect Name="Boost_3dB_100Hz_(Custom)" ID="{F4901DA7-3DE5-4234-B722-FD9049D06B35}" ShortID="105249553" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<PropertyList>
 														<Property Name="FrequencyBand1" Type="Real32" Value="376"/>
 														<Property Name="GainBand1" Type="Real32" Value="5"/>
@@ -3407,8 +3450,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="MidWhine1" ID="{8304BF1C-C52C-49BF-AB2E-45C99E9ED344}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
-												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="92.88"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0997794622610949"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.75463245869776"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
@@ -3575,30 +3620,35 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
-												<RTPC Name="" ID="{2881FFA3-ACAC-462F-B578-E0CBC43378DE}" ShortID="645423517">
+												<RTPC Name="" ID="{E7D1AEB5-C6DC-43F2-BE86-D0BA46D68033}" ShortID="570345123">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{DEDB0D73-B832-45F6-8E02-2A9594748148}">
+													<Curve Name="" ID="{85EEB301-EE36-4DBF-AA24-AEA741DBEB17}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-1891</YPos>
+																<YPos>-1070</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-50</YPos>
+																<XPos>80.10471</XPos>
+																<YPos>850</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1050</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -3608,7 +3658,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-11</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{653F479D-8750-49D9-9FAB-46DBDB962ED8}" ShortID="622030071">
@@ -3633,7 +3683,7 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>41.09947</XPos>
+																<XPos>35</XPos>
 																<YPos>-6.79186</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
@@ -3674,6 +3724,16 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>LowWhine1.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="MidWhine1" ID="{9018AFCA-242B-41F9-BABF-1EFE8EE3A082}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MidWhine1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
@@ -3909,6 +3969,7 @@
 																<XPos>25.13089</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>50.52356</XPos>
@@ -3992,13 +4053,13 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{B56A16B4-23F1-4074-B586-5A74C8592419}" ShortID="300904406">
+												<RTPC Name="" ID="{7824B0A4-EEB7-49F0-91DF-EDBF84491748}" ShortID="282479231">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{BCADB10E-98FF-4E9B-B52B-783CE3C0C84F}">
+													<Curve Name="" ID="{105A8BCD-D245-47DC-8A8D-5EE8C880F134}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -4010,14 +4071,14 @@
 																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>69.24084</XPos>
-																<YPos>1</YPos>
+																<XPos>71.85864</XPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>98.16754</XPos>
-																<YPos>100</YPos>
+																<XPos>86.38744</XPos>
+																<YPos>59</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -4046,13 +4107,8 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2346</YPos>
+																<YPos>-1470</YPos>
 																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-505</YPos>
-																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>80.10471</XPos>
@@ -4103,6 +4159,7 @@
 																<XPos>41.88481</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>69.10995</XPos>
@@ -4655,33 +4712,76 @@
 								<Sound Name="MidWhine2" ID="{C8D918F9-9D39-4F68-9694-5396D4EF5380}" ShortID="734003536">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
+										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{DB6952A9-D69C-4A25-957C-6CA803133E57}" ShortID="215391353">
+												<RTPC Name="" ID="{D20888AD-B566-4F69-91F5-1B7C229C2E5F}" ShortID="707364850">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{FB9E83FC-9377-4D6A-AA15-E00905A6A0EA}">
+													<Curve Name="" ID="{8B7FA52C-7F81-4965-9BFD-8A83A3CF9CED}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2041</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-200</YPos>
+																<XPos>52.3560209424084</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>77.48691</XPos>
+																<YPos>66</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{17316ACE-EE7B-4BEE-A399-61BF5E57C939}" ShortID="35501921">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{01AE3897-CD37-4B7F-A7A2-105D97B43E64}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-970</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>80.10471</XPos>
+																<YPos>950</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1150</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -4691,16 +4791,16 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{B0BCF737-FC2F-4A23-81B4-EEE81DC54B1C}" ShortID="635422056">
+												<RTPC Name="" ID="{53A59E65-20FC-43A5-8548-0B801717013F}" ShortID="994558119">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{B594162B-CC87-4CC2-9D58-424945A1148A}">
+													<Curve Name="" ID="{029A9977-2308-44E9-877C-836B8AA3BEC2}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -4714,16 +4814,16 @@
 																<XPos>25.39268</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Exp2</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>57.8534</XPos>
 																<YPos>-2.40468000000001</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>93.19272</XPos>
+																<XPos>104.97282</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -4772,8 +4872,8 @@
 										<AudioFileSource Name="MidWhine2" ID="{22A599E8-EFEC-47F8-BD54-37F2E73500EE}">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="33.241"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.017832925170068"/>
-												<Property Name="LoopEnd" Type="Real64" Value="0.712043226433431"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.143087994816975"/>
+												<Property Name="LoopEnd" Type="Real64" Value="2.9504999287334"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -4953,30 +5053,35 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
-												<RTPC Name="" ID="{5CB83100-165B-4D58-A650-78E486972C80}" ShortID="809780940">
+												<RTPC Name="" ID="{C4E09665-A9D9-44F3-836E-5E0ED8DE1E76}" ShortID="934013017">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{9BBF0B5B-CEBB-40B3-9F94-A167B0713DA7}">
+													<Curve Name="" ID="{8107D531-0673-4BD8-BAEC-A942A4A1EA4A}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-1891</YPos>
+																<YPos>-1070</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-50</YPos>
+																<XPos>80.10471</XPos>
+																<YPos>850</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1050</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -4986,16 +5091,16 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-11</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{249D73B0-9DCD-43A0-A5DE-D5CFB7E3848C}" ShortID="395265038">
+												<RTPC Name="" ID="{C144A053-4D93-409B-A704-BA7485DEE714}" ShortID="316086863">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{790E36D5-5248-4126-A1A5-12BE4284E066}">
+													<Curve Name="" ID="{06393D7D-FE35-46F1-B19C-90C4056BB9AE}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -5011,7 +5116,7 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>41.09947</XPos>
+																<XPos>35</XPos>
 																<YPos>-6.79185999999999</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
@@ -5062,6 +5167,16 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>LowWhine2.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="MidWhine2" ID="{29B18D28-9194-4666-BF8F-C299BA21EE2E}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MidWhine2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
@@ -5301,13 +5416,13 @@
 												<Value>-20</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{3EFB05E6-2F41-497B-A020-4180B29139CA}" ShortID="935060265">
+												<RTPC Name="" ID="{4361DEA7-9D9E-44C5-A59F-162F40BA73F3}" ShortID="359485249">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{19AE648A-3C31-4F02-9D12-EFEF9EF97979}">
+													<Curve Name="" ID="{A28F822F-F86E-46C3-A469-B317DE515F46}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -5327,6 +5442,7 @@
 																<XPos>25.13089</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>50.52356</XPos>
@@ -5432,13 +5548,13 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{7C40FD04-0845-4C17-87A4-929511774D09}" ShortID="449352704">
+												<RTPC Name="" ID="{12524DCC-8279-4D1B-B2AB-89BB61B8848A}" ShortID="147534762">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{A502C81C-70DD-4AA7-973D-48A47712EC7D}">
+													<Curve Name="" ID="{7E4D13FD-863C-4278-AB3C-DCBA4D7A5B31}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -5450,14 +5566,14 @@
 																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>69.24084</XPos>
-																<YPos>1</YPos>
+																<XPos>71.85864</XPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>98.16754</XPos>
-																<YPos>100</YPos>
+																<XPos>86.38744</XPos>
+																<YPos>59</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -5473,26 +5589,21 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
-												<RTPC Name="" ID="{D00095A8-9717-4106-B144-21E37994BEB1}" ShortID="718115024">
+												<RTPC Name="" ID="{21B2F8B0-F8A6-4C55-8108-384876FC5B85}" ShortID="458952833">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{866857C7-ED86-4CF4-8E43-2493D56A3959}">
+													<Curve Name="" ID="{64CE5898-8708-4CCB-B150-F36E7294F2C1}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2346</YPos>
+																<YPos>-1470</YPos>
 																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-505</YPos>
-																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>80.10471</XPos>
@@ -5517,13 +5628,13 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{0CB35814-E2A5-4848-AEF5-F237DC3C52B5}" ShortID="568459277">
+												<RTPC Name="" ID="{BAFA6AB5-DD2C-426A-880E-2799619C3F0E}" ShortID="374338489">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{F5B60D53-1000-4D65-9A75-903A5ED1DA5F}">
+													<Curve Name="" ID="{35926006-558E-47ED-B12D-2D8ECB2B5619}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -5543,6 +5654,7 @@
 																<XPos>41.88481</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>69.10995</XPos>
@@ -6110,33 +6222,76 @@
 								<Sound Name="MidWhine3" ID="{DE9DF331-E7AC-490D-90DD-FAAE769943F7}" ShortID="835086868">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
+										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{3D092C3C-EFAA-488B-877F-9EDC6248C3CC}" ShortID="155122116">
+												<RTPC Name="" ID="{6E8AF344-45BD-4A57-8475-AD3B91473BC6}" ShortID="759136506">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{A9CEEAA8-A978-482B-AFC9-0D954CB3EED7}">
+													<Curve Name="" ID="{06582A59-F6EB-4D60-AE60-402801216706}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2041</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-200</YPos>
+																<XPos>52.3560209424084</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>77.48691</XPos>
+																<YPos>66</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{250195EC-D9D4-45CE-8A74-0A5B62EC6AF5}" ShortID="1008046035">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4397D6C0-D004-4358-8DE9-880BDB960063}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-970</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>80.10471</XPos>
+																<YPos>950</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1150</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -6146,16 +6301,16 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{7E60970A-35EA-4385-975C-9AC802176D5C}" ShortID="47890240">
+												<RTPC Name="" ID="{7A3D6357-E0D5-44FB-9D8B-9E1A208BECC1}" ShortID="69105264">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{E9759F3B-1960-4ADD-94FC-E90D2E5DA0EE}">
+													<Curve Name="" ID="{17647E9A-6475-4826-8898-C361C4A5F8A0}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -6169,16 +6324,16 @@
 																<XPos>25.39268</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Exp2</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>57.8534</XPos>
 																<YPos>-2.40468000000001</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>93.19272</XPos>
+																<XPos>104.97282</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -6228,7 +6383,7 @@
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="47.906"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.0274924263038549"/>
-												<Property Name="LoopEnd" Type="Real64" Value="1.26167945578231"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.29017469387755"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -6408,30 +6563,35 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
-												<RTPC Name="" ID="{53DB0F2E-3EB3-4685-B108-165B9973D399}" ShortID="56888230">
+												<RTPC Name="" ID="{48140A2B-D51F-4779-BD04-AFF49442FAB9}" ShortID="297563569">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{4519529F-48FE-4245-99CF-0FB966AB2D80}">
+													<Curve Name="" ID="{B5F3DA0B-DF12-4C49-B647-D71A0069D8A7}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-1891</YPos>
+																<YPos>-1070</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-50</YPos>
+																<XPos>80.10471</XPos>
+																<YPos>850</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1050</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -6441,16 +6601,16 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-11</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{E3A61052-4E18-4A3A-97B6-A32D6FACB175}" ShortID="947789383">
+												<RTPC Name="" ID="{8C7A27BC-94F4-4DB9-A5EF-EE6C17F4766C}" ShortID="644372745">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{8E1A4DEF-B00E-44AE-AA95-C8591646E169}">
+													<Curve Name="" ID="{474DB401-3131-4A62-9C39-FC1FC6DA5E55}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -6466,7 +6626,7 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>41.09947</XPos>
+																<XPos>35</XPos>
 																<YPos>-6.79185999999999</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
@@ -6748,13 +6908,13 @@
 												<Value>-20</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{CD16794D-A213-4CAF-B43C-F5909D1A0AB0}" ShortID="209172365">
+												<RTPC Name="" ID="{DA41BCF1-9E80-417F-A6C1-1A6F7861435C}" ShortID="194003413">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{EBFC054C-05EC-404D-AD8A-EBA70BE6E292}">
+													<Curve Name="" ID="{508DC3A7-296C-47B7-816A-2773903DB0AD}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -6774,6 +6934,7 @@
 																<XPos>25.13089</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>50.52356</XPos>
@@ -6869,13 +7030,13 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{B06D9857-165F-4EC6-A69E-390CB43DF76E}" ShortID="1068878696">
+												<RTPC Name="" ID="{37B271FB-DC72-48DB-B40A-B12F324519A5}" ShortID="827234028">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{651670BE-E837-44F9-83DE-EB6CBD6DF0C2}">
+													<Curve Name="" ID="{468A7ADD-020D-40FF-8C39-4331ABD53159}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -6887,14 +7048,14 @@
 																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>69.24084</XPos>
-																<YPos>1</YPos>
+																<XPos>71.85864</XPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>98.16754</XPos>
-																<YPos>100</YPos>
+																<XPos>86.38744</XPos>
+																<YPos>59</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -6910,26 +7071,21 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
-												<RTPC Name="" ID="{657C84BE-0CC7-428A-83AA-45613590BC98}" ShortID="243718807">
+												<RTPC Name="" ID="{B2E04977-B9E0-4A89-BFA0-24FD55665589}" ShortID="503631143">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{59E38299-6B96-41DA-AF61-AE573105793C}">
+													<Curve Name="" ID="{B6A84DDF-0C3B-4AEF-A41A-8F55E64DD153}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2346</YPos>
+																<YPos>-1470</YPos>
 																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-505</YPos>
-																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>80.10471</XPos>
@@ -6954,13 +7110,13 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{AC5856BF-C1FF-4885-8BD4-86DBCF63F45B}" ShortID="492484959">
+												<RTPC Name="" ID="{89862D1C-0B30-460B-92CD-1357F1E4891B}" ShortID="732450037">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{5B3131B9-16FD-44CF-8F46-F79C5337BA87}">
+													<Curve Name="" ID="{BCC2FC36-0D3A-46B7-8788-3930DDEB71AC}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -6980,6 +7136,7 @@
 																<XPos>41.88481</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>69.10995</XPos>
@@ -7571,33 +7728,76 @@
 								<Sound Name="MidWhine4" ID="{AA62CE0A-F246-48B8-89E2-85EF19E45C08}" ShortID="450387538">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
+										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{6AC54CDE-6DF1-4D6D-A736-8EA0FB48954E}" ShortID="545008162">
+												<RTPC Name="" ID="{E4767CFF-D9DE-44D8-B88F-9B43133B06F9}" ShortID="817527085">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{E5A5F641-017D-45C4-A465-10C8E5392056}">
+													<Curve Name="" ID="{D51317A0-E4CB-4933-A5D9-2D61990A3B21}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2041</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-200</YPos>
+																<XPos>52.3560209424084</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>77.48691</XPos>
+																<YPos>66</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{D2CA5903-77B5-472A-BE4C-DC3ACA541D97}" ShortID="737781488">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2E474BE6-95C7-4BB0-AE3F-7AA6E778CEBF}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-970</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>80.10471</XPos>
+																<YPos>950</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1150</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -7607,16 +7807,16 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{D42B1291-4E5B-48E8-B056-1B6FE75E802B}" ShortID="664156589">
+												<RTPC Name="" ID="{6706EAC6-31F7-4B1C-A7BC-117E66856875}" ShortID="475415472">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{49A5BC08-7CBB-4958-8FAC-4A90B87FD7DD}">
+													<Curve Name="" ID="{53DA45A6-6A26-4656-B25B-5BBC407731B8}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -7630,16 +7830,16 @@
 																<XPos>25.39268</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Exp2</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>57.8534</XPos>
 																<YPos>-2.40468000000001</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>93.19272</XPos>
+																<XPos>104.97282</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -7689,7 +7889,7 @@
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="99.724"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.0904384062196307"/>
-												<Property Name="LoopEnd" Type="Real64" Value="2.1221180952381"/>
+												<Property Name="LoopEnd" Type="Real64" Value="4.03862680919987"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
@@ -7869,30 +8069,35 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
-												<RTPC Name="" ID="{9CBB48E3-71E7-4374-B39F-5F0AB05C6944}" ShortID="968536572">
+												<RTPC Name="" ID="{EDEBFFC7-BABF-4C58-9BF2-678392DDD453}" ShortID="649769682">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{2E2F6DB0-EE4A-4884-AFDE-4E1BACCFE8FF}">
+													<Curve Name="" ID="{729DD683-BDE6-4609-9028-27A37A284CF7}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-1891</YPos>
+																<YPos>-1070</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-50</YPos>
+																<XPos>80.10471</XPos>
+																<YPos>850</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90.8377</XPos>
+																<YPos>1050</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>4800</YPos>
+																<YPos>2993</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -7902,16 +8107,16 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-11</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{C638AFB2-67E6-4280-A68A-FA0C427987AE}" ShortID="754455843">
+												<RTPC Name="" ID="{6D0FD68C-AEE5-462A-847D-60D5B8BD33D8}" ShortID="158694679">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{53EC2CC4-CFBB-40FC-BD93-D4CF5CF29C91}">
+													<Curve Name="" ID="{E6599156-0810-45EB-A2F3-7585B2823266}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -7927,7 +8132,7 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>41.09947</XPos>
+																<XPos>35</XPos>
 																<YPos>-6.79185999999999</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
@@ -8217,13 +8422,13 @@
 												<Value>-20</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{7E993B04-3B60-426C-A97F-179FC2312A88}" ShortID="24973094">
+												<RTPC Name="" ID="{9B40BA23-E325-4BCE-9743-965731C16886}" ShortID="404276118">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{82E25CA6-0FF4-4DD5-8E63-37DDBABA91A8}">
+													<Curve Name="" ID="{27950BFA-5208-48E8-85CA-332D8F265FF5}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -8243,6 +8448,7 @@
 																<XPos>25.13089</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>50.52356</XPos>
@@ -8338,13 +8544,13 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{E7761BCB-4E8A-4DE0-8F34-E69188C3E7AA}" ShortID="916950108">
+												<RTPC Name="" ID="{B413E033-175A-4955-A8F0-41E8627633A6}" ShortID="529793717">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{F3365DFC-548A-4E34-A8D9-50DF4E41AC05}">
+													<Curve Name="" ID="{21FFD6A6-8038-42D7-9605-67F24850EC27}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -8356,14 +8562,14 @@
 																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>69.24084</XPos>
-																<YPos>1</YPos>
+																<XPos>71.85864</XPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>98.16754</XPos>
-																<YPos>100</YPos>
+																<XPos>86.38744</XPos>
+																<YPos>59</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -8379,26 +8585,21 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
-												<RTPC Name="" ID="{B605A344-F5D4-4E8A-87AF-8BCE449C124D}" ShortID="550151248">
+												<RTPC Name="" ID="{17B6E5BF-9B2B-46F8-A2F8-64F7D7C279C7}" ShortID="713254481">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{5AED5ED4-C700-4DBB-82D0-D1BB9DBE1BBB}">
+													<Curve Name="" ID="{1E6557CE-D5D6-4305-B3C2-77DFDF05AA35}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-2346</YPos>
+																<YPos>-1470</YPos>
 																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>53.40314</XPos>
-																<YPos>-505</YPos>
-																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>80.10471</XPos>
@@ -8423,13 +8624,13 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{BDB72630-3076-444B-A9D1-221591E8B058}" ShortID="466588843">
+												<RTPC Name="" ID="{8CE7AF0B-D698-4000-98B7-8DD5E11C3584}" ShortID="882135754">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{585B73CC-AC99-4DD8-A383-4BE1C070D2F5}">
+													<Curve Name="" ID="{EF58CA44-4A1B-49E5-84E2-FB03634C989C}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -8449,6 +8650,7 @@
 																<XPos>41.88481</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>69.10995</XPos>
