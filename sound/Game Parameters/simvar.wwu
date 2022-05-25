@@ -1013,8 +1013,18 @@ Unit Position (-16K to 0) -16K = full left</Comment>
 								<Property Name="Min" Type="Real64" Value="-10000"/>
 							</PropertyList>
 						</GameParameter>
-						<GameParameter Name="SIMVAR_SPOILERS_RIGHT_POSITION" ID="{CED7EF60-DE55-4946-99D2-B08C49A6BDF5}"/>
-						<GameParameter Name="SIMVAR_SPOILERS_LEFT_POSITION" ID="{0F485B84-73FD-4CD5-99F7-FF97BE9940E8}"/>
+						<GameParameter Name="SIMVAR_SPOILERS_RIGHT_POSITION" ID="{CED7EF60-DE55-4946-99D2-B08C49A6BDF5}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="SIMVAR_SPOILERS_LEFT_POSITION" ID="{0F485B84-73FD-4CD5-99F7-FF97BE9940E8}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
 						<GameParameter Name="SIMVAR_LEADING_EDGE_FLAPS_LEFT_PERCENT" ID="{5DD19AB1-30E5-4CBD-9AE0-87494EE9A6AF}">
 							<Comment>Percent left trailing edge flap extended	
 Unit : Percent Over 100</Comment>

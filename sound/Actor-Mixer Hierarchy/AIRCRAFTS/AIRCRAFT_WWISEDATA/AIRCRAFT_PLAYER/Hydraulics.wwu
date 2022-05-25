@@ -8937,10 +8937,9 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>-0.001</XPos>
+												<XPos>-0.3</XPos>
 												<YPos>0</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>0</XPos>
@@ -9636,7 +9635,7 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Log3</SegmentShape>
+															<SegmentShape>Log2</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>16</XPos>
@@ -13010,7 +13009,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -15834,7 +15833,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-96</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{AD99BB57-5DC6-4F81-B45B-6CDFAA962B4F}" ShortID="513368408">
