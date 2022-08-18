@@ -4713,51 +4713,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="seatmotorstop" ID="{8FBB79A6-1F72-4884-8071-E2EBBFAD526F}" ShortID="372175172">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{6FE5EED3-7124-4EDC-A4AB-1A834DF62E12}" ShortID="461604843">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="LOCALVAR_SEAT_POS" ID="{0D14CF6E-9273-4F45-ADCC-00A95BA7DD49}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{2C286F10-BF25-4C14-BAF6-02A51F1FC57E}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>-5</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>-0.001</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>-0</XPos>
-														<YPos>-0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>0.001</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>5</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -4788,44 +4743,6 @@
 						<Sound Name="seatmotorforward" ID="{A3A962BA-EA0F-486C-8034-FA9E807B7845}" ShortID="502116393">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{7510DD3F-4DA7-4388-8B50-A18E9D42FF65}" ShortID="1021056422">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="LOCALVAR_SEAT_POS" ID="{0D14CF6E-9273-4F45-ADCC-00A95BA7DD49}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{2F56872F-3B63-4F46-A55B-1A0E4ECE4874}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>-5</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>-0.02119</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>-0.02019</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>5</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4857,44 +4774,6 @@
 						<Sound Name="seatmotorback" ID="{5F0E5829-0D0F-44C9-B981-2773A458CB89}" ShortID="447000544">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{8E3F2E4F-71D8-498A-968C-46829A276C54}" ShortID="1055903622">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="LOCALVAR_SEAT_POS" ID="{0D14CF6E-9273-4F45-ADCC-00A95BA7DD49}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{E823AD2C-1F1E-4C53-B831-1AB4044CDB0D}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>-5</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>-0.001</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>-0</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>5</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4926,44 +4805,6 @@
 						<Sound Name="seatmotorup" ID="{218CBB55-9EEF-4CEB-9068-B5424F35EAA6}" ShortID="17069018">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{FEAD388C-3A88-45B8-9328-A231FB41521C}" ShortID="607958188">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="LOCALVAR_SEAT_POS" ID="{0D14CF6E-9273-4F45-ADCC-00A95BA7DD49}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{C390CB1C-D520-4487-95B4-BCFEFE47AC26}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>-5</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>-0</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>0.001</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>5</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4995,44 +4836,6 @@
 						<Sound Name="seatmotordown" ID="{E34E366F-FCBE-4F14-9DF1-9A17034AF0B3}" ShortID="988101748">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{E995CE2A-2701-455C-AAD7-861F845F5ED8}" ShortID="889344032">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="LOCALVAR_SEAT_POS" ID="{0D14CF6E-9273-4F45-ADCC-00A95BA7DD49}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{8DD2ADA8-3E64-432D-9C6B-4C857E9BDFCF}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>-5</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>-0.001</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>-0</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>5</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

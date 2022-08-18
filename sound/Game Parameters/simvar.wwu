@@ -1541,6 +1541,13 @@ Unit : Percent</Comment>
 								<Property Name="Max" Type="Real64" Value="3"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="LOCALVAR_SEAT_POS" ID="{A73B9F81-FA35-422D-BDDD-961AEB96F9D4}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="Min" Type="Real64" Value="-1"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

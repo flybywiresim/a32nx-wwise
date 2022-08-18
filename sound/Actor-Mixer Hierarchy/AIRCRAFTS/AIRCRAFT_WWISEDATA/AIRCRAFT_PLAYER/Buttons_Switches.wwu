@@ -6498,6 +6498,11 @@
 				<RandomSequenceContainer Name="rudtrim" ID="{73FCAF0E-1E29-4A13-BFED-883DF623B386}" ShortID="6218690">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
