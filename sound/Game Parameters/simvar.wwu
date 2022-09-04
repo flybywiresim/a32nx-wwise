@@ -1496,7 +1496,7 @@ Unit : Percent</Comment>
 						<GameParameter Name="LOCALVAR_A32NX_PTU_RPM" ID="{7FE409A7-4C5F-4BD9-B656-D90D69CFCFE1}">
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="0"/>
-								<Property Name="Max" Type="Real64" Value="2000"/>
+								<Property Name="Max" Type="Real64" Value="3500"/>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="LOCALVAR_A32NX_EXTRACT_OVRD" ID="{80E36563-05DF-459D-A9A5-9A4C9C3A8F79}">
@@ -1542,6 +1542,25 @@ Unit : Percent</Comment>
 							</PropertyList>
 						</GameParameter>
 						<GameParameter Name="LOCALVAR_SEAT_POS" ID="{A73B9F81-FA35-422D-BDDD-961AEB96F9D4}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="Min" Type="Real64" Value="-1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LOCALVAR_WINDOW_SOUND_RATIO" ID="{228C069C-36D7-4874-B961-BE07C551DDBB}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LCOALVAR_GEAR_DOOR_POS" ID="{92930B77-C0A1-4572-8741-E6F252372DF6}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="LCOALVAR_GEAR_DOOR_POS_DERIVED" ID="{3324B3EE-7F53-420C-A85F-C8DED6232BAA}">
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="1"/>
 								<Property Name="Max" Type="Real64" Value="1"/>

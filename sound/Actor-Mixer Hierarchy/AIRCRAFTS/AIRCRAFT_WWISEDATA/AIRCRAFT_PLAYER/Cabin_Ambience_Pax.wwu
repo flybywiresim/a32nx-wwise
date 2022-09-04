@@ -601,7 +601,6 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -624,6 +623,16 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>welcomeaboard.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="howtonameyour" ID="{DA4D25F6-D8CB-41BA-973C-0A792B96ADF1}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>howtonameyour.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>

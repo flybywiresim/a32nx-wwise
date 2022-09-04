@@ -3468,6 +3468,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorMainUnlock" ID="{440683E2-9B57-4531-A7B9-EA5EF2EBB910}">
+					<ChildrenList>
+						<Action Name="" ID="{F29B0672-4A05-43B6-ABE2-53CED410B592}" ShortID="574322331">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorMainUnlock" ID="{D601B689-76F8-4346-B0A2-C5CF998D7B81}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorNoseUnlock" ID="{F879A601-A8A4-4CF5-9783-1157A8184B2F}">
+					<ChildrenList>
+						<Action Name="" ID="{5AD0A427-2530-45A8-A87B-45EC1C73591D}" ShortID="509512052">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorNoseUnlock" ID="{96789298-671F-4DA9-BEA2-C0DA9EBED20C}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorMainClosed" ID="{2EBC1667-1EE6-454E-B93E-07CDA839D7D3}">
+					<ChildrenList>
+						<Action Name="" ID="{67752875-5BC9-49CE-9703-536381CB6277}" ShortID="58075822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorMainClosed" ID="{9C55B7FD-B051-41E8-A059-27B7459C2D00}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorMainClosing" ID="{ABB1BA9D-0A02-4304-A8B4-5E0A96D1264C}">
+					<ChildrenList>
+						<Action Name="" ID="{0D4308CA-F274-439D-AA12-B713D6D46862}" ShortID="106732383">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorMainClosing" ID="{E950BB82-D519-477B-A172-7F35A8FF1544}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
