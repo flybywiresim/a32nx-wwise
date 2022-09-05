@@ -1615,9 +1615,9 @@
         
         <!-- PTU Sounds ========================================================================================================================= -->
                 
-        <Sound WwiseData="true" WwiseEvent="ptunewcont" FadeOutType="2" FadeOutTime="0.3" NodeName="SOUND_PACK_OUTFLOW_LEFT" LocalVar="A32NX_HYD_PTU_SHAFT_RPM_RAW" Continuous="true">
+        <Sound WwiseData="true" WwiseEvent="ptunewcont" FadeOutType="2" FadeOutTime="0.3" NodeName="SOUND_PACK_OUTFLOW_LEFT" LocalVar="A32NX_HYD_PTU_SHAFT_RPM" Continuous="true">
              <Range LowerBound="1" />
-             <WwiseRTPC LocalVar="A32NX_HYD_PTU_SHAFT_RPM_RAW" RTPCName="LOCALVAR_A32NX_PTU_RPM" />
+             <WwiseRTPC LocalVar="A32NX_HYD_PTU_SHAFT_RPM" RTPCName="LOCALVAR_A32NX_PTU_RPM" />
         </Sound>  
                 
         <Sound WwiseEvent="smoothtouch" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" Continuous="false" ViewPoint="Inside" NodeName="PEDALS_LEFT" SimVar="SIM ON GROUND" Units="BOOLEAN" Index="0">

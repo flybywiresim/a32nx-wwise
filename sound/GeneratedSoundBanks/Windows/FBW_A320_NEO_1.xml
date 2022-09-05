@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\airbo\Documents\GitHub\a32nx-wwise\sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="2182079777">
+		<SoundBank Id="814486318" GUID="{210EF042-45E5-4AF4-AE40-FE92FA016F27}" Language="SFX" Hash="3548264489">
 			<ObjectPath>\SoundBanks\Asobo_A320_NEO_Improved\FBW_A320_NEO_1</ObjectPath>
 			<ShortName>FBW_A320_NEO_1</ShortName>
 			<Path>FBW_A320_NEO_1.bnk</Path>
@@ -1843,13 +1843,13 @@
 				</Event>
 				<Event Id="4249452312" Name="Play_Asobo_A320_NEO_ptunewcont" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_A320_NEO_Improved2\Play_Asobo_A320_NEO_ptunewcont" GUID="{E48F1E29-0D46-40EF-B553-CE8BB1C208E4}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="24570869" Language="SFX">
+							<ShortName>low.wav</ShortName>
+							<Path>SFX\low_8A6FF2C6.wem</Path>
+						</File>
 						<File Id="123582279" Language="SFX">
 							<ShortName>highest.wav</ShortName>
 							<Path>SFX\highest_DD87A7E0.wem</Path>
-						</File>
-						<File Id="125129528" Language="SFX">
-							<ShortName>low.wav</ShortName>
-							<Path>SFX\low_41AF2401.wem</Path>
 						</File>
 						<File Id="216767468" Language="SFX">
 							<ShortName>veryhigh.wav</ShortName>
@@ -1857,11 +1857,15 @@
 						</File>
 						<File Id="456639118" Language="SFX">
 							<ShortName>verylow.wav</ShortName>
-							<Path>SFX\verylow_282DF278.wem</Path>
+							<Path>SFX\verylow_AF7EC665.wem</Path>
 						</File>
 						<File Id="519438947" Language="SFX">
 							<ShortName>mediumtonal.wav</ShortName>
-							<Path>SFX\mediumtonal_4389A02F.wem</Path>
+							<Path>SFX\mediumtonal_D7E651E8.wem</Path>
+						</File>
+						<File Id="935439678" Language="SFX">
+							<ShortName>lowest.wav</ShortName>
+							<Path>SFX\lowest_D4568A8E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
