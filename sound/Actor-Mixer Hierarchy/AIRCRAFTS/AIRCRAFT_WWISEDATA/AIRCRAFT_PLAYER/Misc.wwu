@@ -2231,7 +2231,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+							<ObjectRef Name="miscellaneous_inside" ID="{A94A7A7F-2F28-46C7-9158-EA25E9E42914}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -4532,6 +4532,361 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Seat Motors" ID="{54AFCDD6-BD76-4B8E-A974-510E64FB384B}" ShortID="605145148">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{538CDAF5-4564-463A-A841-C73D21967E20}">
+								<Attenuation Name="aircraft_player_inside_3m (Custom)" ID="{29CAB3CF-39A8-477E-9052-51F6354C2941}" ShortID="944947986">
+									<PropertyList>
+										<Property Name="ConeAttenuation" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeInnerAngle" Type="int32" Value="175"/>
+										<Property Name="ConeLowPassFilterValue" Type="int32">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RadiusMax" Type="Real64" Value="10"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{3E2C77A2-B83A-455E-8FA8-D80E743E6351}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>InvertedSCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>6.37631</XPos>
+															<YPos>-200</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>InvertedSCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+												<Curve Name="VolumeWetUser" ID="{6AEAF3AE-34B6-47A5-A90C-072CC18484E3}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>0.4127</XPos>
+															<YPos>-0.00061</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>4.4091</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="LowPassFilter" ID="{48812618-42E9-4B4D-93F7-C3478C12627F}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>1.1755486</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>78</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="Spread" ID="{8A37C3A6-6B5D-4563-839A-1B461A405986}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="Focus" ID="{10DF0F2E-2033-4796-99D0-A7E5264B422A}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="miscellaneous_inside" ID="{A94A7A7F-2F28-46C7-9158-EA25E9E42914}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="seatmotorstop" ID="{8FBB79A6-1F72-4884-8071-E2EBBFAD526F}" ShortID="372175172">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="seatmotorstop" ID="{1CA04BC0-96C6-4F4B-A193-B3110DB2BECB}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0794532142857143"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.142037380952381"/>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00877190476190476"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>seatmotorstop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="seatmotorstop" ID="{1CA04BC0-96C6-4F4B-A193-B3110DB2BECB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="seatmotorforward" ID="{A3A962BA-EA0F-486C-8034-FA9E807B7845}" ShortID="502116393">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="seatmotorforward" ID="{5D5D9A17-0AB0-40F3-9539-9ADCAAB9C62D}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="890.913"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0163106428571429"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.558734195335278"/>
+										<Property Name="LoopEnd" Type="Real64" Value="3.3015017755102"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0150465306122449"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>seatmotorforward.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="seatmotorforward" ID="{5D5D9A17-0AB0-40F3-9539-9ADCAAB9C62D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="seatmotorback" ID="{5F0E5829-0D0F-44C9-B981-2773A458CB89}" ShortID="447000544">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="seatmotorback" ID="{7F8F3FE3-B552-428F-B1E4-E9470B39769A}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="530.825"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0118667738095238"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.610335308794947"/>
+										<Property Name="LoopEnd" Type="Real64" Value="3.50065845748299"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.173588888726919"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>seatmotorback.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="seatmotorback" ID="{7F8F3FE3-B552-428F-B1E4-E9470B39769A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="seatmotorup" ID="{218CBB55-9EEF-4CEB-9068-B5424F35EAA6}" ShortID="17069018">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="seatmotorup" ID="{51B18333-513B-4821-B4F5-71E19784634F}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="126.136"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0101442857142857"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.503156571428571"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.0839010563654"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0202885714285714"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>seatmotorup.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="seatmotorup" ID="{51B18333-513B-4821-B4F5-71E19784634F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="seatmotordown" ID="{E34E366F-FCBE-4F14-9DF1-9A17034AF0B3}" ShortID="988101748">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="seatmotordown" ID="{8E5DF281-5C0B-4842-951F-E3CBDCB13424}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="396.059"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0171895238095238"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.389111958211856"/>
+										<Property Name="LoopEnd" Type="Real64" Value="1.83779096452867"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.123256607142857"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>seatmotordown.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="seatmotordown" ID="{8E5DF281-5C0B-4842-951F-E3CBDCB13424}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="VIEWPOINT" ID="{13BEFA7F-C929-4FAA-8B48-86589D04F1D6}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="INSIDE" ID="{FFECDB48-6798-4725-AB04-DCC845B2904E}"/>
+								<CustomState Name="" ID="{95A75C1F-E4AB-4BB9-9C5F-645D98189072}" ShortID="1008774838"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="OUTSIDE" ID="{A2B684CD-A8E1-4B6B-A69B-84CC4AD39406}"/>
+								<CustomState Name="" ID="{7272499D-C395-4878-BF15-A9053022F1B3}" ShortID="1009769041">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="48"/>
+										<Property Name="Volume" Type="Real64" Value="-15"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

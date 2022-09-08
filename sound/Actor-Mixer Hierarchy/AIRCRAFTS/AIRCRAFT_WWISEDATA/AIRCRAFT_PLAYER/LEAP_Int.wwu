@@ -509,13 +509,14 @@
 								</AudioFileSource>
 								<AudioFileSource Name="WLeft" ID="{EC157C57-4101-4101-A9D9-C0049D64E913}">
 									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="468.478"/>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.00123167644947686"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.00184751467421518"/>
-										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
-										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.253027416315966"/>
+										<Property Name="LoopEnd" Type="Real64" Value="1.33782246404458"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.00492670579790744"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.57161914953247"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>WLeft.wav</AudioFile>
@@ -17052,7 +17053,7 @@
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.165661120936224"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="4.74688851970555"/>
-														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -17293,7 +17294,7 @@
 													<PropertyList>
 														<Property Name="FadeInShape" Type="int16" Value="9"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="4.12443660235012"/>
-														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -17359,7 +17360,7 @@
 														<Property Name="FadeInDuration" Type="Real64" Value="0.0145017561825711"/>
 														<Property Name="FadeInShape" Type="int16" Value="9"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="4.08369454101202"/>
-														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -17420,7 +17421,7 @@
 												<AudioFileSource Name="Boom1" ID="{3DBC3F67-DFFD-4103-BD93-8A334B4D30F1}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="4.08079102999434"/>
-														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -17482,7 +17483,7 @@
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.0145017561825711"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="4.08659489224855"/>
-														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -27151,6 +27152,53 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{23BBE220-6753-49C3-AC71-3A0A114679EC}" ShortID="210090653">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SIMVAR_AIRSPEED_TRUE" ID="{23F33E5A-B0EE-4CD5-AE2C-178797545D5C}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4D7461D6-0560-45A9-9E04-360B249DD6C6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>140</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>270</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>300</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>455.54974</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{4C310E59-E22A-40EB-B3A6-DECBDAAA4EF9}" ShortID="507074269">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -27215,53 +27263,6 @@
 													<Point>
 														<XPos>20000</XPos>
 														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-										<RTPC Name="" ID="{09C6029F-50AD-4859-94E8-90B22190E0FB}" ShortID="826161507">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SIMVAR_AIRSPEED_TRUE" ID="{23F33E5A-B0EE-4CD5-AE2C-178797545D5C}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{B364F87E-849B-4ABD-B2D7-0A2ACD567F98}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-3</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>140</XPos>
-														<YPos>-2</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>270</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp1</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>300</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log2</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>455.54974</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>1000</XPos>
-														<YPos>-200</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -27884,13 +27885,13 @@
 													</Point>
 													<Point>
 														<XPos>270</XPos>
-														<YPos>0</YPos>
+														<YPos>-2</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>300</XPos>
-														<YPos>0</YPos>
+														<YPos>-2</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
@@ -28427,7 +28428,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>15</Value>
+								<Value>14</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{B275C14B-5CA8-48F9-8A05-CE53F3A62855}" ShortID="15848981">
@@ -29474,7 +29475,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>15</Value>
+								<Value>14</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{407CE529-44A9-412A-AB22-5128AD339695}" ShortID="9510177">

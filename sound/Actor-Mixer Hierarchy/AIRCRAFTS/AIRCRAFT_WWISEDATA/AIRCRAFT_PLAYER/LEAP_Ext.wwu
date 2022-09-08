@@ -383,13 +383,13 @@
 												</PointList>
 											</Curve>
 										</RTPC>
-										<RTPC Name="" ID="{32444CD0-1093-4573-B4EB-397381BB1D9D}" ShortID="204870738">
+										<RTPC Name="" ID="{818D31C0-8453-4BC1-8E3F-6D88F0758AB5}" ShortID="108055166">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SIMVAR_TURB_ENG_N1" ID="{23BAD005-E61B-45C7-9ADA-EB168F71B891}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{7A81F2F5-ED46-4DD0-9D73-C99FF006BADA}">
+											<Curve Name="" ID="{7E50E729-C2DC-4617-95AC-06BE019BD966}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -406,19 +406,19 @@
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>62.56545</XPos>
-														<YPos>-4.843</YPos>
+														<XPos>61.71402</XPos>
+														<YPos>-9.78288000000001</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>85.60209</XPos>
-														<YPos>-3.63</YPos>
+														<XPos>85.07853</XPos>
+														<YPos>-8.56988000000001</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>200</XPos>
-														<YPos>-3.498</YPos>
+														<YPos>-3.49799999999999</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -873,14 +873,14 @@
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>62.23758</XPos>
-														<YPos>-4.843</YPos>
+														<XPos>61.71402</XPos>
+														<YPos>-9.78288</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>85.60209</XPos>
-														<YPos>-3.63</YPos>
+														<XPos>85.07853</XPos>
+														<YPos>-8.56988</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -2317,7 +2317,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-10</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{7158A0BC-30D6-4E80-A383-0363F5A9069B}" ShortID="254429020">
@@ -2409,7 +2409,7 @@
 																<Value>25</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeInnerAngle" Type="int32" Value="170"/>
+														<Property Name="ConeInnerAngle" Type="int32" Value="75"/>
 														<Property Name="ConeLowPassFilterValue" Type="int32">
 															<ValueList>
 																<Value>60</Value>
@@ -2732,7 +2732,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-9</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{FF89A705-81F5-487E-858F-F5FF599C8457}" ShortID="319991732">
@@ -3113,7 +3113,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>17</Value>
+												<Value>12</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{5DAE43B1-6281-408C-B03B-3EE5702BF5C6}" ShortID="974353708">
@@ -4566,7 +4566,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-10</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{F9C36123-41C2-4193-B7AC-884175E7AC36}" ShortID="803859451">
@@ -4658,7 +4658,7 @@
 																<Value>25</Value>
 															</ValueList>
 														</Property>
-														<Property Name="ConeInnerAngle" Type="int32" Value="170"/>
+														<Property Name="ConeInnerAngle" Type="int32" Value="75"/>
 														<Property Name="ConeLowPassFilterValue" Type="int32">
 															<ValueList>
 																<Value>60</Value>
@@ -5012,7 +5012,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>17</Value>
+												<Value>12</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{D62AC2EA-7A29-4372-A0DB-45990F9D2B37}" ShortID="220366655">
@@ -6249,7 +6249,7 @@
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-9</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{E2F10AD5-6348-47F3-9A7D-ABD734C9E3D6}" ShortID="431302839">
@@ -10470,7 +10470,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>10</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{75E4E701-BFAB-4E15-910D-2C60AE263F44}" ShortID="345948767">
@@ -10647,7 +10647,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="12000"/>
+												<Property Name="RadiusMax" Type="Real64" Value="6000"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -10663,67 +10663,67 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>4</XPos>
+																	<XPos>2</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>8</XPos>
+																	<XPos>4</XPos>
 																	<YPos>-3</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>16</XPos>
+																	<XPos>8</XPos>
 																	<YPos>-6</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>32</XPos>
+																	<XPos>16</XPos>
 																	<YPos>-10</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>64</XPos>
+																	<XPos>32</XPos>
 																	<YPos>-14</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>128</XPos>
+																	<XPos>64</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>256</XPos>
+																	<XPos>128</XPos>
 																	<YPos>-23</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>512</XPos>
+																	<XPos>256</XPos>
 																	<YPos>-28</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>1024</XPos>
+																	<XPos>512</XPos>
 																	<YPos>-33</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>2048</XPos>
+																	<XPos>1024</XPos>
 																	<YPos>-38</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>4096</XPos>
+																	<XPos>2048</XPos>
 																	<YPos>-44</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>8192</XPos>
+																	<XPos>4096</XPos>
 																	<YPos>-50</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>12000</XPos>
+																	<XPos>6000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10751,47 +10751,47 @@
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>57</XPos>
+																	<XPos>28.5</XPos>
 																	<YPos>27</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>50</XPos>
 																	<YPos>32</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>200</XPos>
+																	<XPos>100</XPos>
 																	<YPos>36</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>300</XPos>
+																	<XPos>150</XPos>
 																	<YPos>39</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>550</XPos>
+																	<XPos>275</XPos>
 																	<YPos>44</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>1430</XPos>
+																	<XPos>715</XPos>
 																	<YPos>52</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>3330</XPos>
+																	<XPos>1665</XPos>
 																	<YPos>60</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>8570</XPos>
+																	<XPos>4285</XPos>
 																	<YPos>69</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>12000</XPos>
+																	<XPos>6000</XPos>
 																	<YPos>73</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10815,18 +10815,18 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>20</XPos>
+																	<XPos>10</XPos>
 																	<YPos>10</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>1000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>12000</XPos>
+																	<XPos>6000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10846,6 +10846,22 @@
 								</Reference>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+										<Effect Name="Low_Pass_20KHz_(Custom)" ID="{E3254483-4C94-4C55-A540-7E6DEE135749}" ShortID="343358033" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
+												<Property Name="FilterTypeBand2" Type="int32" Value="1"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="8967"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="778"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="8392"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="OnOffBand3" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="jetwhine_outside" ID="{D1C94A1D-1265-49D9-8762-8100B4B40054}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
@@ -11310,7 +11326,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>15</Value>
+										<Value>10</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{C1F44539-36D1-4CFA-B15B-C61FB20B8536}" ShortID="860804528">
@@ -11487,7 +11503,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="12000"/>
+												<Property Name="RadiusMax" Type="Real64" Value="6000"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -11503,67 +11519,67 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>4</XPos>
+																	<XPos>2</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>8</XPos>
+																	<XPos>4</XPos>
 																	<YPos>-3</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>16</XPos>
+																	<XPos>8</XPos>
 																	<YPos>-6</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>32</XPos>
+																	<XPos>16</XPos>
 																	<YPos>-10</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>64</XPos>
+																	<XPos>32</XPos>
 																	<YPos>-14</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>128</XPos>
+																	<XPos>64</XPos>
 																	<YPos>-18</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>256</XPos>
+																	<XPos>128</XPos>
 																	<YPos>-23</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>512</XPos>
+																	<XPos>256</XPos>
 																	<YPos>-28</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>1024</XPos>
+																	<XPos>512</XPos>
 																	<YPos>-33</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>2048</XPos>
+																	<XPos>1024</XPos>
 																	<YPos>-38</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>4096</XPos>
+																	<XPos>2048</XPos>
 																	<YPos>-44</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>8192</XPos>
+																	<XPos>4096</XPos>
 																	<YPos>-50</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>12000</XPos>
+																	<XPos>6000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11591,47 +11607,47 @@
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>57</XPos>
+																	<XPos>28.5</XPos>
 																	<YPos>27</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>50</XPos>
 																	<YPos>32</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>200</XPos>
+																	<XPos>100</XPos>
 																	<YPos>36</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>300</XPos>
+																	<XPos>150</XPos>
 																	<YPos>39</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>550</XPos>
+																	<XPos>275</XPos>
 																	<YPos>44</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>1430</XPos>
+																	<XPos>715</XPos>
 																	<YPos>52</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>3330</XPos>
+																	<XPos>1665</XPos>
 																	<YPos>60</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>8570</XPos>
+																	<XPos>4285</XPos>
 																	<YPos>69</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>12000</XPos>
+																	<XPos>6000</XPos>
 																	<YPos>73</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11655,18 +11671,18 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>20</XPos>
+																	<XPos>10</XPos>
 																	<YPos>10</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2000</XPos>
+																	<XPos>1000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>12000</XPos>
+																	<XPos>6000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11695,8 +11711,9 @@
 												<Property Name="FilterTypeBand2" Type="int32" Value="1"/>
 												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
 												<Property Name="FrequencyBand1" Type="Real32" Value="8967"/>
-												<Property Name="FrequencyBand2" Type="Real32" Value="189"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="778"/>
 												<Property Name="FrequencyBand3" Type="Real32" Value="8392"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
 												<Property Name="OnOffBand3" Type="bool" Value="False"/>
 											</PropertyList>
 										</Effect>

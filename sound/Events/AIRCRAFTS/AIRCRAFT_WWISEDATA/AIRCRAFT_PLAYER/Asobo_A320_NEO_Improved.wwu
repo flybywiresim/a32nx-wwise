@@ -3356,6 +3356,174 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_A320_NEO_gravitygear" ID="{DD1B81C2-98CD-437A-B2F4-776B956B7F0E}">
+					<ChildrenList>
+						<Action Name="" ID="{C03A46DF-478F-4E58-993E-04238906F504}" ShortID="297396708">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gravitygear" ID="{C8F43265-AEB9-4ED8-A791-F8D06F1BCB0F}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_glareshieldpbon" ID="{837D0521-CD0E-41AB-8A49-1E410148147B}">
+					<ChildrenList>
+						<Action Name="" ID="{444CBAC7-E2A2-44BB-930A-3DEBE3B00578}" ShortID="423927733">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="glareshieldpbon" ID="{2459A87A-80EE-4499-81E1-75D70B239170}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_glareshieldpboff" ID="{520EE708-FA9A-4B7E-B55C-65672AFFF5F1}">
+					<ChildrenList>
+						<Action Name="" ID="{2D77AB58-87D5-45A1-9BE7-AEA7BAB2AAA3}" ShortID="1004892164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="glareshieldpbonoff" ID="{350F557F-A49F-45C8-860C-4C98EDED0D96}" WorkUnitID="{0B7FCB2D-7EB7-4495-ADE6-9FE3093F550E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_seatmotorup" ID="{FC10334C-2626-4272-A4E2-87FFD81E949A}">
+					<ChildrenList>
+						<Action Name="" ID="{6A1355DB-949C-49AA-B4FE-AC9D511225B4}" ShortID="772942994">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seatmotorup" ID="{218CBB55-9EEF-4CEB-9068-B5424F35EAA6}" WorkUnitID="{806D1B04-1440-4AA8-9772-8297ADC4D7D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_seatmotordown" ID="{ED1C60F3-3842-478E-A30F-4625538BDF05}">
+					<ChildrenList>
+						<Action Name="" ID="{2A67A185-1BFB-471B-BA6D-9C5A1C26A215}" ShortID="1041573604">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seatmotordown" ID="{E34E366F-FCBE-4F14-9DF1-9A17034AF0B3}" WorkUnitID="{806D1B04-1440-4AA8-9772-8297ADC4D7D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_seatmotorfwd" ID="{AEE786B4-CB5D-4F1A-999C-8F4F0627CB85}">
+					<ChildrenList>
+						<Action Name="" ID="{4F496AC8-7BC7-41DD-898B-CF092DEF46D3}" ShortID="266590901">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seatmotorforward" ID="{A3A962BA-EA0F-486C-8034-FA9E807B7845}" WorkUnitID="{806D1B04-1440-4AA8-9772-8297ADC4D7D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_seatmotorback" ID="{FF5C8B4E-5993-4CF8-AFC0-45063EE7FFF6}">
+					<ChildrenList>
+						<Action Name="" ID="{73EE0A2C-BAE5-430B-BDEA-370948AA87EB}" ShortID="733976175">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seatmotorback" ID="{5F0E5829-0D0F-44C9-B981-2773A458CB89}" WorkUnitID="{806D1B04-1440-4AA8-9772-8297ADC4D7D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_seatmotorstop" ID="{4803F108-72B1-4264-A1FE-0312D22DB255}">
+					<ChildrenList>
+						<Action Name="" ID="{7F26B004-3952-46A2-A740-44C592C0A255}" ShortID="132237796">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seatmotorstop" ID="{8FBB79A6-1F72-4884-8071-E2EBBFAD526F}" WorkUnitID="{806D1B04-1440-4AA8-9772-8297ADC4D7D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorMainUnlock" ID="{440683E2-9B57-4531-A7B9-EA5EF2EBB910}">
+					<ChildrenList>
+						<Action Name="" ID="{F29B0672-4A05-43B6-ABE2-53CED410B592}" ShortID="574322331">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorMainUnlock" ID="{D601B689-76F8-4346-B0A2-C5CF998D7B81}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorNoseUnlock" ID="{F879A601-A8A4-4CF5-9783-1157A8184B2F}">
+					<ChildrenList>
+						<Action Name="" ID="{5AD0A427-2530-45A8-A87B-45EC1C73591D}" ShortID="509512052">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorNoseUnlock" ID="{96789298-671F-4DA9-BEA2-C0DA9EBED20C}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorMainClosed" ID="{2EBC1667-1EE6-454E-B93E-07CDA839D7D3}">
+					<ChildrenList>
+						<Action Name="" ID="{67752875-5BC9-49CE-9703-536381CB6277}" ShortID="58075822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorMainClosed" ID="{9C55B7FD-B051-41E8-A059-27B7459C2D00}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_GDoorMainClosing" ID="{ABB1BA9D-0A02-4304-A8B4-5E0A96D1264C}">
+					<ChildrenList>
+						<Action Name="" ID="{0D4308CA-F274-439D-AA12-B713D6D46862}" ShortID="106732383">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GDoorMainClosing" ID="{E950BB82-D519-477B-A172-7F35A8FF1544}" WorkUnitID="{DC8201F7-BF8D-481F-B9AF-0FC65A261763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
